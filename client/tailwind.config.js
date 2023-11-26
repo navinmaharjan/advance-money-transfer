@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        brand: '#FF1C0A'
+        brand: '#FF1C0A',
+        offWhite: '#F5F5F6'
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif']
