@@ -15,7 +15,7 @@ const AboutUsHome = () => {
           <div className="text-center flex flex-row justify-center">
             <p className="text-roboto text-slate-700 text-2xl w-3/4 tracking-normal font-extralight">
               {" "}
-              Advance Money Transfer P Ltd is a money transfer company
+              Advance Money Transfer Pvt. Ltd is a money transfer company
               established in April 2005 under Nepalese Company Act 1996. The
               company has been serving Nepalese community in different parts of
               the world by providing a safe, convenient, speedy and economical

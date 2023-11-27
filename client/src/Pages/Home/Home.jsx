@@ -1,6 +1,8 @@
 import BannerImage1 from "../../assets/bannerImages/bannerImage-1.jpg";
 import AboutUsHome from "./AboutUsHome";
+import OurBusinessPartners from "./OurBusinessPartners";
 import OurServices from "./OurServices";
+import VideoGallery from "./VideoGallery";
 
 const Home = () => {
   return (
@@ -10,6 +12,8 @@ const Home = () => {
       </div>
       <AboutUsHome />
       <OurServices />
+      <OurBusinessPartners />
+      <VideoGallery />
     </>
   );
 };
