@@ -4,7 +4,7 @@ import Logo from "../assets/logo/logo.png";
 const Header = () => {
   return (
     <>
-      <div className=" sticky top-0 left-0 z-10 bg-offWhite">
+      <div className="sticky top-0 left-0 z-30 bg-offWhite shadow-md">
         <div className="container mx-auto flex justify-between items-center py-1">
           {/* ---------Logo-------- */}
           <Link to="/">
