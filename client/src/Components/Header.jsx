@@ -25,18 +25,23 @@ const Header = () => {
           {/* ---------Nav Area-------- */}
           <nav>
             <ul className="flex gap-8 font-roboto tracking-wider hover:opacity-80 cursor-pointer">
-              <li className="hover:text-brand transition-colors duration-300 border-b-2 border-brand pb-1">
-                Home
-              </li>
+              <Link to="/">
+                <li className="hover:text-brand transition-colors duration-300 border-b-2 border-brand pb-1">
+                  Home
+                </li>
+              </Link>
+
               <Link to="/about-us">
                 <li className="hover:text-brand transition-colors duration-300">
                   About Us
                 </li>
               </Link>
+              <Link to="/network">
+                <li className="hover:text-brand transition-colors duration-300">
+                  Network
+                </li>
+              </Link>
 
-              <li className="hover:text-brand transition-colors duration-300">
-                Network
-              </li>
               <li className="hover:text-brand transition-colors duration-300">
                 Services
               </li>
