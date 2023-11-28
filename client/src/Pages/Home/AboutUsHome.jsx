@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 const AboutUsHome = () => {
   return (
@@ -15,23 +15,15 @@ const AboutUsHome = () => {
           <div className="text-center flex flex-row justify-center">
             <p className="text-roboto text-slate-700 text-2xl w-3/4 tracking-normal font-extralight">
               {" "}
-              Advance Money Transfer Pvt. Ltd is a money transfer company
-              established in April 2005 under Nepalese Company Act 1996. The
-              company has been serving Nepalese community in different parts of
-              the world by providing a safe, convenient, speedy and economical
-              way of remitting money to Nepal. The company aims to capture the
-              significant share of the huge annual inward remittance by Nepalese
-              migrants around the worlds. AMT aspires to revolutionize the
-              remittance industry by employing state of art IT Technology. The
-              company has extensive networks of over 150 branches in Nepal and
-              overseas partners, correspondents in Hong Kong, Israel, Korea,
-              United Kingdom, Malaysia, Australia, USA, UAE, Kuwait, Qatar,
-              Bahrain, and other parts of the world.{" "}
+              Established in April 2005 Advance Money Transfer [AMT] has pioneered Nepalese Remittance industry near over two decades. Licensed by Central 
+              Bank of Nepal (Nepal Rastra Bank) under Nepalese Community Act 1996 to conduct money transfer services in Nepal, the company has been serving 
+              Nepalese community from various parts of the world by allowing safe, convenient, speedy and economical way of remitting funds to Nepal.
+             {" "}
             </p>
           </div>
 
           {/* -------- button --------- */}
-          <button className="text-brand border border-brand p-3 font-light rounded-lg mt-8">More About Us</button>
+          <Link to="/about-us" className="text-brand border border-brand p-3 font-light rounded-lg mt-8">More About Us</Link>
 
 
         </div>

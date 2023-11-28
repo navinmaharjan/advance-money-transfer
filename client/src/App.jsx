@@ -6,6 +6,7 @@ import AboutUs from "./Pages/AboutUs/AboutUs";
 import Network from "./Pages/Network/Network";
 import Services from "./Pages/Services/Services";
 import Gallery from "./Pages/Gallery/Gallery";
+import ContactUs from "./Pages/ContactUs/ContactUs";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/network" element={<Network/>} />
         <Route path="/services" element={<Services/>} />
         <Route path="/gallery" element={<Gallery/>} />
+        <Route path="/contact-us" element={<ContactUs/>} />
       </Routes>
       <Footer />
     </BrowserRouter>

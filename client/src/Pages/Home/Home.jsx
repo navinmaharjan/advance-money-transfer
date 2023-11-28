@@ -20,7 +20,7 @@ const Home = () => {
           </h1>
           <div className="flex justify-center">
             <p className="text-white text-2xl font-light tracking-wider bg-brand py-3 px-5 rounded-lg">
-              Networks of over 150 branches in Nepal
+              Relief ... Once You Remit ... Satisfaction Once Your Recieve
             </p>
           </div>
         </div>

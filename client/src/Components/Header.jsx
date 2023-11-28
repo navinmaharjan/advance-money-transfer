@@ -51,13 +51,11 @@ const Header = () => {
                   Gallery
                 </li>
               </Link>
-
-              <li className="hover:text-brand transition-colors duration-300">
-                Contact Us
-              </li>
-              <li className="hover:text-brand transition-colors duration-300">
-                Exchange
-              </li>
+              <Link to="/contact-us">
+                <li className="hover:text-brand transition-colors duration-300">
+                  Contact Us
+                </li>
+              </Link>
             </ul>
           </nav>
         </div>
