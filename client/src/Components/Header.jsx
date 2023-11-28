@@ -28,9 +28,12 @@ const Header = () => {
               <li className="hover:text-brand transition-colors duration-300 border-b-2 border-brand pb-1">
                 Home
               </li>
-              <li className="hover:text-brand transition-colors duration-300">
-                About Us
-              </li>
+              <Link to="/about-us">
+                <li className="hover:text-brand transition-colors duration-300">
+                  About Us
+                </li>
+              </Link>
+
               <li className="hover:text-brand transition-colors duration-300">
                 Network
               </li>

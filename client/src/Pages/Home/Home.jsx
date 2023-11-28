@@ -1,4 +1,4 @@
-import BannerImage1 from "../../assets/bannerImages/bannerImage-1.jpg";
+import BannerImage1 from "../../assets/bannerImages/bannerImage-1.jpeg";
 import AboutUsHome from "./AboutUsHome";
 import OurBusinessPartners from "./OurBusinessPartners";
 import OurServices from "./OurServices";
