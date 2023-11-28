@@ -46,10 +46,12 @@ const Header = () => {
                   Services
                 </li>
               </Link>
+              <Link to="/gallery">
+                <li className="hover:text-brand transition-colors duration-300">
+                  Gallery
+                </li>
+              </Link>
 
-              <li className="hover:text-brand transition-colors duration-300">
-                Gallery
-              </li>
               <li className="hover:text-brand transition-colors duration-300">
                 Contact Us
               </li>
