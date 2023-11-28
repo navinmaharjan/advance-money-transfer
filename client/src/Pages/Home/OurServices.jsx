@@ -5,7 +5,7 @@ const OurServices = () => {
     <>
       <div className="bg-offWhite py-24">
         <div className="container mx-auto">
-          <h1 className="text-4xl pb-8 font-light w-full text-start">
+          <h1 className="text-4xl pb-8 font-light w-full text-center">
             Our <span className="text-brand">Services</span>
           </h1>
           <div className="flex gap-4 items-center">
