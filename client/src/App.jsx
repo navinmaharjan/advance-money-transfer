@@ -7,6 +7,7 @@ import Network from "./Pages/Network/Network";
 import Services from "./Pages/Services/Services";
 import Gallery from "./Pages/Gallery/Gallery";
 import ContactUs from "./Pages/ContactUs/ContactUs";
+import ScrollToTop from "./Components/ScrollToTop";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/contact-us" element={<ContactUs/>} />
       </Routes>
       <Footer />
+      <ScrollToTop />
     </BrowserRouter>
   );
 };

@@ -26,9 +26,12 @@ const Footer = () => {
         </div>
 
         <div>
-          <h3 className="text-xl font-medium border-b-2 border-brand text-center pb-2">
+          <h3 className="text-xl font-medium text-center pb-2">
             Contact Us
           </h3>
+          <div className="relative bg-brand p-1">
+            <div className="absolute bg-white p-1 top-0 animate-contactAnimation"></div>
+          </div>
           <div className="flex gap-4 items-center py-2">
             <div className="font-roboto tracking-wide">
               <h1 className="text-xl font-medium py-2">Israel</h1>
@@ -100,9 +103,12 @@ const Footer = () => {
         </div>
 
         <div className="font-roboto">
-          <h3 className="text-xl font-medium border-b-2 border-brand pb-2">
+          <h3 className="text-xl font-medium">
             Quick Links
           </h3>
+          <div className="relative bg-brand p-1">
+            <div className="absolute bg-white p-1 top-0 animate-quickLinkAnimation "></div>
+          </div>
           <ul className="pt-4 flex flex-col gap-2">
             <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
             <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
@@ -132,9 +138,12 @@ const Footer = () => {
         </div>
 
         <div className="font-roboto">
-          <h3 className="text-xl font-medium border-b-2 border-brand pb-2">
+          <h3 className="text-xl font-medium">
             Useful Links
           </h3>
+          <div className="relative bg-brand p-1">
+            <div className="absolute bg-white p-1 top-0 animate-usefulLinkAnimation"></div>
+          </div>
           <ul className="pt-4 flex flex-col gap-2">
             <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
             <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
