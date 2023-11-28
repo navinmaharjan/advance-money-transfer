@@ -1,4 +1,4 @@
-import Banner from "../../assets/bannerImages/bannerImage-2.jpg";
+import Banner from "../../assets/bannerImages/bannerImage-3.jpg";
 
 const Network = () => {
   return (

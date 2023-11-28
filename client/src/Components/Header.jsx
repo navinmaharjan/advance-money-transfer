@@ -41,15 +41,17 @@ const Header = () => {
                   Network
                 </li>
               </Link>
+              <Link to="/services">
+                <li className="hover:text-brand transition-colors duration-300">
+                  Services
+                </li>
+              </Link>
 
-              <li className="hover:text-brand transition-colors duration-300">
-                Services
-              </li>
               <li className="hover:text-brand transition-colors duration-300">
                 Gallery
               </li>
               <li className="hover:text-brand transition-colors duration-300">
-                Network
+                Contact Us
               </li>
               <li className="hover:text-brand transition-colors duration-300">
                 Exchange

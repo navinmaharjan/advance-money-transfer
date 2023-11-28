@@ -1,4 +1,4 @@
-import Banner from "../../assets/bannerImages/bannerImage-1.jpg";
+import Banner from "../../assets/bannerImages/bannerImage-3.jpg";
 
 const AboutUs = () => {
   return (
