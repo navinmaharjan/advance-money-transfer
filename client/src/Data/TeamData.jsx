@@ -1,23 +1,33 @@
 const TeamData = [
     {
         'id': 1,
-        'galleryImage': '/GalleryImage/galleryImage-1.jpg'
+        'teamMemberImage': '/TeamMembers/memberImage-1.jpg',
+        'designation': 'Chairman',
+        'contact': 9841234576
     },
     {
         'id': 2,
-        'galleryImage': '/GalleryImage/galleryImage-2.jpg'
+        'teamMemberImage': '/TeamMembers/memberImage-1.jpg',
+        'designation': 'Managing Director',
+        'contact': 9841234576
     },
     {
         'id': 3,
-        'galleryImage': '/GalleryImage/galleryImage-3.jpg'
+        'teamMemberImage': '/TeamMembers/memberImage-1.jpg',
+        'designation': 'Board Member',
+        'contact': 9841234576
     },
     {
         'id': 4,
-        'galleryImage': '/GalleryImage/galleryImage-4.jpg'
+        'teamMemberImage': '/TeamMembers/memberImage-1.jpg',
+        'designation': 'Board Member',
+        'contact': 9841234576
     },
     {
         'id': 5,
-        'galleryImage': '/GalleryImage/galleryImage-5.jpg'
-    },
+        'teamMemberImage': '/TeamMembers/memberImage-1.jpg',
+        'designation': 'Board Member',
+        'contact': 9841234576
+    }
 ]
 export default TeamData

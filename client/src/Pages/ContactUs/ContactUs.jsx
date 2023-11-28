@@ -18,8 +18,8 @@ const ContactUs = () => {
 
       <div className="bg-offWhite">
         <div className="container mx-auto w-full py-16">
-          <div className="flex">
-            <div className="w-3/5 bg-red-300">
+          <div className="flex items-center">
+            <div className="w-3/5">
               <div className="w-full text-4xl font-light pb-4 text-center">
                 <h3>
                   Get in touch with <span className="text-brand">Us</span>
@@ -67,8 +67,85 @@ const ContactUs = () => {
                 </div>
               </div>
             </div>
-            <div className="w-2/5 bg-blue-400">
+            <div className="w-2/5 drop-shadow-2xl">
+              <div className="flex flex-col">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.6140588480694!2d85.3117201!3d27.6983209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb185370dd790f%3A0x11607ddc8072d68!2sAdvance%20Money%20Transfer%20Pvt.%20Ltd.!5e0!3m2!1sen!2snp!4v1701168510216!5m2!1sen!2snp"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  className="w-full h-60"
+                ></iframe>
+                <div>
+                  <div className="p-8 bg-white">
+                    <div className="flex gap-4 items-center py-2">
+                      <div className="font-roboto tracking-wide">
+                        <h1 className="text-xl font-medium py-2">Israel</h1>
+                        <div className="text-slate-700 flex flex-col gap-2">
+                          <div className="flex gap-4 items-center">
+                            <div>
+                              <i className="fa-solid fa-location-dot text-brand"></i>
+                            </div>
+                            <div>
+                              <p>Israel 8 Levinsky St. Tel- Aviv,</p>
+                              <p>New Central Station, Str. No:4436</p>
+                            </div>
+                          </div>
 
+                          <div className="flex gap-4 items-center">
+                            <div>
+                              <i className="fa-solid fa-phone text-brand"></i>
+                            </div>
+                            <div>
+                              <p>972 3 6871372</p>
+                            </div>
+                          </div>
+
+                          <div className="flex gap-4 items-center">
+                            <div>
+                              <i className="fa-solid fa-fax text-brand"></i>
+                            </div>
+                            <div>
+                              <p>972 3 6871372</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="font-roboto tracking-wide">
+                        <h1 className="text-xl font-medium py-2">Nepal</h1>
+                        <div className="text-slate-700 flex flex-col gap-2">
+                          <div className="flex gap-4 items-center">
+                            <div>
+                              <i className="fa-solid fa-location-dot text-brand"></i>
+                            </div>
+                            <div>
+                              <p>3rd Floor, Curchil Complex,</p>
+                              <p>China Town, Sundhara, Kathmandu</p>
+                            </div>
+                          </div>
+
+                          <div className="flex gap-4 items-center">
+                            <div>
+                              <i className="fa-solid fa-phone text-brand"></i>
+                            </div>
+                            <div>
+                              <p>+977 01 5355288</p>
+                            </div>
+                          </div>
+
+                          <div className="flex gap-4 items-center">
+                            <div>
+                              <i className="fa-solid fa-envelope text-brand"></i>
+                            </div>
+                            <div>
+                              <p>amt.remt@gmail.com</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

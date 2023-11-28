@@ -1,4 +1,5 @@
 import Banner from "../../assets/bannerImages/bannerImage-3.jpg";
+import TeamMember from "./TeamMember";
 
 const AboutUs = () => {
   return (
@@ -233,6 +234,10 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+     <div className="container mx-auto py-16">
+      <TeamMember />
+
+     </div>
     </>
   );
 };
