@@ -26,33 +26,33 @@ const Header = () => {
           <nav>
             <ul className="flex gap-8 font-roboto tracking-wider hover:opacity-80 cursor-pointer">
               <Link to="/">
-                <li className="hover:text-brand transition-colors duration-300">
+                <li className="hover:text-brand transition-colors duration-300 text-lg">
                   Home
                 </li>
               </Link>
 
               <Link to="/about-us">
-                <li className="hover:text-brand transition-colors duration-300">
+                <li className="hover:text-brand transition-colors duration-300 text-lg">
                   About Us
                 </li>
               </Link>
               <Link to="/network">
-                <li className="hover:text-brand transition-colors duration-300">
+                <li className="hover:text-brand transition-colors duration-300 text-lg">
                   Network
                 </li>
               </Link>
               <Link to="/services">
-                <li className="hover:text-brand transition-colors duration-300">
+                <li className="hover:text-brand transition-colors duration-300 text-lg">
                   Services
                 </li>
               </Link>
               <Link to="/gallery">
-                <li className="hover:text-brand transition-colors duration-300">
+                <li className="hover:text-brand transition-colors duration-300 text-lg">
                   Gallery
                 </li>
               </Link>
               <Link to="/contact-us">
-                <li className="hover:text-brand transition-colors duration-300">
+                <li className="hover:text-brand transition-colors duration-300 text-lg">
                   Contact Us
                 </li>
               </Link>

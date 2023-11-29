@@ -19,7 +19,12 @@ const ContactUs = () => {
       <div className="bg-offWhite">
         <div className="container mx-auto w-full py-16">
           <div className="flex items-center">
-            <div className="w-3/5">
+            <div
+              className="w-3/5"
+              data-aos="zoom-in-left"
+              data-aos-duration="2500"
+              data-aos-once="true"
+            >
               <div className="w-full text-4xl font-light pb-4 text-center">
                 <h3>
                   Get in touch with <span className="text-brand">Us</span>
@@ -67,7 +72,9 @@ const ContactUs = () => {
                 </div>
               </div>
             </div>
-            <div className="w-2/5 drop-shadow-2xl">
+            <div className="w-2/5 drop-shadow-2xl" data-aos="zoom-in-right"
+            data-aos-duration="2500"
+            data-aos-once="true">
               <div className="flex flex-col">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.6140588480694!2d85.3117201!3d27.6983209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb185370dd790f%3A0x11607ddc8072d68!2sAdvance%20Money%20Transfer%20Pvt.%20Ltd.!5e0!3m2!1sen!2snp!4v1701168510216!5m2!1sen!2snp"

@@ -8,7 +8,12 @@ const TeamMember = () => {
           Our <span className="text-brand">Team Members</span>
         </h3>
       </div>
-      <div className="container mx-auto py-16 flex flex-wrap gap-10 justify-center">
+      <div
+        className="container mx-auto py-16 flex flex-wrap gap-10 justify-center"
+        data-aos="zoom-in"
+        data-aos-duration="2500"
+        data-aos-once="true"
+      >
         {TeamData.map((item) => (
           <div className="flex flex-col justify-center items-center gap-2">
             <div
@@ -21,7 +26,9 @@ const TeamMember = () => {
                 className="relative w-full h-full object-cover"
               />
             </div>
-            <p className="text-slate-700 text-xl font-semibold">{item.designation}</p>
+            <p className="text-slate-700 text-xl font-semibold">
+              {item.designation}
+            </p>
             <p className="text-slate-500 text-xl">{item.contact}</p>
           </div>
         ))}

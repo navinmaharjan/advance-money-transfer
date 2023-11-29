@@ -20,7 +20,12 @@ const Services = () => {
 
       <div className="bg-offWhite">
         <div className="container mx-auto py-16 flex flex-col gap-20">
-          <div className="flex items-center gap-10">
+          <div
+            className="flex items-center gap-10"
+            data-aos="zoom-in-left"
+            data-aos-duration="2500"
+            data-aos-once="true"
+          >
             <div className="w-1/2">
               <h1 className="text-4xl pb-4">
                 Immediate <span className="text-brand">Cash</span>
@@ -47,8 +52,13 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center gap-10">
-          <div className="w-1/2">
+          <div
+            className="flex items-center gap-10"
+            data-aos="zoom-in"
+            data-aos-duration="2500"
+            data-aos-once="true"
+          >
+            <div className="w-1/2">
               <div className="relative w-full h-96 overflow-hidden rounded-lg">
                 <img
                   src={ServiceTwo}
@@ -58,9 +68,7 @@ const Services = () => {
               </div>
             </div>
             <div className="w-1/2">
-              <h1 className="text-4xl pb-4">
-                Deposits
-              </h1>
+              <h1 className="text-4xl pb-4">Deposits</h1>
               <p className="mr-20 text-base text-slate-600">
                 One of the most popular payout methods for international money
                 transfers from anywhere in the world to any location in Nepal is
@@ -73,9 +81,13 @@ const Services = () => {
                 Control No.
               </p>
             </div>
-            
           </div>
-          <div className="flex items-center gap-10">
+          <div
+            className="flex items-center gap-10"
+            data-aos="zoom-in-right"
+            data-aos-duration="2500"
+            data-aos-once="true"
+          >
             <div className="w-1/2">
               <h1 className="text-4xl pb-4">
                 Disable <span className="text-brand">Customers</span>

@@ -20,15 +20,18 @@ const Gallery = () => {
       </div>
 
       <div className="bg-offWhite">
-        <div className="container mx-auto py-16 flex flex-wrap gap-4">
+        <div
+          className="container mx-auto py-16 flex flex-wrap gap-4"
+         
+        >
           {GalleryData.map((item) => (
-            <div>
-              <div className="relative w-[23rem] h-80" key={item.id}>
+            <div >
+              <div className="relative w-[23rem] h-80" key={item.id} >
                 <ModalImage
                   small={item.galleryImage}
                   large={item.galleryImage}
                   hideDownload={true}
-                  className="absolute w-full h-full object-cover"
+                  className="absolute w-full h-full object-cover hover:scale-105 transition-all duration-300"
                 />
               </div>
             </div>

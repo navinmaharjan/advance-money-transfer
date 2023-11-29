@@ -17,7 +17,12 @@ const Network = () => {
         </div>
       </div>
 
-      <div className="container mx-auto py-16">
+      <div
+        className="container mx-auto py-16"
+        data-aos="zoom-in"
+        data-aos-duration="2500"
+        data-aos-once="true"
+      >
         <div className="flex justify-center">
           <h1 className="text-center text-2xl font-normal border-b border-brand pb-4">
             We using all the payment networks of our partner company.

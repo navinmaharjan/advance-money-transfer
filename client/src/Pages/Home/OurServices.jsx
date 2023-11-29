@@ -9,21 +9,30 @@ const OurServices = () => {
           <h1 className="text-4xl pb-8 font-light w-full text-center">
             Our <span className="text-brand">Services</span>
           </h1>
-          <div className="flex gap-4 items-center">
-         
-              <Link to="/services" className="bg-white w-1/3 border p-8 rounded-lg h-80 flex flex-col shadow-md cursor-pointer">
-                <i className="fa-solid fa-money-bill-transfer text-7xl text-brand pb-4 text-center"></i>
-                <h1 className="text-2xl text-brand text-center">
-                  Immediate Cash
-                </h1>
-                <p className="text-xl font-light text-slate-700 pt-4">
-                  Immediate cash payment to the "receivers" from convenient
-                  location/ paying counters.
-                </p>
-              </Link>
-   
+          <div
+            className="flex gap-4 items-center"
+            data-aos="zoom-out-up"
+            data-aos-duration="2500"
+            data-aos-once="true"
+          >
+            <Link
+              to="/services"
+              className="bg-white w-1/3 border p-8 rounded-lg h-80 flex flex-col shadow-md cursor-pointer"
+            >
+              <i className="fa-solid fa-money-bill-transfer text-7xl text-brand pb-4 text-center"></i>
+              <h1 className="text-2xl text-brand text-center">
+                Immediate Cash
+              </h1>
+              <p className="text-xl font-light text-slate-700 pt-4">
+                Immediate cash payment to the "receivers" from convenient
+                location/ paying counters.
+              </p>
+            </Link>
 
-            <Link to="/services" className="bg-white w-1/3 border p-8 rounded-lg h-80 flex flex-col shadow-md cursor-pointer">
+            <Link
+              to="/services"
+              className="bg-white w-1/3 border p-8 rounded-lg h-80 flex flex-col shadow-md cursor-pointer"
+            >
               <i className="fa-solid fa-sack-dollar text-7xl text-brand pb-4 text-center"></i>
               <h1 className="text-2xl text-brand text-center">Deposits</h1>
               <p className="text-xl font-light text-slate-700 pt-4">
@@ -32,7 +41,10 @@ const OurServices = () => {
               </p>
             </Link>
 
-            <Link to="/services" className="bg-white w-1/3 border p-8 rounded-lg h-80 flex flex-col shadow-md cursor-pointer">
+            <Link
+              to="/services"
+              className="bg-white w-1/3 border p-8 rounded-lg h-80 flex flex-col shadow-md cursor-pointer"
+            >
               <i className="fa-brands fa-accessible-icon text-7xl text-brand  pb-4 text-center"></i>
               <h1 className="text-2xl text-brand text-center">
                 Disable Customers

@@ -17,7 +17,12 @@ const AboutUs = () => {
           </h3>
         </div>
       </div>
-      <div className="container mx-auto py-16">
+      <div
+        className="container mx-auto py-16"
+        data-aos="zoom-in"
+        data-aos-duration="2500"
+        data-aos-once="true"
+      >
         <div className="text-center">
           {/* <h3 className="text-4xl font-medium font-roboto tracking-wide">
             We understand your unique needs !
@@ -56,7 +61,12 @@ const AboutUs = () => {
       <div className="bg-offWhite">
         <div className="container mx-auto py-16">
           <div className="flex gap-8">
-            <div className="w-1/2">
+            <div
+              className="w-1/2"
+              data-aos="zoom-in-right"
+              data-aos-duration="2500"
+              data-aos-once="true"
+            >
               <h3 className="text-4xl font-medium font-roboto tracking-wide pb-2">
                 Our <span className="text-brand">Features</span>
               </h3>
@@ -155,7 +165,12 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-            <div className="w-1/2">
+            <div
+              className="w-1/2"
+              data-aos="zoom-in-left"
+              data-aos-duration="2500"
+              data-aos-once="true"
+            >
               <h3 className="text-4xl font-medium font-roboto tracking-wide pb-2">
                 Best ways to <span className="text-brand">send money</span> from
                 us
@@ -234,10 +249,9 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-     <div className="container mx-auto py-16">
-      <TeamMember />
-
-     </div>
+      <div className="container mx-auto py-16">
+        <TeamMember  />
+      </div>
     </>
   );
 };

@@ -10,7 +10,7 @@ import "../../../src/styles.css";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import Slide1 from "../../assets/businessPartnersSlider/slide1.png";
+
 
 import CoverageImage from "../../assets/coverage/coverageImage-1.jpg";
 import CountryImageData from "../../Data/ExistingCoverage";
