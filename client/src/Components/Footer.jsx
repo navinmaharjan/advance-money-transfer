@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <h3 className="text-xl font-medium text-center pb-2">
+          <h3 className="text-xl font-medium text-center">
             Contact Us
           </h3>
           <div className="relative bg-brand p-1">
