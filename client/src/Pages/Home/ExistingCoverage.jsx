@@ -18,16 +18,16 @@ import CountryImageData from "../../Data/ExistingCoverage";
 const ExistingCoverage = () => {
   return (
     <>
-      <div className="relative w-full h-[700px]">
+      <div className="relative w-full h-[500px] sm:h-[700px]">
         <img
           src={CoverageImage}
           alt=""
           className="absolute w-full h-full object-cover"
         />
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full p-10 flex  flex-col justify-center items-center">
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full p-6 sm:p-10 flex  flex-col justify-center items-center">
           <div className="container">
-            <div className="text-center w-full font-light flex">
-              <h1 className="text-4xl text-slate-700 bg-white py-2 rounded-lg px-12">Existing <span className="text-brand">Coverage</span></h1>
+            <div className="text-center w-full font-light flex justify-center">
+              <h1 className="text-2xl sm:text-4xl text-slate-700 bg-white py-2 rounded-lg px-12">Existing <span className="text-brand">Coverage</span></h1>
             </div>
 
             <Swiper
@@ -66,13 +66,13 @@ const ExistingCoverage = () => {
             >
               {CountryImageData.map((item) => (
                 <SwiperSlide>
-                  <div className="relative w-72 h-80">
+                  <div className="relative sm:w-72 h-80">
                     <img
                       src={item.countryImage}
                       alt=""
                       className="absolute w-full h-full object-cover"
                     />
-                    <div className="py-4 bg-white absolute w-72 bottom-0 opacity-90">
+                    <div className="py-4 bg-white absolute w-full sm:w-72 bottom-0 opacity-90">
                         <h1 className="text-brand font-medium text-xl">{item.countryName}</h1>
                     </div>
                   </div>

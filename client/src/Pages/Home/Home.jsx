@@ -10,8 +10,8 @@ const Home = () => {
     <>
       <Banner />
       <AboutUsHome data-aos="zoom-in"/>
-      {/* <OurServices /> */}
-      {/* <ExistingCoverage /> */}
+      <OurServices />
+      <ExistingCoverage />
       {/* <OurBusinessPartners /> */}
       {/* <TodaysExchangeRate /> */}
     </>
