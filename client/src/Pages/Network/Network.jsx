@@ -3,7 +3,7 @@ import Banner from "../../assets/bannerImages/bannerImage-3.jpg";
 const Network = () => {
   return (
     <>
-      <div className="relative w-full h-60">
+      <div className="relative w-full h-32 sm:h-60">
         {/* <div className="absolute w-full h-60 bg-black opacity-50 z-10"></div> */}
         <img
           src={Banner}
@@ -11,26 +11,26 @@ const Network = () => {
           className="absolute w-full h-full object-cover"
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
-          <h3 className="text-4xl text-white font-semibold tracking-wide">
+          <h3 className="text-2xl sm:text-4xl text-white font-semibold tracking-wide">
             Network
           </h3>
         </div>
       </div>
 
       <div
-        className="container mx-auto py-16"
+        className="container mx-auto py-4 sm:py-16"
         data-aos="zoom-in"
         data-aos-duration="2500"
         data-aos-once="true"
       >
         <div className="flex justify-center">
-          <h1 className="text-center text-2xl font-normal border-b border-brand pb-4">
+          <h1 className="text-center text-lg sm:text-2xl font-normal border-b border-brand pb-4">
             We using all the payment networks of our partner company.
           </h1>
         </div>
 
         <div className="flex justify-center items-center gap-4 py-10">
-          <div className="flex flex-col gap-2 items-center justify-center">
+          <div className="flex sm:flex-col gap-2 items-center justify-center">
             <p className="bg-offWhite py-2 px-4 border font-medium">S.no</p>
             <p>1</p>
             <p>2</p>

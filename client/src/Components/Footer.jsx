@@ -93,7 +93,7 @@ const Footer = () => {
                     <i className="fa-solid fa-envelope text-brand"></i>
                   </div>
                   <div>
-                    <p>amt.remt@gmail.com</p>
+                    <p>cs@amt.remit.com</p>
                   </div>
                 </div>
               </div>

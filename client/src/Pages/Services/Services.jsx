@@ -4,7 +4,7 @@ import ServiceTwo from "../../assets/services/serviceImage-2.jpg";
 const Services = () => {
   return (
     <>
-      <div className="relative w-full h-60">
+      <div className="relative w-full h-32 sm:h-60">
         {/* <div className="absolute w-full h-60 bg-black opacity-50 z-10"></div> */}
         <img
           src={Banner}
@@ -12,25 +12,25 @@ const Services = () => {
           className="absolute w-full h-full object-cover"
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
-          <h3 className="text-4xl text-white font-semibold tracking-wide">
+          <h3 className="text-2xl sm:text-4xl text-white font-semibold tracking-wide">
             Services
           </h3>
         </div>
       </div>
 
       <div className="bg-offWhite">
-        <div className="container mx-auto py-16 flex flex-col gap-20">
+        <div className="container mx-auto py-4 sm:py-16 flex flex-col gap-8 sm:gap-20">
           <div
-            className="flex items-center gap-10"
+            className="flex items-center gap-4 sm:gap-10 flex-col sm:flex-row px-4 sm:px-0"
             data-aos="zoom-in-left"
             data-aos-duration="2500"
             data-aos-once="true"
           >
-            <div className="w-1/2">
-              <h1 className="text-4xl pb-4">
+            <div className="sm:w-1/2">
+              <h1 className="text-2xl sm:text-4xl sm:pb-4">
                 Immediate <span className="text-brand">Cash</span>
               </h1>
-              <p className="mr-20 text-base text-slate-600">
+              <p className="sm:mr-20 text-base text-slate-600">
                 One of the most popular payout methods for international money
                 transfers from anywhere in the world to any location in Nepal is
                 cash transfer; it's straightforward, easy to use, speedy, and
@@ -42,7 +42,7 @@ const Services = () => {
                 Control No.
               </p>
             </div>
-            <div className="w-1/2">
+            <div className="w-full sm:w-1/2">
               <div className="relative w-full h-96 overflow-hidden rounded-lg">
                 <img
                   src={ServiceOne}
@@ -53,12 +53,12 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="flex items-center gap-10"
+            className="flex items-center gap-4 sm:gap-10 flex-col sm:flex-row px-4 sm:px-0"
             data-aos="zoom-in"
             data-aos-duration="2500"
             data-aos-once="true"
           >
-            <div className="w-1/2">
+            <div className="w-full sm:w-1/2 order-2 sm:order-1">
               <div className="relative w-full h-96 overflow-hidden rounded-lg">
                 <img
                   src={ServiceTwo}
@@ -67,9 +67,9 @@ const Services = () => {
                 />
               </div>
             </div>
-            <div className="w-1/2">
-              <h1 className="text-4xl pb-4">Deposits</h1>
-              <p className="mr-20 text-base text-slate-600">
+            <div className="sm:w-1/2 order-1 sm:order-2">
+              <h1 className="text-2xl sm:text-4xl sm:pb-4">Deposits</h1>
+              <p className="sm:mr-20 text-base text-slate-600">
                 One of the most popular payout methods for international money
                 transfers from anywhere in the world to any location in Nepal is
                 cash transfer; it's straightforward, easy to use, speedy, and
@@ -83,16 +83,16 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="flex items-center gap-10"
+            className="flex items-center gap-4 sm:gap-10 flex-col sm:flex-row px-4 sm:px-0"
             data-aos="zoom-in-right"
             data-aos-duration="2500"
             data-aos-once="true"
           >
-            <div className="w-1/2">
-              <h1 className="text-4xl pb-4">
+            <div className="w-full sm:w-1/2">
+              <h1 className="text-2xl sm:text-4xl sm:pb-4">
                 Disable <span className="text-brand">Customers</span>
               </h1>
-              <p className="mr-20 text-base text-slate-600">
+              <p className="sm:mr-20 text-base text-slate-600">
                 One of the most popular payout methods for international money
                 transfers from anywhere in the world to any location in Nepal is
                 cash transfer; it's straightforward, easy to use, speedy, and
@@ -104,7 +104,7 @@ const Services = () => {
                 Control No.
               </p>
             </div>
-            <div className="w-1/2">
+            <div className="w-full sm:w-1/2">
               <div className="relative w-full h-96 overflow-hidden rounded-lg">
                 <img
                   src={ServiceOne}
