@@ -33,48 +33,17 @@ const Footer = () => {
             <div className="absolute bg-white p-1 top-0 animate-contactAnimation hidden sm:block"></div>
           </div>
           <div className="flex flex-col gap-4 items-center py-2 px-8 sm:flex-row sm:px-0">
+           
+
             <div className="font-roboto tracking-wide">
-              <h1 className="text-xl font-medium py-2">Israel</h1>
+              {/* <h1 className="text-xl font-medium py-2">Nepal</h1> */}
               <div className="text-slate-700 flex flex-col gap-2">
                 <div className="flex gap-4 items-center">
                   <div>
                     <i className="fa-solid fa-location-dot text-brand"></i>
                   </div>
                   <div>
-                    <p>Israel 8 Levinsky St. Tel- Aviv,</p>
-                    <p>New Central Station, Str. No:4436</p>
-                  </div>
-                </div>
-
-                <div className="flex gap-4 items-center">
-                  <div>
-                    <i className="fa-solid fa-phone text-brand"></i>
-                  </div>
-                  <div>
-                    <p>972 3 6871372</p>
-                  </div>
-                </div>
-
-                <div className="flex gap-4 items-center">
-                  <div>
-                    <i className="fa-solid fa-fax text-brand"></i>
-                  </div>
-                  <div>
-                    <p>972 3 6871372</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="font-roboto tracking-wide">
-              <h1 className="text-xl font-medium py-2">Nepal</h1>
-              <div className="text-slate-700 flex flex-col gap-2">
-                <div className="flex gap-4 items-center">
-                  <div>
-                    <i className="fa-solid fa-location-dot text-brand"></i>
-                  </div>
-                  <div>
-                    <p>3rd Floor, Curchil Complex,</p>
+                    <p>3rd Floor, Churchil Complex,</p>
                     <p>China Town, Sundhara, Kathmandu</p>
                   </div>
                 </div>
@@ -161,10 +130,10 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-offWhite text-center">
+      <div className="bg-offWhite text-center px-4 sm:px-0">
         <p className=" text-xs text-slate-900 py-2">
           © 2008 - 2023 Advance Money Transfer. All rights reserved | Powered by
-          Radiant Info Tech
+          <span className="text-brand"> Radiant Info Tech</span>
         </p>
       </div>
     </div>

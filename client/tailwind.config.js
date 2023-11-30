@@ -18,7 +18,7 @@ export default {
       keyframes: {
         contact: {
           "0%": { left: "0px" },
-          "100%": { left: "573px" },
+          "100%": { left: "273px" },
         },
         quickLinks: {
           "0%": { left: "0px" },

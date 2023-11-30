@@ -68,7 +68,7 @@ const Banner = () => {
                 data-aos="fade-up"
                 data-aos-duration="2500"
               >
-                ADVANCE MONEY TRANSFER
+                ADVANCE <span className="text-brand">MONEY</span> TRANSFER
               </h1>
               <div className="flex justify-center">
                 <p
@@ -92,7 +92,7 @@ const Banner = () => {
             />
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
               <h1 className="uppercase text-5xl sm:text-8xl text-white font-bold tracking-wider shadow-lg">
-                ADVANCE MONEY TRANSFER
+                ADVANCE <span className="text-brand">MONEY</span> TRANSFER
               </h1>
               <div className="flex justify-center">
                 <p className="text-white sm:text-2xl font-light tracking-wider bg-brand py-3 px-5 rounded-lg">

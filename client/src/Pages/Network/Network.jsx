@@ -3,7 +3,7 @@ import Banner from "../../assets/bannerImages/bannerImage-3.jpg";
 const Network = () => {
   return (
     <>
-      <div className="relative w-full h-32 sm:h-60">
+      <div className="relative w-full h-20 sm:h-60">
         {/* <div className="absolute w-full h-60 bg-black opacity-50 z-10"></div> */}
         <img
           src={Banner}
