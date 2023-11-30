@@ -12,8 +12,8 @@ const Home = () => {
       <AboutUsHome data-aos="zoom-in"/>
       <OurServices />
       <ExistingCoverage />
-      {/* <OurBusinessPartners /> */}
-      {/* <TodaysExchangeRate /> */}
+      <OurBusinessPartners />
+      <TodaysExchangeRate />
     </>
   );
 };

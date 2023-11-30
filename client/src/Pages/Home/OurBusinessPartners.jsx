@@ -15,8 +15,8 @@ import Slide1 from "../../assets/businessPartnersSlider/slide1.png";
 const OurBusinessPartners = () => {
   return (
     <>
-      <div className="container mx-auto py-16">
-        <h1 className="text-4xl pb-8 font-light w-full text-center">
+      <div className="container mx-auto py-4 sm:py-16">
+        <h1 className="text-2xl sm:text-4xl sm:pb-8 font-light w-full text-center">
           Our <span className="text-brand">Business Partners</span>
         </h1>
         <Swiper
@@ -31,13 +31,13 @@ const OurBusinessPartners = () => {
           }}
           navigation={false}
           modules={[Autoplay, Pagination, Navigation]}
-          className="py-8"
+          className="sm:py-8"
           loop={true}
           style={{
             "--swiper-pagination-color": "#FF1C0A",
             "--swiper-pagination-bullet-inactive-color": "#999999",
             "--swiper-pagination-bullet-inactive-opacity": "1",
-            "--swiper-pagination-bullet-size": "10px",
+            "--swiper-pagination-bullet-size": "5px",
             "--swiper-pagination-bullet-horizontal-gap": "6px",
           }}
           breakpoints={{
@@ -55,28 +55,28 @@ const OurBusinessPartners = () => {
             },
           }}
         >
-          <SwiperSlide className="h-60">
+          <SwiperSlide className="sm:h-60 p-4 sm:p-8 flex justify-center">
             <img src={Slide1} alt="" />
           </SwiperSlide>
-          <SwiperSlide className="h-60">
+          <SwiperSlide className="sm:h-60 p-4 sm:p-8 flex justify-center">
             <img src={Slide1} alt="" />
           </SwiperSlide>
-          <SwiperSlide className="h-60">
+          <SwiperSlide className="sm:h-60 p-4 sm:p-8 flex justify-center">
             <img src={Slide1} alt="" />
           </SwiperSlide>
-          <SwiperSlide className="h-60">
+          <SwiperSlide className="sm:h-60 p-4 sm:p-8 flex justify-center">
             <img src={Slide1} alt="" />
           </SwiperSlide>
-          <SwiperSlide className="h-60">
+          <SwiperSlide className="sm:h-60 p-4 sm:p-8 flex justify-center">
             <img src={Slide1} alt="" />
           </SwiperSlide>
-          <SwiperSlide className="h-60">
+          <SwiperSlide className="sm:h-60 p-4 sm:p-8 flex justify-center">
             <img src={Slide1} alt="" />
           </SwiperSlide>
-          <SwiperSlide className="h-60">
+          <SwiperSlide className="sm:h-60 p-4 sm:p-8 flex justify-center">
             <img src={Slide1} alt="" />
           </SwiperSlide>
-          <SwiperSlide className="h-60">
+          <SwiperSlide className="sm:h-60 p-4 sm:p-8 flex justify-center">
             <img src={Slide1} alt="" />
           </SwiperSlide>
         </Swiper>

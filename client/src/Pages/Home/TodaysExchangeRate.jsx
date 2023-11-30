@@ -3,7 +3,7 @@ const TodaysExchangeRate = () => {
     <>
       <div className="bg-offWhite">
         <div className="container mx-auto">
-          <h1 className="text-4xl pb-8 font-light w-full text-center pt-16">
+          <h1 className="text-2xl sm:text-4xl pb-4 sm:pb-8 font-light w-full text-center pt-4 sm:pt-16">
             Today's <span className="text-brand">Exchange Rate</span>
           </h1>
           <div
@@ -17,7 +17,7 @@ const TodaysExchangeRate = () => {
               frameborder="0"
               marginwidth="0"
               marginheight="0"
-              className="w-1/2 h-[700px] "
+              className="w-full px-4 sm:w-1/2 h-[500px] sm:h-[700px] "
               allowtransparency="true"
             ></iframe>
           </div>
