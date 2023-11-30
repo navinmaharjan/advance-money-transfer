@@ -9,11 +9,11 @@ const Home = () => {
   return (
     <>
       <Banner />
-      <AboutUsHome data-aos="zoom-in"/>
-      <OurServices />
-      <ExistingCoverage />
-      <OurBusinessPartners />
-      <TodaysExchangeRate />
+      {/* <AboutUsHome data-aos="zoom-in"/> */}
+      {/* <OurServices /> */}
+      {/* <ExistingCoverage /> */}
+      {/* <OurBusinessPartners /> */}
+      {/* <TodaysExchangeRate /> */}
     </>
   );
 };
