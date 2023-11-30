@@ -3,7 +3,7 @@ import Logo from "../assets/logo/logo.png";
 const Footer = () => {
   return (
     <div className="w-full border-t-2 ">
-      <div className="container mx-auto flex justify-between items-start py-24">
+      <div className="container mx-auto flex flex-col justify-between items-start py-2 sm:flex-row sm:py-24">
         <div className="flex flex-col justify-center items-center gap-2">
           <div className="relative w-32 h-32">
             <img
@@ -18,7 +18,7 @@ const Footer = () => {
               Your safe, easy and reliable money transfer partner
             </h3>
           </div>
-          <div className="flex gap-4 justify-center">
+          <div className="flex gap-4 justify-center pb-4 sm:pb-0">
             <i className="fa-brands fa-facebook text-xl text-brand hover:opacity-40 transition-colors duration-300 cursor-pointer"></i>
             <i className="fa-brands fa-twitter text-xl text-brand hover:opacity-40 transition-colors duration-300 cursor-pointer"></i>
             <i className="fa-brands fa-instagram text-xl text-brand hover:opacity-40 transition-colors duration-300 cursor-pointer"></i>
@@ -26,13 +26,13 @@ const Footer = () => {
         </div>
 
         <div>
-          <h3 className="text-xl font-medium text-center">
+          <h3 className="text-xl font-medium text-start px-8 sm:px-0">
             Contact Us
           </h3>
-          <div className="relative bg-brand p-1">
-            <div className="absolute bg-white p-1 top-0 animate-contactAnimation"></div>
+          <div className="relative bg-brand p-1 hidden sm:block">
+            <div className="absolute bg-white p-1 top-0 animate-contactAnimation hidden sm:block"></div>
           </div>
-          <div className="flex gap-4 items-center py-2">
+          <div className="flex flex-col gap-4 items-center py-2 px-8 sm:flex-row sm:px-0">
             <div className="font-roboto tracking-wide">
               <h1 className="text-xl font-medium py-2">Israel</h1>
               <div className="text-slate-700 flex flex-col gap-2">
@@ -102,14 +102,14 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="font-roboto">
-          <h3 className="text-xl font-medium">
+        <div className="py-4 sm:py-0">
+          <h3 className="text-xl font-medium px-8 sm:px-0">
             Quick Links
           </h3>
-          <div className="relative bg-brand p-1">
-            <div className="absolute bg-white p-1 top-0 animate-quickLinkAnimation "></div>
+          <div className="relative bg-brand p-1 hidden sm:block">
+            <div className="absolute bg-white p-1 top-0 animate-quickLinkAnimation hidden sm:block "></div>
           </div>
-          <ul className="pt-4 flex flex-col gap-2">
+          <ul className="pt-4 flex flex-col gap-2 px-8 sm:px-0">
             <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
             <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
               Company Profile
@@ -138,13 +138,13 @@ const Footer = () => {
         </div>
 
         <div className="font-roboto">
-          <h3 className="text-xl font-medium">
+          <h3 className="text-xl font-medium px-8 sm:px-0">
             Useful Links
           </h3>
-          <div className="relative bg-brand p-1">
-            <div className="absolute bg-white p-1 top-0 animate-usefulLinkAnimation"></div>
+          <div className="relative bg-brand p-1 hidden sm:block">
+            <div className="absolute bg-white p-1 top-0 animate-usefulLinkAnimation hidden sm:block"></div>
           </div>
-          <ul className="pt-4 flex flex-col gap-2">
+          <ul className="pt-4 flex flex-col gap-2 px-8 sm:px-0">
             <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
             <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
               Frequently Asked Questions

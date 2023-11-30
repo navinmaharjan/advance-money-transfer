@@ -31,7 +31,7 @@ const Header = () => {
   return (
     <>
       <div className="sticky top-0 left-0 z-30 bg-offWhite shadow-md">
-        <div className="container mx-auto flex justify-between items-center py-1">
+        <div className="container mx-auto flex justify-between items-center py-0 sm:py-1">
           {/* ---------Logo-------- */}
           <Link to="/">
             <div className="flex gap-4  items-center">
@@ -42,7 +42,7 @@ const Header = () => {
                   className="absolute w-full h-full object-contain"
                 />
               </div>
-              <h1 className="font-roboto uppercase text-2xl font-semibold tracking-wider">
+              <h1 className="font-roboto uppercase text-2xl font-semibold tracking-wider hidden sm:block ">
                 Advance <span className="text-brand">Money</span> Transfer
               </h1>
             </div>
@@ -50,7 +50,7 @@ const Header = () => {
 
           {/* ---------Nav Area-------- */}
           <nav>
-            <ul className="flex gap-8 font-roboto tracking-wider hover:opacity-80 cursor-pointer">
+            <ul className=" gap-8 font-roboto tracking-wider hover:opacity-80 cursor-pointer hidden sm:flex">
               <Link to="/">
                 <li
                   className={`hover:text-brand transition-colors duration-300 text-lg 
