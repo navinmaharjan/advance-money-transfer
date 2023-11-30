@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <Banner />
-      {/* <AboutUsHome data-aos="zoom-in"/> */}
+      <AboutUsHome data-aos="zoom-in"/>
       {/* <OurServices /> */}
       {/* <ExistingCoverage /> */}
       {/* <OurBusinessPartners /> */}
