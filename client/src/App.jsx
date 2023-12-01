@@ -15,6 +15,7 @@ import ProductServices from "./Pages/FooterLinks/ProductServices";
 import OurNetwork from "./Pages/FooterLinks/OurNetwork";
 import AffiliateCompany from "./Pages/FooterLinks/AffiliateCompany";
 import AnitMoneyLaundering from "./Pages/FooterLinks/AnitMoneyLaundering";
+import FAQ from "./Pages/FooterLinks/FAQ";
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
         <Route path="/our-network" element={<OurNetwork/>} />
         <Route path="/affiliate-company" element={<AffiliateCompany/>} />
         <Route path="/anti-money-laundering" element={<AnitMoneyLaundering/>} />
+        <Route path="/FAQs" element={<FAQ/>} />
       </Routes>
       <Footer />
       <ScrollToTop />

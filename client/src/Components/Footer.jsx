@@ -132,18 +132,26 @@ const Footer = () => {
             <div className="absolute bg-white p-1 top-0 animate-usefulLinkAnimation hidden sm:block"></div>
           </div>
           <ul className="pt-4 flex flex-col gap-2 px-8 sm:px-0">
-            <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
-              <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
-              Frequently Asked Questions
-            </li>
-            <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
-              <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
-              Contact Support
-            </li>
-            <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
-              <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
-              Galleries
-            </li>
+            <Link to="/FAQs">
+              <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
+                <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
+                Frequently Asked Questions
+              </li>
+            </Link>
+
+            <Link to="/contact-us">
+              <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
+                <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
+                Contact Support
+              </li>
+            </Link>
+
+            <Link to="/gallery">
+              <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
+                <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
+                Galleries
+              </li>
+            </Link>
           </ul>
         </div>
       </div>
