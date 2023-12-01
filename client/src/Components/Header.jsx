@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 const Header = () => {
   const [activeLink, setActiveLink] = useState(0);
   const location = useLocation();
+  const [nav, setNav] = useState(false);
   useEffect(() => {
     const determineActiveLink = () => {
       const path = location.pathname;
@@ -28,14 +29,18 @@ const Header = () => {
   const handleActiveLink = (index) => {
     setActiveLink(index);
   };
+
+  const handleNav = () => {
+    setNav(!nav);
+  };
   return (
     <>
-      <div className="sticky top-0 left-0 z-30 bg-offWhite shadow-md">
+      <div className={`sticky top-0 left-0 z-30 bg-transparent sm:bg-white sm:shadow-md`}>
         <div className="container mx-auto flex justify-between items-center py-0 sm:py-1">
           {/* ---------Logo-------- */}
           <Link to="/">
             <div className="flex gap-4  items-center">
-              <div className="relative w-16 h-16 ">
+              <div className="relative w-16 h-16 hidden sm:block">
                 <img
                   src={Logo}
                   alt="logo"
@@ -49,11 +54,17 @@ const Header = () => {
           </Link>
 
           {/* ---------Nav Area-------- */}
-          <nav>
-            <ul className=" gap-8 font-roboto tracking-wider hover:opacity-80 cursor-pointer hidden sm:flex">
+          <nav className={`${!nav ? `flex justify-center` : `flex-none`}`}>
+            <ul
+              className={`${
+                !nav
+                  ? `gap-8 tracking-wider hover:opacity-80 cursor-pointer sm:flex p-8 flex-col sm:flex-row pt-80 sm:pt-8 h-screen sm:h-20 mr-6 sm:mr-0`
+                  : `hidden`
+              }`}
+            >
               <Link to="/">
                 <li
-                  className={`hover:text-brand transition-colors duration-300 text-lg 
+                  className={`hover:text-brand transition-colors duration-300 text-2xl sm:text-lg 
                   ${
                     activeLink === 0 ? "border-b-2 border-brand" : "border-none"
                   }`}
@@ -64,7 +75,7 @@ const Header = () => {
               </Link>
               <Link to="/about-us">
                 <li
-                  className={`hover:text-brand transition-colors duration-300 text-lg 
+                  className={`hover:text-brand transition-colors duration-300 text-2xl sm:text-lg 
                     ${
                       activeLink === 1
                         ? "border-b-2 border-brand"
@@ -77,7 +88,7 @@ const Header = () => {
               </Link>
               <Link to="/network">
                 <li
-                  className={`hover:text-brand transition-colors duration-300 text-lg 
+                  className={`hover:text-brand transition-colors duration-300 text-2xl sm:text-lg 
                     ${
                       activeLink === 2
                         ? "border-b-2 border-brand"
@@ -90,7 +101,7 @@ const Header = () => {
               </Link>
               <Link to="/services">
                 <li
-                  className={`hover:text-brand transition-colors duration-300 text-lg 
+                  className={`hover:text-brand transition-colors duration-300 text-2xl sm:text-lg 
                     ${
                       activeLink === 3
                         ? "border-b-2 border-brand"
@@ -103,7 +114,7 @@ const Header = () => {
               </Link>
               <Link to="/gallery">
                 <li
-                  className={`hover:text-brand transition-colors duration-300 text-lg 
+                  className={`hover:text-brand transition-colors duration-300 text-2xl sm:text-lg 
                     ${
                       activeLink === 4
                         ? "border-b-2 border-brand"
@@ -116,9 +127,9 @@ const Header = () => {
               </Link>
               <Link to="/contact-us">
                 <li
-                  className={`hover:text-brand transition-colors duration-300 text-lg 
+                  className={`hover:text-brand transition-colors duration-300 text-2xl sm:text-lg 
                     ${
-                      activeLink === 5
+                      !nav && activeLink === 5
                         ? "border-b-2 border-brand"
                         : "border-none"
                     }`}
@@ -128,6 +139,16 @@ const Header = () => {
                 </li>
               </Link>
             </ul>
+            <div
+              onClick={handleNav}
+              className="sm:hidden px-4 flex items-center gap-2 bg-offWhite w-14 h-14 rounded-full m-4 drop-shadow-xl"
+            >
+              {nav ? (
+                <i className="fa-solid fa-bars text-3xl text-brand"></i>
+              ) : (
+                <i className="fa-solid fa-xmark text-3xl text-brand"></i>
+              )}
+            </div>
           </nav>
         </div>
       </div>

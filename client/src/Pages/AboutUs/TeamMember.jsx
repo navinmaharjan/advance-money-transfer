@@ -17,7 +17,7 @@ const TeamMember = () => {
         {TeamData.map((item) => (
           <div className="flex flex-col justify-center items-center gap-2 px-4 sm:px-0">
             <div
-              className="relative w-40 h-40 sm:w-60 sm:h-60 rounded-full overflow-hidden"
+              className="relative w-40 h-40 sm:w-60 sm:h-60 rounded-full overflow-hidden drop-shadow-xl"
               key={item.id}
             >
               <img
