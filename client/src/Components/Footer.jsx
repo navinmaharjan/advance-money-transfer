@@ -52,7 +52,7 @@ const Footer = () => {
                     <i className="fa-solid fa-phone text-brand"></i>
                   </div>
                   <div>
-                    <p>+977 01 5355288</p>
+                    <p>+977-01-5355288</p>
                   </div>
                 </div>
 
@@ -82,17 +82,10 @@ const Footer = () => {
               </li>
             </Link>
 
-            <Link to="/affiliate-company">
+            <Link to="/ourteam">
               <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
                 <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
-                Affiliate Company
-              </li>
-            </Link>
-
-            <Link to="/anti-money-laundering">
-              <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
-                <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
-                Anti Money Laundering
+                Our Team
               </li>
             </Link>
 
@@ -100,13 +93,6 @@ const Footer = () => {
               <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
                 <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
                 Managment
-              </li>
-            </Link>
-
-            <Link to="/ourteam">
-              <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
-                <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
-                Our Team
               </li>
             </Link>
 
@@ -132,6 +118,19 @@ const Footer = () => {
             <div className="absolute bg-white p-1 top-0 animate-usefulLinkAnimation hidden sm:block"></div>
           </div>
           <ul className="pt-4 flex flex-col gap-2 px-8 sm:px-0">
+            <Link to="/affiliate-company">
+              <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
+                <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
+                Affiliate Company
+              </li>
+            </Link>
+
+            <Link to="/anti-money-laundering">
+              <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
+                <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
+                Anti Money Laundering
+              </li>
+            </Link>
             <Link to="/FAQs">
               <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
                 <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;

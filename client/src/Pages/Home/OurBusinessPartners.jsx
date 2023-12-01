@@ -11,6 +11,7 @@ import "../../../src/styles.css";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Slide1 from "../../assets/businessPartnersSlider/slide1.png";
+import Slide2 from "../../assets/bannerImages/bannerImage-2.jpg";
 
 const OurBusinessPartners = () => {
   return (
@@ -31,7 +32,7 @@ const OurBusinessPartners = () => {
           }}
           navigation={false}
           modules={[Autoplay, Pagination, Navigation]}
-          className="sm:py-8"
+          className="sm:py-8 px-4 sm:px-0"
           loop={true}
           style={{
             "--swiper-pagination-color": "#FF1C0A",
@@ -55,29 +56,28 @@ const OurBusinessPartners = () => {
             },
           }}
         >
-          <SwiperSlide className="sm:h-60 p-4 sm:p-8 flex justify-center">
-            <img src={Slide1} alt="" />
+          <SwiperSlide className="h-60 sm:h-60 flex justify-center relative w-full ">
+            <img src={Slide1} alt="" className="absolute w-full h-full object-contain" />
           </SwiperSlide>
-          <SwiperSlide className="sm:h-60 p-4 sm:p-8 flex justify-center">
-            <img src={Slide1} alt="" />
+          <SwiperSlide className="h-60 sm:h-60 flex justify-center relative w-full bg-offWhite">
+            <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-semibold">Business Partner 2</h1>
+            {/* <img src={Slide2} alt="" className="absolute w-full h-full object-cover" /> */}
           </SwiperSlide>
-          <SwiperSlide className="sm:h-60 p-4 sm:p-8 flex justify-center">
-            <img src={Slide1} alt="" />
+          <SwiperSlide className="h-60 sm:h-60 flex justify-center relative w-full bg-offWhite">
+          <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-semibold">Business Partner 3</h1>
+          {/* <img src={Slide1} alt="" className="absolute w-full h-full object-contain" /> */}
           </SwiperSlide>
-          <SwiperSlide className="sm:h-60 p-4 sm:p-8 flex justify-center">
-            <img src={Slide1} alt="" />
+          <SwiperSlide className="h-60 sm:h-60 flex justify-center relative w-full bg-offWhite">
+          <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-semibold">Business Partner 4</h1>
+          {/* <img src={Slide1} alt="" className="absolute w-full h-full object-contain" /> */}
           </SwiperSlide>
-          <SwiperSlide className="sm:h-60 p-4 sm:p-8 flex justify-center">
-            <img src={Slide1} alt="" />
+          <SwiperSlide className="h-60 sm:h-60 flex justify-center relative w-full bg-offWhite">
+          <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-semibold">Business Partner 5</h1>
+          {/* <img src={Slide1} alt="" className="absolute w-full h-full object-contain" /> */}
           </SwiperSlide>
-          <SwiperSlide className="sm:h-60 p-4 sm:p-8 flex justify-center">
-            <img src={Slide1} alt="" />
-          </SwiperSlide>
-          <SwiperSlide className="sm:h-60 p-4 sm:p-8 flex justify-center">
-            <img src={Slide1} alt="" />
-          </SwiperSlide>
-          <SwiperSlide className="sm:h-60 p-4 sm:p-8 flex justify-center">
-            <img src={Slide1} alt="" />
+          <SwiperSlide className="h-60 sm:h-60 flex justify-center relative w-full bg-offWhite">
+          <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-semibold">Business Partner 6</h1>
+          {/* <img src={Slide1} alt="" className="absolute w-full h-full object-contain" /> */}
           </SwiperSlide>
         </Swiper>
       </div>
