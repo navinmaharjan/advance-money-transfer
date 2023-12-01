@@ -8,6 +8,13 @@ import Services from "./Pages/Services/Services";
 import Gallery from "./Pages/Gallery/Gallery";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import ScrollToTop from "./Components/ScrollToTop";
+import CompanyProfile from "./Pages/FooterLinks/CompanyProfile";
+import Managment from "./Pages/FooterLinks/Managment";
+import OurTeam from "./Pages/FooterLinks/OurTeam";
+import ProductServices from "./Pages/FooterLinks/ProductServices";
+import OurNetwork from "./Pages/FooterLinks/OurNetwork";
+import AffiliateCompany from "./Pages/FooterLinks/AffiliateCompany";
+import AnitMoneyLaundering from "./Pages/FooterLinks/AnitMoneyLaundering";
 
 const App = () => {
   return (
@@ -20,6 +27,13 @@ const App = () => {
         <Route path="/services" element={<Services/>} />
         <Route path="/gallery" element={<Gallery/>} />
         <Route path="/contact-us" element={<ContactUs/>} />
+        <Route path="/company-profile" element={<CompanyProfile/>} />
+        <Route path="/managment" element={<Managment/>} />
+        <Route path="/ourteam" element={<OurTeam/>} />
+        <Route path="/product-services" element={<ProductServices/>} />
+        <Route path="/our-network" element={<OurNetwork/>} />
+        <Route path="/affiliate-company" element={<AffiliateCompany/>} />
+        <Route path="/anti-money-laundering" element={<AnitMoneyLaundering/>} />
       </Routes>
       <Footer />
       <ScrollToTop />

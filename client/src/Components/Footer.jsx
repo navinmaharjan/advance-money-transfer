@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "../assets/logo/logo.png";
 
 const Footer = () => {
@@ -33,8 +34,6 @@ const Footer = () => {
             <div className="absolute bg-white p-1 top-0 animate-contactAnimation hidden sm:block"></div>
           </div>
           <div className="flex flex-col gap-4 items-center py-2 px-8 sm:flex-row sm:px-0">
-           
-
             <div className="font-roboto tracking-wide">
               {/* <h1 className="text-xl font-medium py-2">Nepal</h1> */}
               <div className="text-slate-700 flex flex-col gap-2">
@@ -67,63 +66,82 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            
           </div>
         </div>
 
         <div className="py-4 sm:py-0">
-          <h3 className="text-xl font-medium px-8 sm:px-0">
-            Quick Links
-          </h3>
+          <h3 className="text-xl font-medium px-8 sm:px-0">Quick Links</h3>
           <div className="relative bg-brand p-1 hidden sm:block">
             <div className="absolute bg-white p-1 top-0 animate-quickLinkAnimation hidden sm:block "></div>
           </div>
           <ul className="pt-4 flex flex-col gap-2 px-8 sm:px-0">
-            <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
-            <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
-              Company Profile
-            </li>
-            <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
-            <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
-              Affiliated Company
-            </li>
-            <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
-            <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
-              Anti Money Laundering
-            </li>
-            <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
-            <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
-              Managment
-            </li>
-            <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
-            <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
-              Branch Network
-            </li>
-            <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
-            <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
-              Our Services
-            </li>
+            <Link to="/company-profile">
+              <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
+                <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
+                Corporate Profile
+              </li>
+            </Link>
+
+            <Link to="/affiliate-company">
+              <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
+                <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
+                Affiliate Company
+              </li>
+            </Link>
+
+            <Link to="/anti-money-laundering">
+              <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
+                <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
+                Anti Money Laundering
+              </li>
+            </Link>
+
+            <Link to="/managment">
+              <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
+                <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
+                Managment
+              </li>
+            </Link>
+
+            <Link to="/ourteam">
+              <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
+                <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
+                Our Team
+              </li>
+            </Link>
+
+            <Link to="/product-services">
+              <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
+                <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
+                Our Product and Services
+              </li>
+            </Link>
+
+            <Link to="/our-network">
+              <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
+                <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
+                Our Network
+              </li>
+            </Link>
           </ul>
         </div>
 
         <div className="font-roboto">
-          <h3 className="text-xl font-medium px-8 sm:px-0">
-            Useful Links
-          </h3>
+          <h3 className="text-xl font-medium px-8 sm:px-0">Useful Links</h3>
           <div className="relative bg-brand p-1 hidden sm:block">
             <div className="absolute bg-white p-1 top-0 animate-usefulLinkAnimation hidden sm:block"></div>
           </div>
           <ul className="pt-4 flex flex-col gap-2 px-8 sm:px-0">
             <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
-            <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
+              <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
               Frequently Asked Questions
             </li>
             <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
-            <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
+              <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
               Contact Support
             </li>
             <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
-            <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
+              <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
               Galleries
             </li>
           </ul>
