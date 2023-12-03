@@ -21,17 +21,17 @@ const Banner = () => {
         effect="fade"
         fadeEffect={{ crossFade: true }}
         centeredSlides={false}
-        // autoplay={{
-        //   delay: 3500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 4500,
+          disableOnInteraction: false,
+        }}
         pagination={{
           clickable: true,
         }}
         navigation={false}
-        modules={[Pagination, Navigation]}
+        modules={[Autoplay,Pagination, Navigation]}
         // className="py-8"
-        loop={false}
+        loop={true}
         style={{
           "--swiper-pagination-color": "#FF1C0A",
           "--swiper-pagination-bullet-inactive-color": "#FFFFFF",
@@ -50,7 +50,7 @@ const Banner = () => {
           },
           1024: {
             slidesPerView: 1,
-            spaceBetween: 20,
+            spaceBetween: 0,
           },
         }}
       >
@@ -95,8 +95,8 @@ const Banner = () => {
                 ADVANCE <span className="text-brand">MONEY</span> TRANSFER
               </h1>
               <div className="flex justify-center">
-                <p className="text-white sm:text-2xl font-light tracking-wider bg-brand py-3 px-5 rounded-lg">
-                  Relief ... Once You Remit ... Satisfaction Once Your Recieve
+                <p className="text-white sm:text-2xl font-light tracking-wider bg-brand py-3 px-20 rounded-lg">
+                  Fast Effective Reliable
                 </p>
               </div>
             </div>

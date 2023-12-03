@@ -4,6 +4,7 @@ import ExistingCoverage from "./ExistingCoverage";
 import OurBusinessPartners from "./OurBusinessPartners";
 import OurServices from "./OurServices";
 import TodaysExchangeRate from "./TodaysExchangeRate";
+import TrackPayment from "./TrackPayment";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <ExistingCoverage />
       <OurBusinessPartners />
       <TodaysExchangeRate />
+      <TrackPayment />
     </>
   );
 };

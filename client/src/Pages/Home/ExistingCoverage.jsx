@@ -65,8 +65,8 @@ const ExistingCoverage = () => {
               }}
             >
               {CountryImageData.map((item) => (
-                <SwiperSlide>
-                  <div className="relative sm:w-72 h-80">
+                <SwiperSlide key={item.id}>
+                  <div className="relative sm:w-72 h-80" >
                     <img
                       src={item.countryImage}
                       alt=""
