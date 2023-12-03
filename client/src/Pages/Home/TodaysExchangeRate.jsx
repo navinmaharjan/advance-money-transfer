@@ -324,7 +324,7 @@ const TodaysExchangeRate = () => {
               </div>
             </div>
             <div className="w-1/2 flex flex-col shadow-xl">
-              <div className="bg-blue-700 p-2 flex justify-between text-xl">
+              <div className="bg-black p-2 flex justify-between text-xl">
                 <p className="text-white">Average Rate of Remittance</p>
                 <p className="text-white">{exchangeRate[0]?.date} - 2 PM</p>
               </div>

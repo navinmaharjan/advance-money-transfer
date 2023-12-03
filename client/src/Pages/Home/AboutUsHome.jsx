@@ -32,7 +32,7 @@ const AboutUsHome = () => {
           {/* -------- button --------- */}
           <Link
             to="/about-us"
-            className="text-brand border border-brand p-2 sm:p-3 font-light rounded-lg  mt-4 sm:mt-8"
+            className="text-brand border border-brand p-2 sm:p-3 font-light rounded-lg  mt-4 sm:mt-8  hover:bg-brand hover:text-white transition-all duration-300 cursor-pointer"
           >
             More About Us
           </Link>

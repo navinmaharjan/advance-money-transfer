@@ -14,7 +14,7 @@ const Home = () => {
       <OurServices />
       <ExistingCoverage />
       <OurBusinessPartners />
-      <TodaysExchangeRate />
+      {/* <TodaysExchangeRate /> */}
       <TrackPayment />
     </>
   );

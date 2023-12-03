@@ -18,7 +18,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="bg-offWhite">
+      <div className="">
         <div className="container mx-auto py-4 sm:py-16 flex flex-col gap-8 sm:gap-20">
           <div
             className="flex items-center gap-4 sm:gap-10 flex-col sm:flex-row px-4 sm:px-0"
@@ -53,7 +53,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="flex items-center gap-4 sm:gap-10 flex-col sm:flex-row px-4 sm:px-0"
+            className="flex items-center gap-4 sm:gap-10 flex-col sm:flex-row px-4 sm:px-0  bg-offWhite rounded-lg"
             data-aos="zoom-in"
             data-aos-duration="2500"
             data-aos-once="true"
@@ -112,6 +112,39 @@ const Services = () => {
                   className="absolute w-full h-full object-cover"
                 />
               </div>
+            </div>
+          </div>
+          <div
+            className="flex items-center gap-4 sm:gap-10 flex-col sm:flex-row px-4 sm:px-0 bg-offWhite rounded-lg"
+            data-aos="zoom-in-right"
+            data-aos-duration="2500"
+            data-aos-once="true"
+          >
+           
+            <div className="w-full sm:w-1/2">
+              <div className="relative w-full h-96 overflow-hidden rounded-lg">
+                <img
+                  src={ServiceTwo}
+                  alt=""
+                  className="absolute w-full h-full object-cover"
+                />
+              </div>
+            </div>
+            <div className="w-full sm:w-1/2">
+              <h1 className="text-2xl sm:text-4xl sm:pb-4">
+                <span>Wallet</span>
+              </h1>
+              <p className="sm:mr-20 text-base text-slate-600">
+                One of the most popular payout methods for international money
+                transfers from anywhere in the world to any location in Nepal is
+                cash transfer; it's straightforward, easy to use, speedy, and
+                hassle-free. Money can be sent in cash and received in cash by
+                the recipient in a matter of minutes. A control number is sent
+                to you when you send money, and you must give it to the
+                recipient. To accept the funds, the recipient goes to an Advance
+                Money Transfer agent and presents a legitimate ID along with the
+                Control No.
+              </p>
             </div>
           </div>
         </div>
