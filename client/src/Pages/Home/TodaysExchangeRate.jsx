@@ -28,7 +28,10 @@ const TodaysExchangeRate = () => {
                 <p className="sm:w-1/2">Currency</p>
                 <div className="flex w-1/2 justify-between sm:hidden items-center">
                   <p>Unit</p>
-                  <p>Buying Rate <br />(Average)</p>
+                  <p>
+                    Buying Rate <br />
+                    (Average)
+                  </p>
                 </div>
                 <div className=" w-1/2 justify-between hidden sm:flex ">
                   <p>Unit</p>
@@ -323,7 +326,7 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>100</p>
-                  <p className="pr-32">{exchangeRate[0]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[0]?.buy}</p>
                 </div>
               </div>
             </div>
@@ -336,7 +339,10 @@ const TodaysExchangeRate = () => {
                 <p className="sm:w-1/2">Currency</p>
                 <div className="flex w-1/2 justify-between sm:hidden items-center">
                   <p>Unit</p>
-                  <p>Buying Rate <br />(Average)</p>
+                  <p>
+                    Buying Rate <br />
+                    (Average)
+                  </p>
                 </div>
                 <div className=" w-1/2 justify-between hidden sm:flex ">
                   <p>Unit</p>
@@ -631,11 +637,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>100</p>
-                  <p className="pr-32">{exchangeRate[0]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[0]?.buy}</p>
                 </div>
               </div>
             </div>
           </div>
+
           <p className="py-4 sm:text-lg px-4 sm:px-0">
             <span className="font-medium">Note</span>{" "}
             <i>

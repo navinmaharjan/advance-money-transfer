@@ -5,91 +5,91 @@ const TrackPayment = () => {
     <>
       <div className="bg-white">
         <div className="container mx-auto  py-4 sm:py-16">
-          <div className="flex gap-10 px-4 sm:px-0">
+          <div className="flex gap-5 sm:gap-10 px-4 sm:px-0 flex-col sm:flex-row">
             <div className="w-full sm:w-1/2 bg-offWhite p-5 shadow-xl">
               <h3 className="text-xl sm:text-2xl font-light">
                 Service <span className="text-brand">Charges</span>
               </h3>
               <div className="flex flex-col w-full gap-2 my-4">
                 <div className="flex bg-white">
-                  <div className="w-1/3 p-2 text-lg">
+                  <div className="w-1/3 p-2 sm:text-lg">
                     <p className="font-medium">Country Name</p>
                   </div>
-                  <div className="w-1/3 p-2 text-lg">
+                  <div className="w-1/3 p-2 sm:text-lg">
                     <p className="font-medium">Account Credit</p>
                   </div>
-                  <div className="w-1/3 p-2 text-lg">
+                  <div className="w-1/3 p-2 sm:text-lg">
                     <p className="font-medium">Cash Pick Up</p>
                   </div>
                 </div>
 
                 <div className="flex bg-offWhite">
-                  <div className="w-1/3 p-2 text-lg">
+                  <div className="w-1/3 p-2 sm:text-lg">
                     <p>United States of America</p>
                   </div>
-                  <div className="w-1/3 p-2 text-lg">
+                  <div className="w-1/3 p-2 sm:text-lg">
                     <p>--</p>
                   </div>
-                  <div className="w-1/3 p-2 text-lg">
+                  <div className="w-1/3 p-2 sm:text-lg">
                     <p>--</p>
                   </div>
                 </div>
 
                 <div className="flex bg-white">
-                  <div className="w-1/3 p-2 text-lg">
+                  <div className="w-1/3 p-2 sm:text-lg">
                     <p>Saudi Arabia</p>
                   </div>
-                  <div className="w-1/3 p-2 text-lg">
+                  <div className="w-1/3 p-2 sm:text-lg">
                     <p>--</p>
                   </div>
-                  <div className="w-1/3 p-2 text-lg">
+                  <div className="w-1/3 p-2 sm:text-lg">
                     <p>--</p>
                   </div>
                 </div>
 
                 <div className="flex bg-offWhite">
-                  <div className="w-1/3 p-2 text-lg">
+                  <div className="w-1/3 p-2 sm:text-lg">
                     <p>Qatar</p>
                   </div>
-                  <div className="w-1/3 p-2 text-lg">
+                  <div className="w-1/3 p-2 sm:text-lg">
                     <p>--</p>
                   </div>
-                  <div className="w-1/3 p-2 text-lg">
+                  <div className="w-1/3 p-2 sm:text-lg">
                     <p>--</p>
                   </div>
                 </div>
 
                 <div className="flex bg-white">
-                  <div className="w-1/3 p-2 text-lg">
+                  <div className="w-1/3 p-2 sm:text-lg">
                     <p>United Arab Emirates</p>
                   </div>
-                  <div className="w-1/3 p-2 text-lg">
+                  <div className="w-1/3 p-2 sm:text-lg">
                     <p>--</p>
                   </div>
-                  <div className="w-1/3 p-2 text-lg">
+                  <div className="w-1/3 p-2 sm:text-lg">
                     <p>--</p>
                   </div>
                 </div>
 
                 <div className="flex bg-offWhite">
-                  <div className="w-1/3 p-2 text-lg">
+                  <div className="w-1/3 p-2 sm:text-lg">
                     <p>Bahrain</p>
                   </div>
-                  <div className="w-1/3 p-2 text-lg">
+                  <div className="w-1/3 p-2 sm:text-lg">
                     <p>--</p>
                   </div>
-                  <div className="w-1/3 p-2 text-lg">
+                  <div className="w-1/3 p-2 sm:text-lg">
                     <p>--</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="w-1/2 bg-offWhite p-5 shadow-xl">
+            <div className="sm:w-1/2 bg-offWhite p-5 shadow-xl">
               <h3 className="text-2xl font-light">
                 Track Your <span className="text-brand">Payment</span>
               </h3>
-              <div className="flex flex-col gap-2 text-lg py-4">
+              <div className="flex flex-col gap-2 sm:text-lg py-4">
                 <div className="w-full flex gap-2 items-center">
                   <p className="w-1/4"> Full Name </p>
                   <input

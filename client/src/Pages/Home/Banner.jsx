@@ -97,7 +97,7 @@ const Banner = () => {
                 ADVANCE <span className="text-brand">MONEY</span> TRANSFER
               </h1>
               <div className="flex justify-center">
-                <p className="text-white sm:text-2xl font-light tracking-wider bg-brand py-3 px-20 rounded-lg">
+                <p className="text-white sm:text-2xl font-light tracking-wider bg-brand py-3 px-10 sm:px-20  rounded-lg">
                   Fast Effective Reliable
                 </p>
               </div>
@@ -117,7 +117,7 @@ const Banner = () => {
                 ADVANCE <span className="text-brand">MONEY</span> TRANSFER
               </h1>
               <div className="flex justify-center">
-                <p className="text-white sm:text-2xl font-light tracking-wider bg-brand py-3 px-20 rounded-lg">
+                <p className="text-white sm:text-2xl font-light tracking-wider bg-brand py-3 px-5 rounded-lg">
                   Relief ... Once You Remit ... Satisfaction Once Your Recieve
                 </p>
               </div>
@@ -137,7 +137,7 @@ const Banner = () => {
                 ADVANCE <span className="text-brand">MONEY</span> TRANSFER
               </h1>
               <div className="flex justify-center">
-                <p className="text-white sm:text-2xl font-light tracking-wider bg-brand py-3 px-20 rounded-lg">
+                <p className="text-white sm:text-2xl font-light tracking-wider bg-brand py-3 px-10 sm:px-20 rounded-lg">
                   Fast Effective Reliable
                 </p>
               </div>
