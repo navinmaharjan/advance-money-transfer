@@ -1,3 +1,4 @@
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
@@ -18,6 +19,8 @@ import AnitMoneyLaundering from "./Pages/FooterLinks/AnitMoneyLaundering";
 import FAQ from "./Pages/FooterLinks/FAQ";
 
 const App = () => {
+ 
+
   return (
     <BrowserRouter>
       <Header />

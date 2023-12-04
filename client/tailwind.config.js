@@ -32,12 +32,19 @@ export default {
           "0%": { transform: 'scale(1)' },
           "100%": { transform: 'scale(1.2)' },
         },
+        menuTransform: {
+          "0%": { left: '-200px' },
+          "100%": { left: '0px' },
+        },
+       
       },
       animation: {
         contactAnimation: "contact 5s linear infinite",
         quickLinkAnimation: "quickLinks 5s linear infinite",
         usefulLinkAnimation: "usefulLinks 5s linear infinite",
         bannerScaleAnimation: "bannerScale 10s linear infinite",
+        menuTransformAnimation: "menuTransform 0.1s linear forwards",
+        menuTransformAnimation2: "menuTransform2 0.3s linear forwards",
       },
     },
   },
