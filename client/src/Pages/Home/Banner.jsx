@@ -31,7 +31,7 @@ const Banner = () => {
           clickable: true,
         }}
         navigation={false}
-        modules={[Autoplay,Pagination, Navigation]}
+        modules={[Autoplay, Pagination, Navigation]}
         // className="py-8"
         loop={true}
         style={{
@@ -56,7 +56,7 @@ const Banner = () => {
           },
         }}
       >
-        <SwiperSlide>
+        <SwiperSlide className="overflow-hidden">
           <div className="relative w-full h-[622px] sm:h-[800px]">
             <div className="absolute w-full h-[622px] sm:h-[800px] bg-black opacity-30 z-10"></div>
             <img
@@ -84,7 +84,7 @@ const Banner = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="overflow-hidden">
           <div className="relative w-full h-[622px] sm:h-[800px]">
             <div className="absolute w-full h-[622px] sm:h-[800px] bg-black opacity-30 z-10"></div>
             <img
@@ -104,7 +104,7 @@ const Banner = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="overflow-hidden">
           <div className="relative w-full h-[622px] sm:h-[800px]">
             <div className="absolute w-full h-[622px] sm:h-[800px] bg-black opacity-30 z-10"></div>
             <img
@@ -118,13 +118,13 @@ const Banner = () => {
               </h1>
               <div className="flex justify-center">
                 <p className="text-white sm:text-2xl font-light tracking-wider bg-brand py-3 px-20 rounded-lg">
-                Relief ... Once You Remit ... Satisfaction Once Your Recieve
+                  Relief ... Once You Remit ... Satisfaction Once Your Recieve
                 </p>
               </div>
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="overflow-hidden">
           <div className="relative w-full h-[622px] sm:h-[800px]">
             <div className="absolute w-full h-[622px] sm:h-[800px] bg-black opacity-30 z-10"></div>
             <img
@@ -138,7 +138,7 @@ const Banner = () => {
               </h1>
               <div className="flex justify-center">
                 <p className="text-white sm:text-2xl font-light tracking-wider bg-brand py-3 px-20 rounded-lg">
-                Fast Effective Reliable
+                  Fast Effective Reliable
                 </p>
               </div>
             </div>

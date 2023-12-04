@@ -37,7 +37,7 @@ export default {
         contactAnimation: "contact 5s linear infinite",
         quickLinkAnimation: "quickLinks 5s linear infinite",
         usefulLinkAnimation: "usefulLinks 5s linear infinite",
-        // bannerScaleAnimation: "bannerScale 10s linear infinite",
+        bannerScaleAnimation: "bannerScale 10s linear infinite",
       },
     },
   },

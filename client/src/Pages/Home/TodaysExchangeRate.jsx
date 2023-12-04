@@ -18,21 +18,25 @@ const TodaysExchangeRate = () => {
             Today's{" "}
             <span className="text-brand">Exchange Rate For Remittance</span>
           </h1>
-          <div className="flex gap-8">
-            <div className="w-1/2 flex flex-col shadow-xl">
-              <div className="bg-brand p-2 flex justify-between text-xl">
+          <div className="flex gap-8 flex-col sm:flex-row px-4 sm:px-0">
+            <div className="sm:w-1/2 flex flex-col shadow-xl">
+              <div className="bg-brand p-2 flex justify-between text-lg sm:text-xl">
                 <p className="text-white">Average Rate of Remittance</p>
                 <p className="text-white">{exchangeRate[0]?.date} - 10 AM</p>
               </div>
-              <div className="bg-white text-slate-700 font-medium  p-2 flex justify-between text-xl">
-                <p className="w-1/2">Currency</p>
-                <div className="flex w-1/2 justify-between">
+              <div className="bg-white text-slate-700 font-medium  p-2 flex justify-between items-center text-base sm:text-xl">
+                <p className="sm:w-1/2">Currency</p>
+                <div className="flex w-1/2 justify-between sm:hidden items-center">
+                  <p>Unit</p>
+                  <p>Buying Rate <br />(Average)</p>
+                </div>
+                <div className=" w-1/2 justify-between hidden sm:flex ">
                   <p>Unit</p>
                   <p>Buying Rate(Average)</p>
                 </div>
               </div>
               {/* USD */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="US" />
                   <p>
@@ -42,11 +46,11 @@ const TodaysExchangeRate = () => {
 
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[1]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[1]?.buy}</p>
                 </div>
               </div>
               {/* EURO */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="EU" />
                   <p>
@@ -55,11 +59,11 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[2]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[2]?.buy}</p>
                 </div>
               </div>
               {/* GBP */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="GB" />
                   <p>
@@ -68,11 +72,11 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[3]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[3]?.buy}</p>
                 </div>
               </div>
               {/* CHF */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="CH" />
                   <p>
@@ -82,11 +86,11 @@ const TodaysExchangeRate = () => {
 
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[4]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[4]?.buy}</p>
                 </div>
               </div>
               {/* AUD */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="AU" />
                   <p>
@@ -95,11 +99,11 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[5]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[5]?.buy}</p>
                 </div>
               </div>
               {/* CAD */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="CA" />
                   <p>
@@ -109,11 +113,11 @@ const TodaysExchangeRate = () => {
 
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[6]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[6]?.buy}</p>
                 </div>
               </div>
               {/* SGD */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="SG" />
                   <p>
@@ -122,11 +126,11 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[7]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[7]?.buy}</p>
                 </div>
               </div>
               {/* JPY */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="JP" />
                   <p>
@@ -135,12 +139,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>10</p>
-                  <p className="pr-32">{exchangeRate[8]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[8]?.buy}</p>
                 </div>
               </div>
 
               {/* CHINA */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="CN" />
                   <p>
@@ -150,12 +154,12 @@ const TodaysExchangeRate = () => {
 
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[9]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[9]?.buy}</p>
                 </div>
               </div>
 
               {/* SAUDI ARABIA */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="SA" />
                   <p>
@@ -164,12 +168,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[10]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[10]?.buy}</p>
                 </div>
               </div>
 
               {/* QATAR */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="QA" />
                   <p>
@@ -178,12 +182,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[11]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[11]?.buy}</p>
                 </div>
               </div>
 
               {/* THAILAND */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="TH" />
                   <p>
@@ -192,12 +196,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[12]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[12]?.buy}</p>
                 </div>
               </div>
 
               {/* UAE */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="AE" />
                   <p>
@@ -206,12 +210,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[13]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[13]?.buy}</p>
                 </div>
               </div>
 
               {/* MALAYSIA */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="MY" />
                   <p>
@@ -220,12 +224,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[14]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[14]?.buy}</p>
                 </div>
               </div>
 
               {/* SOUTH KOREA */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="KR" />
                   <p>
@@ -235,12 +239,12 @@ const TodaysExchangeRate = () => {
 
                 <div className="flex w-1/2 justify-between">
                   <p>100</p>
-                  <p className="pr-32">{exchangeRate[15]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[15]?.buy}</p>
                 </div>
               </div>
 
               {/* SWEDEN */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="SE" />
                   <p>
@@ -249,12 +253,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[16]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[16]?.buy}</p>
                 </div>
               </div>
 
               {/* DENMARK */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="DK" />
                   <p className="w-1/2">
@@ -263,12 +267,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[17]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[17]?.buy}</p>
                 </div>
               </div>
 
               {/* HONG KONG */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="HK" />
                   <p>
@@ -277,12 +281,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[18]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[18]?.buy}</p>
                 </div>
               </div>
 
               {/* KUWAIT */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="KW" />
                   <p>
@@ -291,12 +295,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[19]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[19]?.buy}</p>
                 </div>
               </div>
 
               {/* BAHRAIN */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="BH" />
                   <p>
@@ -305,12 +309,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[20]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[20]?.buy}</p>
                 </div>
               </div>
 
               {/* INDIA */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="IN" />
                   <p>
@@ -323,20 +327,24 @@ const TodaysExchangeRate = () => {
                 </div>
               </div>
             </div>
-            <div className="w-1/2 flex flex-col shadow-xl">
-              <div className="bg-black p-2 flex justify-between text-xl">
+            <div className="sm:w-1/2 flex flex-col shadow-xl">
+              <div className="bg-black p-2 flex justify-between text-lg sm:text-xl">
                 <p className="text-white">Average Rate of Remittance</p>
                 <p className="text-white">{exchangeRate[0]?.date} - 2 PM</p>
               </div>
-              <div className="bg-white text-slate-700 font-medium  p-2 flex justify-between text-xl">
-                <p className="w-1/2">Currency</p>
-                <div className="flex w-1/2 justify-between">
+              <div className="bg-white text-slate-700 font-medium  p-2 flex justify-between items-center text-base sm:text-xl">
+                <p className="sm:w-1/2">Currency</p>
+                <div className="flex w-1/2 justify-between sm:hidden items-center">
+                  <p>Unit</p>
+                  <p>Buying Rate <br />(Average)</p>
+                </div>
+                <div className=" w-1/2 justify-between hidden sm:flex ">
                   <p>Unit</p>
                   <p>Buying Rate(Average)</p>
                 </div>
               </div>
               {/* USD */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="US" />
                   <p>
@@ -346,11 +354,11 @@ const TodaysExchangeRate = () => {
 
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[1]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[1]?.buy}</p>
                 </div>
               </div>
               {/* EURO */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="EU" />
                   <p>
@@ -359,11 +367,11 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[2]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[2]?.buy}</p>
                 </div>
               </div>
               {/* GBP */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="GB" />
                   <p>
@@ -372,11 +380,11 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[3]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[3]?.buy}</p>
                 </div>
               </div>
               {/* CHF */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="CH" />
                   <p>
@@ -386,11 +394,11 @@ const TodaysExchangeRate = () => {
 
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[4]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[4]?.buy}</p>
                 </div>
               </div>
               {/* AUD */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="AU" />
                   <p>
@@ -399,11 +407,11 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[5]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[5]?.buy}</p>
                 </div>
               </div>
               {/* CAD */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="CA" />
                   <p>
@@ -413,11 +421,11 @@ const TodaysExchangeRate = () => {
 
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[6]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[6]?.buy}</p>
                 </div>
               </div>
               {/* SGD */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="SG" />
                   <p>
@@ -426,11 +434,11 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[7]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[7]?.buy}</p>
                 </div>
               </div>
               {/* JPY */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="JP" />
                   <p>
@@ -439,12 +447,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>10</p>
-                  <p className="pr-32">{exchangeRate[8]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[8]?.buy}</p>
                 </div>
               </div>
 
               {/* CHINA */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="CN" />
                   <p>
@@ -454,12 +462,12 @@ const TodaysExchangeRate = () => {
 
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[9]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[9]?.buy}</p>
                 </div>
               </div>
 
               {/* SAUDI ARABIA */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="SA" />
                   <p>
@@ -468,12 +476,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[10]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[10]?.buy}</p>
                 </div>
               </div>
 
               {/* QATAR */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="QA" />
                   <p>
@@ -482,12 +490,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[11]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[11]?.buy}</p>
                 </div>
               </div>
 
               {/* THAILAND */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="TH" />
                   <p>
@@ -496,12 +504,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[12]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[12]?.buy}</p>
                 </div>
               </div>
 
               {/* UAE */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="AE" />
                   <p>
@@ -510,12 +518,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[13]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[13]?.buy}</p>
                 </div>
               </div>
 
               {/* MALAYSIA */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="MY" />
                   <p>
@@ -524,12 +532,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[14]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[14]?.buy}</p>
                 </div>
               </div>
 
               {/* SOUTH KOREA */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="KR" />
                   <p>
@@ -539,12 +547,12 @@ const TodaysExchangeRate = () => {
 
                 <div className="flex w-1/2 justify-between">
                   <p>100</p>
-                  <p className="pr-32">{exchangeRate[15]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[15]?.buy}</p>
                 </div>
               </div>
 
               {/* SWEDEN */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="SE" />
                   <p>
@@ -553,12 +561,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[16]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[16]?.buy}</p>
                 </div>
               </div>
 
               {/* DENMARK */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="DK" />
                   <p className="w-1/2">
@@ -567,12 +575,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[17]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[17]?.buy}</p>
                 </div>
               </div>
 
               {/* HONG KONG */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="HK" />
                   <p>
@@ -581,12 +589,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[18]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[18]?.buy}</p>
                 </div>
               </div>
 
               {/* KUWAIT */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="KW" />
                   <p>
@@ -595,12 +603,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[19]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[19]?.buy}</p>
                 </div>
               </div>
 
               {/* BAHRAIN */}
-              <div className="bg-white text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-white text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="BH" />
                   <p>
@@ -609,12 +617,12 @@ const TodaysExchangeRate = () => {
                 </div>
                 <div className="flex w-1/2 justify-between">
                   <p>1</p>
-                  <p className="pr-32">{exchangeRate[20]?.buy}</p>
+                  <p className="sm:pr-32 pr-6">{exchangeRate[20]?.buy}</p>
                 </div>
               </div>
 
               {/* INDIA */}
-              <div className="bg-offWhite text-slate-700  p-2 flex justify-between text-xl">
+              <div className="bg-offWhite text-slate-700  p-2 flex justify-between sm:text-xl">
                 <div className="w-1/2 flex gap-2">
                   <Flag country="IN" />
                   <p>
@@ -628,7 +636,7 @@ const TodaysExchangeRate = () => {
               </div>
             </div>
           </div>
-          <p className="py-4 text-lg">
+          <p className="py-4 sm:text-lg px-4 sm:px-0">
             <span className="font-medium">Note</span>{" "}
             <i>
               Rates published as per NRB Forex Directives Rates are applicable
