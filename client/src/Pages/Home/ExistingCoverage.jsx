@@ -18,7 +18,7 @@ import CountryImageData from "../../Data/ExistingCoverage";
 const ExistingCoverage = () => {
   return (
     <>
-      <div className="relative w-full h-[500px] sm:h-[700px]">
+      <div className="relative w-full h-[500px] sm:h-[540px]">
         <img
           src={CoverageImage}
           alt=""
@@ -27,7 +27,7 @@ const ExistingCoverage = () => {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full p-6 sm:p-10 flex  flex-col justify-center items-center">
           <div className="container">
             <div className="text-center w-full font-light flex justify-center">
-              <h1 className="text-2xl sm:text-4xl text-slate-700 bg-white py-2 rounded-lg px-12">Existing <span className="text-brand">Coverage</span></h1>
+              <h1 className="text-2xl sm:text-2xl text-slate-700 bg-white py-2 rounded-lg px-12">Existing <span className="text-brand">Coverage</span></h1>
             </div>
 
             <Swiper
@@ -60,7 +60,7 @@ const ExistingCoverage = () => {
                 },
                 1024: {
                   slidesPerView: 5,
-                  spaceBetween: 20,
+                  spaceBetween: 40,
                 },
               }}
             >
@@ -73,7 +73,7 @@ const ExistingCoverage = () => {
                       className="absolute w-full h-full object-cover"
                     />
                     <div className="py-4 bg-white absolute w-full sm:w-72 bottom-0 opacity-90">
-                        <h1 className="text-brand font-medium text-xl">{item.countryName}</h1>
+                        <h1 className="text-brand font-medium text-lg">{item.countryName}</h1>
                     </div>
                   </div>
                   

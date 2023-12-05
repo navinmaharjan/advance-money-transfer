@@ -41,18 +41,18 @@ const Header = () => {
   return (
     <>
       <div className={`sticky top-0 left-0 z-30 bg-white shadow-md`}>
-        <div className="container mx-auto flex justify-between items-center py-0 sm:py-1">
+        <div className="container mx-auto flex justify-between items-center py-0">
           {/* ---------Logo-------- */}
           <Link to="/">
             <div className="flex sm:gap-4  items-center">
-              <div className="relative sm:w-16 sm:h-16 w-14 h-14">
+              <div className="relative sm:w-14 sm:h-14 w-14 h-14">
                 <img
                   src={Logo}
                   alt="logo"
                   className="absolute w-full h-full object-contain"
                 />
               </div>
-              <h1 className="font-roboto uppercase sm:text-2xl font-semibold tracking-wider pl-4 sm:pl-0">
+              <h1 className="font-roboto uppercase sm:text-lg font-semibold tracking-wider pl-4 sm:pl-0">
                 Advance <span className="text-brand">Money</span> Transfer
               </h1>
             </div>
@@ -90,11 +90,11 @@ const Header = () => {
             {/* )} */}
 
             <ul
-              className={`gap-8 tracking-wider hover:opacity-80 cursor-pointer sm:flex p-8 flex-col sm:flex-row  sm:pt-8  sm:h-20 mr-6 sm:mr-0 hidden`}
+              className={`gap-6 tracking-wider hover:opacity-80 cursor-pointer sm:flex flex-col sm:flex-row  mr-6 sm:mr-0 hidden`}
             >
               <Link to="/">
                 <li
-                  className={`hover:text-brand transition-colors duration-300 text-base sm:text-lg 
+                  className={`hover:text-brand transition-colors duration-300 text-base sm:text-sm 
                   ${
                     activeLink === 0 ? "border-b-2 border-brand" : "border-none"
                   }`}
@@ -105,7 +105,7 @@ const Header = () => {
               </Link>
               <Link to="/about-us">
                 <li
-                  className={`hover:text-brand transition-colors duration-300 text-base sm:text-lg 
+                  className={`hover:text-brand transition-colors duration-300 text-base sm:text-sm
                     ${
                       activeLink === 1
                         ? "border-b-2 border-brand"
@@ -118,7 +118,7 @@ const Header = () => {
               </Link>
               <Link to="/network">
                 <li
-                  className={`hover:text-brand transition-colors duration-300 text-base sm:text-lg 
+                  className={`hover:text-brand transition-colors duration-300 text-base sm:text-sm 
                     ${
                       activeLink === 2
                         ? "border-b-2 border-brand"
@@ -131,7 +131,7 @@ const Header = () => {
               </Link>
               <Link to="/services">
                 <li
-                  className={`hover:text-brand transition-colors duration-300 text-base sm:text-lg 
+                  className={`hover:text-brand transition-colors duration-300 text-base sm:text-sm 
                     ${
                       activeLink === 3
                         ? "border-b-2 border-brand"
@@ -144,7 +144,7 @@ const Header = () => {
               </Link>
               <Link to="/gallery">
                 <li
-                  className={`hover:text-brand transition-colors duration-300 text-base sm:text-lg 
+                  className={`hover:text-brand transition-colors duration-300 text-base sm:text-sm 
                     ${
                       activeLink === 4
                         ? "border-b-2 border-brand"
@@ -157,7 +157,7 @@ const Header = () => {
               </Link>
               <Link to="/contact-us">
                 <li
-                  className={`hover:text-brand transition-colors duration-300 text-base sm:text-lg 
+                  className={`hover:text-brand transition-colors duration-300 text-base sm:text-sm 
                     ${
                       !nav && activeLink === 5
                         ? "border-b-2 border-brand"

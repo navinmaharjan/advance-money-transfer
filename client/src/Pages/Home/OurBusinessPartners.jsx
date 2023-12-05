@@ -17,7 +17,7 @@ const OurBusinessPartners = () => {
   return (
     <>
       <div className="container mx-auto py-4 sm:py-16">
-        <h1 className="text-2xl sm:text-4xl sm:pb-8 font-light w-full text-center">
+        <h1 className="text-2xl sm:text-2xl sm:pb-2 font-light w-full text-center">
           Our <span className="text-brand">Business Partners</span>
         </h1>
         <Swiper
@@ -32,7 +32,7 @@ const OurBusinessPartners = () => {
           }}
           navigation={false}
           modules={[Autoplay, Pagination, Navigation]}
-          className="sm:py-8 px-4 sm:px-0"
+          className="sm:py-4 py-4 px-4 sm:px-0"
           loop={true}
           style={{
             "--swiper-pagination-color": "#FF1C0A",

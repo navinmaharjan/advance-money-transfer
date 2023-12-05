@@ -7,6 +7,18 @@ export default {
       //   DEFAULT: '2rem'
       // }
     },
+    screens: {
+      'sm': '500px',
+      'md': [
+        // Sidebar appears at 768px, so revert to `sm:` styles between 768px
+        // and 868px, after which the main content area is wide enough again to
+        // apply the `md:` styles.
+        {'min': '668px', 'max': '767px'},
+        {'min': '868px'}
+      ],
+      'lg': '1024px',
+      'xl': '1440px',
+    },
     extend: {
       colors: {
         brand: "#FF1C0A",
@@ -45,7 +57,7 @@ export default {
         contactAnimation: "contact 5s linear infinite",
         quickLinkAnimation: "quickLinks 5s linear infinite",
         usefulLinkAnimation: "usefulLinks 5s linear infinite",
-        bannerScaleAnimation: "bannerScale 10s linear infinite",
+        // bannerScaleAnimation: "bannerScale 10s linear infinite",
         menuTransformAnimation: "menuTransform 0.3s linear forwards",
         menuTransformAnimation2: "menuTransform2 0.3s linear forwards",
       },
