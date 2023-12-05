@@ -9,7 +9,7 @@ const TodaysExchangeRate = () => {
       setExchangeRate(res.data);
     });
   }, []);
-  // console.log(exchangeRate[0].date)
+  console.log(exchangeRate)
   return (
     <>
       <div className="bg-offWhite">

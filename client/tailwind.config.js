@@ -36,14 +36,17 @@ export default {
           "0%": { left: '-200px' },
           "100%": { left: '0px' },
         },
-       
+        menuTransform2: {
+          "0%": { left: '0px' },
+          "100%": { left: '-200px' },
+        },
       },
       animation: {
         contactAnimation: "contact 5s linear infinite",
         quickLinkAnimation: "quickLinks 5s linear infinite",
         usefulLinkAnimation: "usefulLinks 5s linear infinite",
         bannerScaleAnimation: "bannerScale 10s linear infinite",
-        menuTransformAnimation: "menuTransform 0.1s linear forwards",
+        menuTransformAnimation: "menuTransform 0.3s linear forwards",
         menuTransformAnimation2: "menuTransform2 0.3s linear forwards",
       },
     },

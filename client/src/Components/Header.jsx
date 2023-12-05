@@ -33,6 +33,11 @@ const Header = () => {
   const handleNav = () => {
     setNav(!nav);
   };
+
+  const determineAnimationClass = () => {
+    return nav ? 'animate-menuTransformAnimation2' : 'animate-menuTransformAnimation';
+  };
+
   return (
     <>
       <div className={`sticky top-0 left-0 z-30 bg-white shadow-md`}>
@@ -55,16 +60,13 @@ const Header = () => {
 
           {/* ---------Nav Area-------- */}
           <nav className={`${!nav ? `flex justify-center` : `flex-none`}`}>
-            {!nav && (
+            {/* {!nav && ( */}
               <div
-                className={`my-style h-screen  fixed left-0 sm:hidden w-[200px] ${
-                  !nav
-                    ? `animate-menuTransformAnimation`
-                    : "animate-menuTransformAnimation2"
-                }`}
+                className={`h-screen  fixed left-0 sm:hidden w-[200px] ${determineAnimationClass()} `}
               >
-                <div className="bg-transparent p-[29px]"></div>
-                <ul className="flex flex-col text-brand bg-offWhite h-screen  pt-10 pl-8 gap-6 uppercase tracking-widest">
+              
+                <ul className="flex flex-col text-white bg-black h-screen  pt-20 pl-8 gap-6 uppercase tracking-widest">
+                {/* <i className="fa-solid fa-xmark text-xl text-brand" onClick={handleClose}></i> */}
                   <Link to="/" onClick={handleNav}>
                     <li> Home </li>
                   </Link>
@@ -78,15 +80,14 @@ const Header = () => {
                     <li> Services </li>
                   </Link>
                   <Link to="/gallery" onClick={handleNav}>
-                  <li> Gallery </li>
+                    <li> Gallery </li>
                   </Link>
                   <Link to="/contact-us" onClick={handleNav}>
-                  <li> Contact Us </li>
+                    <li> Contact Us </li>
                   </Link>
-                  
                 </ul>
               </div>
-            )}
+            {/* )} */}
 
             <ul
               className={`gap-8 tracking-wider hover:opacity-80 cursor-pointer sm:flex p-8 flex-col sm:flex-row  sm:pt-8  sm:h-20 mr-6 sm:mr-0 hidden`}
@@ -173,10 +174,11 @@ const Header = () => {
               onClick={handleNav}
               className="sm:hidden px-4 flex gap-2  m-4 drop-shadow-xl"
             >
+            
               {nav ? (
                 <i className="fa-solid fa-bars text-xl text-brand"></i>
               ) : (
-                <i className="fa-solid fa-xmark text-xl text-brand"></i>
+                <i className="fa-solid fa-xmark text-xl text-brand" ></i>
               )}
             </div>
           </nav>

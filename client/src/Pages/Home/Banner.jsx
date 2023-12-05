@@ -1,11 +1,8 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
 import "../../../src/styles.css";
 
 // import required modules
@@ -20,7 +17,7 @@ const Banner = () => {
     <>
       <Swiper
         // spaceBetween={30}
-        effect="fade"
+        // effect="fade"
         fadeEffect={{ crossFade: true }}
         centeredSlides={false}
         autoplay={{
@@ -44,11 +41,11 @@ const Banner = () => {
         breakpoints={{
           640: {
             slidesPerView: 1,
-            spaceBetween: 20,
+            spaceBetween: 0,
           },
           768: {
             slidesPerView: 1,
-            spaceBetween: 40,
+            spaceBetween: 0,
           },
           1024: {
             slidesPerView: 1,

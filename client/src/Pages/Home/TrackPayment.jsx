@@ -123,12 +123,12 @@ const TrackPayment = () => {
                   />
                 </div>
                 <div className="mt-6">
-                  <buttn
+                  <button
                     to="/about-us"
                     className="text-brand border border-brand py-2 px-6 font-light rounded-lg tracking-wide hover:bg-brand hover:text-white transition-all duration-300 cursor-pointer"
                   >
                     Track
-                  </buttn>
+                  </button>
                 </div>
               </div>
             </div>
