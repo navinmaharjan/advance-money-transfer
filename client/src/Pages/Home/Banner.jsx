@@ -20,10 +20,10 @@ const Banner = () => {
         // effect="fade"
         fadeEffect={{ crossFade: true }}
         centeredSlides={false}
-        // autoplay={{
-        //   delay: 4500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 4500,
+          disableOnInteraction: false,
+        }}
         pagination={{
           clickable: true,
         }}

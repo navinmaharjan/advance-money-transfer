@@ -29,7 +29,8 @@ const TeamMember = () => {
             <p className="text-slate-700 text-xl font-semibold">
               {item.designation}
             </p>
-            <p className="text-slate-500 text-xl">{item.contact}</p>
+           
+            <p className="text-slate-500 text-xl">{item.name}</p>
           </div>
         ))}
       </div>

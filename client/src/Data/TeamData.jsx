@@ -3,31 +3,31 @@ const TeamData = [
         'id': 1,
         'teamMemberImage': '/TeamMembers/chairman.jpeg',
         'designation': 'Chairman',
-        'contact': 9841234576
+        'name': 'Saraswati Gautam Gyawali'
     },
     {
         'id': 2,
         'teamMemberImage': '/TeamMembers/director.jpeg',
-        'designation': 'Director',
-        'contact': 9841234576
+        'designation': 'Director(Former Chairman)',
+        'name': 'Krishna Prasad Gyawali'
     },
     {
         'id': 3,
-        'teamMemberImage': '/TeamMembers/md.jpeg',
-        'designation': 'Managing Director',
-        'contact': 9841234576
+        'teamMemberImage': '/TeamMembers/gm.jpeg',
+        'designation': 'General Manager',
+        'name': 'Krishna Prasad Gyawali'
     },
     {
         'id': 4,
-        'teamMemberImage': '/TeamMembers/accountant.jpeg',
-        'designation': 'Accountant',
-        'contact': 9841234576
+        'teamMemberImage': '/TeamMembers/finance.jpeg',
+        'designation': 'Finance Head',
+        'name': 'Damodar Gyawali'
     },
     {
         'id': 5,
         'teamMemberImage': '/TeamMembers/compliance.jpeg',
-        'designation': 'Compliance Department',
-        'contact': 9841234576
+        'designation': 'Compliance',
+        'name': 'Arpana Gajurel'
     }
 ]
 export default TeamData

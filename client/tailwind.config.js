@@ -52,14 +52,24 @@ export default {
           "0%": { left: '0px' },
           "100%": { left: '-200px' },
         },
+        dropdownAnimation: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 10 },
+        },
+        dropdownAnimation2: {
+          "0%": { opacity: 10 },
+          "100%": { opacity: 0 },
+        },
       },
       animation: {
         contactAnimation: "contact 5s linear infinite",
         quickLinkAnimation: "quickLinks 5s linear infinite",
         usefulLinkAnimation: "usefulLinks 5s linear infinite",
-        // bannerScaleAnimation: "bannerScale 10s linear infinite",
+        bannerScaleAnimation: "bannerScale 10s linear infinite",
         menuTransformAnimation: "menuTransform 0.3s linear forwards",
         menuTransformAnimation2: "menuTransform2 0.3s linear forwards",
+        dropdown: "dropdownAnimation 0.3s linear forwards",
+        dropdown2: "dropdownAnimation2 0.3s linear forwards"
       },
     },
   },
