@@ -81,7 +81,7 @@ const Header = () => {
                   <li> Home </li>
                 </Link>
                 <Link>
-                  <li onClick={handleMobileNav}> About Company </li>
+                  <li onClick={handleMobileNav}> About Us </li>
                   {aboutCompany && (
                     <div className=" w-[220px] top-10 left-0 bg-offWhite">
                       <ul className={`shadow-xl`}>
@@ -189,42 +189,52 @@ const Header = () => {
                 onMouseEnter={() => setAboutUs(true)}
                 onMouseLeave={() => setAboutUs(false)}
               >
-                About Company
+                About Us
                 {aboutUs && (
                   <div
-                    className={`bg-white absolute top-[52px] left-0 w-[200px] ${dropdownAnimation()}`}
+                    className={`bg-white absolute top-[52px] left-0 w-[250px] ${dropdownAnimation()}`}
                   >
                     <ul className={`shadow-xl`}>
                       <Link to="/about-us">
                         <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
-                          About Us
-                        </li>
-                      </Link>
-                      <Link to="/company-profile">
-                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
                           Corporate Profile
                         </li>
                       </Link>
+                      {/* <Link to="/company-profile">
+                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
+                          Corporate Profile
+                        </li>
+                      </Link> */}
                       <Link to="/ourteam">
                         <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
                           Our Team
                         </li>
                       </Link>
-                      <Link to="/managment">
+                      <Link to="/vision-mission-commitment">
+                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
+                          Vision Mission & Commitment
+                        </li>
+                      </Link>
+                      <Link to="/why-choose-us">
+                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
+                          Why Choose Us
+                        </li>
+                      </Link>
+                      {/* <Link to="/managment">
                         <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
                           Managment
                         </li>
-                      </Link>
-                      <Link to="/product-services">
+                      </Link> */}
+                      {/* <Link to="/product-services">
                         <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
                           Our Product & Services
                         </li>
-                      </Link>
-                      <Link to="/our-network">
+                      </Link> */}
+                      {/* <Link to="/our-network">
                         <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
                           Our Network
                         </li>
-                      </Link>
+                      </Link> */}
                       <Link to="/affiliate-company">
                         <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
                           Affiliate Company
@@ -240,7 +250,7 @@ const Header = () => {
                 )}
               </li>
 
-              <Link to="/network">
+              <Link to="/our-network">
                 <li
                   className={`hover:text-brand transition-colors duration-300 text-base sm:text-sm py-4 
                     ${activeLink === 2 ? "text-brand" : "text-slate-700"}`}

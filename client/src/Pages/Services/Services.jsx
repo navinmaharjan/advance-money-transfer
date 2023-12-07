@@ -31,15 +31,7 @@ const Services = () => {
                 Immediate <span className="text-brand">Cash</span>
               </h1>
               <p className="sm:mr-20 text-base text-slate-600">
-                One of the most popular payout methods for international money
-                transfers from anywhere in the world to any location in Nepal is
-                cash transfer; it's straightforward, easy to use, speedy, and
-                hassle-free. Money can be sent in cash and received in cash by
-                the recipient in a matter of minutes. A control number is sent
-                to you when you send money, and you must give it to the
-                recipient. To accept the funds, the recipient goes to an Advance
-                Money Transfer agent and presents a legitimate ID along with the
-                Control No.
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, omnis quo. Iure doloremque sed animi neque molestias accusantium, consequuntur eaque ipsa natus esse temporibus ratione qui voluptatibus possimus pariatur sequi voluptas explicabo nisi quasi sapiente. Quis, hic facilis? Exercitationem et aliquid quisquam illo laborum, voluptate quos dolores, dicta at sunt odit fugiat. Obcaecati voluptates soluta sint? Consequatur omnis dolores, libero ipsa illum quas iusto natus veniam. Numquam, quaerat quam odit beatae cum labore nulla maiores asperiores, nam, eius dolores officia quo unde ratione possimus id repellat voluptatem nihil sequi culpa iure tenetur obcaecati! Rerum porro adipisci hic dicta qui temporibus.
               </p>
             </div>
             <div className="w-full sm:w-1/2">
@@ -70,15 +62,7 @@ const Services = () => {
             <div className="sm:w-1/2 order-1 sm:order-2">
               <h1 className="text-2xl sm:text-2xl sm:pb-4">Deposits</h1>
               <p className="sm:mr-20 text-base text-slate-600">
-                One of the most popular payout methods for international money
-                transfers from anywhere in the world to any location in Nepal is
-                cash transfer; it's straightforward, easy to use, speedy, and
-                hassle-free. Money can be sent in cash and received in cash by
-                the recipient in a matter of minutes. A control number is sent
-                to you when you send money, and you must give it to the
-                recipient. To accept the funds, the recipient goes to an Advance
-                Money Transfer agent and presents a legitimate ID along with the
-                Control No.
+              Arrange to deposits -total and/or portion of the "send money" as instructed by the "sender" in bank account. Arrange to deposits -total and/or portion of the "send money" as instructed by the "sender" in bank account. Arrange to deposits -total and/or portion of the "send money" as instructed by the "sender" in bank account. Arrange to deposits -total and/or portion of the "send money" as instructed by the "sender" in bank account.Arrange to deposits -total and/or portion of the "send money" as instructed by the "sender" in bank account. Arrange to deposits -total and/or portion of the "send money" as instructed by the "sender" in bank account. Arrange to deposits -total and/or portion of the "send money" as instructed by the "sender" in bank account. Arrange to deposits -total and/or portion of the "send money" as instructed by the "sender" in bank account.
               </p>
             </div>
           </div>
@@ -93,15 +77,7 @@ const Services = () => {
                 Disable <span className="text-brand">Customers</span>
               </h1>
               <p className="sm:mr-20 text-base text-slate-600">
-                One of the most popular payout methods for international money
-                transfers from anywhere in the world to any location in Nepal is
-                cash transfer; it's straightforward, easy to use, speedy, and
-                hassle-free. Money can be sent in cash and received in cash by
-                the recipient in a matter of minutes. A control number is sent
-                to you when you send money, and you must give it to the
-                recipient. To accept the funds, the recipient goes to an Advance
-                Money Transfer agent and presents a legitimate ID along with the
-                Control No.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, aliquid, blanditiis obcaecati eos odio rem, a magnam assumenda minima quasi voluptatem placeat dolores tempora harum voluptatum voluptate facere veritatis quae tenetur! Vitae dolore recusandae quas, suscipit adipisci nostrum quod incidunt? Exercitationem praesentium maiores qui soluta molestiae. Excepturi, voluptas recusandae! Blanditiis exercitationem, sit doloremque architecto deleniti alias hic in soluta minus maiores fugit. Voluptatum sapiente quos tenetur minima, ipsa enim voluptates fugiat facilis ab dolorum eum explicabo distinctio porro dicta numquam, atque assumenda, praesentium eos! Consequatur harum cumque, dolores quibusdam fugit blanditiis quos numquam suscipit rem doloremque tempore nesciunt velit. Earum.
               </p>
             </div>
             <div className="w-full sm:w-1/2">
@@ -135,15 +111,7 @@ const Services = () => {
                 <span>Wallet</span>
               </h1>
               <p className="sm:mr-20 text-base text-slate-600">
-                One of the most popular payout methods for international money
-                transfers from anywhere in the world to any location in Nepal is
-                cash transfer; it's straightforward, easy to use, speedy, and
-                hassle-free. Money can be sent in cash and received in cash by
-                the recipient in a matter of minutes. A control number is sent
-                to you when you send money, and you must give it to the
-                recipient. To accept the funds, the recipient goes to an Advance
-                Money Transfer agent and presents a legitimate ID along with the
-                Control No.
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos assumenda excepturi fuga minus earum delectus vero unde quas et veniam reprehenderit, iusto eaque, repellendus quos tenetur incidunt esse odio quae quibusdam nisi sed enim dolorum? Libero ex dicta, ab at quae corporis aspernatur dolores pariatur asperiores vero a aut distinctio, officia quas, reprehenderit natus. Nihil animi, repellat reprehenderit distinctio accusamus id quas laudantium ad explicabo soluta tempore, dolore molestiae. Amet assumenda corporis vero? Vel fugit, aperiam necessitatibus, consequatur ullam pariatur veritatis incidunt fugiat sapiente quis quod repellat quia ratione facere. Perferendis et commodi porro, id animi maiores debitis fugit similique soluta tenetur voluptatibus, aspernatur voluptates illum dignissimos alias molestiae quia. Culpa eum ad minus quas illo! Quos, necessitatibus vel!
               </p>
             </div>
           </div>

@@ -17,6 +17,8 @@ import OurNetwork from "./Pages/FooterLinks/OurNetwork";
 import AffiliateCompany from "./Pages/FooterLinks/AffiliateCompany";
 import AnitMoneyLaundering from "./Pages/FooterLinks/AnitMoneyLaundering";
 import FAQ from "./Pages/FooterLinks/FAQ";
+import MissionVision from "./Pages/FooterLinks/MissionVision";
+import WhyChoose from "./Pages/FooterLinks/WhyChoose";
 
 const App = () => {
  
@@ -34,6 +36,8 @@ const App = () => {
         <Route path="/company-profile" element={<CompanyProfile/>} />
         <Route path="/managment" element={<Managment/>} />
         <Route path="/ourteam" element={<OurTeam/>} />
+        <Route path="/vision-mission-commitment" element={<MissionVision/>} />
+        <Route path="/why-choose-us" element={<WhyChoose/>} />
         <Route path="/product-services" element={<ProductServices/>} />
         <Route path="/our-network" element={<OurNetwork/>} />
         <Route path="/affiliate-company" element={<AffiliateCompany/>} />

@@ -19,14 +19,20 @@ const TeamData = [
     },
     {
         'id': 4,
-        'teamMemberImage': '/TeamMembers/finance.jpeg',
-        'designation': 'Finance Head',
-        'name': 'Damodar Gnawali'
+        'teamMemberImage': '/TeamMembers/gm.jpeg',
+        'designation': 'Consulate',
+        'name': 'Name To Be Added'
     },
     {
         'id': 5,
+        'teamMemberImage': '/TeamMembers/finance.jpeg',
+        'designation': 'Finance Deparment',
+        'name': 'Damodar Gnawali'
+    },
+    {
+        'id': 6,
         'teamMemberImage': '/TeamMembers/compliance.jpeg',
-        'designation': 'Compliance',
+        'designation': 'Compliance Deparment',
         'name': 'Arpana Gajurel'
     }
 ]

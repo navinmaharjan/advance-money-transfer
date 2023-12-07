@@ -6,7 +6,7 @@ const TrackPayment = () => {
       <div className="bg-white">
         <div className="container mx-auto  py-4 sm:py-16">
           <div className="flex gap-5 sm:gap-10 px-4 sm:px-0 flex-col sm:flex-row">
-            <div className="w-full sm:w-1/2 bg-offWhite p-5 shadow-xl">
+            <div className="w-full sm:w-1/2 bg-offWhite p-5 shadow-xl overflow-y-scroll h-[350px]">
               <h3 className="text-xl sm:text-2xl font-light">
                 Service <span className="text-brand">Charges</span>
               </h3>
@@ -82,10 +82,22 @@ const TrackPayment = () => {
                     <p>--</p>
                   </div>
                 </div>
+
+                <div className="flex bg-white">
+                  <div className="w-1/3 p-2 sm:text-base">
+                    <p>India</p>
+                  </div>
+                  <div className="w-1/3 p-2 sm:text-base">
+                    <p>--</p>
+                  </div>
+                  <div className="w-1/3 p-2 sm:text-base">
+                    <p>--</p>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div className="sm:w-1/2 bg-offWhite p-5 shadow-xl">
+            <div className="sm:w-1/2 bg-offWhite p-5 shadow-xl ">
               <h3 className="text-2xl font-light">
                 Track Your <span className="text-brand">Payment</span>
               </h3>

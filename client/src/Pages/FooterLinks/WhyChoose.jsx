@@ -1,7 +1,7 @@
 import Banner from "../../assets/bannerImages/bannerImage-3.jpg";
-import TeamMember from "../AboutUs/TeamMember";
 
-const CompanyProfile = () => {
+
+const WhyChoose = () => {
   22;
   return (
     <>
@@ -14,51 +14,15 @@ const CompanyProfile = () => {
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
           <h3 className="text-2xl sm:text-2xl text-white font-semibold tracking-wide">
-            Our Team
+          Why Choose Us
           </h3>
         </div>
       </div>
       <div className="bg-offWhite">
-        <div className="sm:w-1/2 container mx-auto text-base text-slate-700  py-4 px-4 sm:px-0">
-          <div>
-            <TeamMember />
-          </div>
-
-          <div className=" container mx-auto text-base text-slate-700  py-4 sm:py-8 px-4 sm:px-0">
-            <p>
-              The AMT is leaded by chairman{" "}
-              <span className="font-semibold">Saraswati Gautam Gyawali</span>, a
-              young and successful professional. She is the MD of Union
-              International Tours and Travel Pvt Ltd, Union Real Estate Pvt.
-              Ltd. She is also a director of Kumari Bank Limited, Agantuk
-              Resort, Manang Air Pvt. Ltd, Thamel Hotel and Sweet (Ramada
-              Incore). Mrs. Gyawali's envision brings a very successful track
-              record in all her ventures. Her management style is innovative to
-              run the organization with best corporate culture. General Manager
-              Saraswati Gautam Gyawali holding MBA with several years of
-              experience in the management sector supporting chairman as key
-              person in the company.
-            </p>
-          </div>
-          <p className="pb-8">
-            Our company has latest technologies and equipment for remittance
-            services. We currently have 11 skilled staffs in head office
-            actively performing their tasks. They all are capable of handling
-            any problems in day to day operations including sub agency
-            recruitment process, keeping account records, day to day operations,
-            maintaining good relations with customers, principals, branches, sub
-            agents and with banks. We always keep sufficient cash reserve
-            balance in our head office and branches and especially, we select
-            the sub agents that have the good financial background and we send
-            the paid amount on the vary next of the transaction. So there are
-            not any chances of shortage of monies in our branches and sub agent
-            locations. Regarding the problems encountered by receivers or
-            beneficiaries in receiving money, our branches and sub agents try to
-            solve the issues by themselves if any problem that cannot be solved,
-            they instantly inform through phoning, live online msn, emailing,
-            faxing to concerned areas.
-          </p>
-
+        <div className="sm:w-1/2 container mx-auto text-base text-slate-700  py-8 px-4 sm:px-0"  data-aos="zoom-in"
+        data-aos-duration="2500"
+        data-aos-once="true">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolorem nostrum laborum commodi nisi cupiditate adipisci iure quisquam! Nostrum fugiat est quisquam mollitia, maiores, accusamus quidem nulla culpa pariatur ab cum omnis enim non ad quo. Maiores cupiditate provident inventore, quisquam, harum hic asperiores quae quam minus suscipit esse architecto eligendi, qui rem sunt? Reiciendis, cum illum quam dolores commodi dolor omnis cupiditate nesciunt neque asperiores. Libero, fuga hic aliquam ducimus similique repellendus odio maxime cupiditate obcaecati fugit architecto sunt laborum quos nihil odit? Saepe consequatur excepturi cum obcaecati. Aperiam quod natus nisi, quaerat eveniet sapiente harum, consequuntur recusandae similique deleniti esse fugit, in illum ipsum error minima? Laborum aut aliquam ipsum ad commodi. Iusto molestiae similique atque veritatis, nulla aperiam, explicabo voluptate dicta asperiores maxime consectetur natus, ullam amet cumque facere delectus. Expedita esse fuga ipsam culpa, recusandae minus veritatis rem dolorum porro, velit tempora et ullam magni doloribus, corrupti debitis nobis dicta libero iure? Quaerat harum ab pariatur qui voluptatibus dolore ad ducimus asperiores impedit. Asperiores doloremque rem qui tenetur ad doloribus harum earum tempora nihil tempore, at repellendus porro, repudiandae sequi facere sunt officia nisi amet eveniet ullam error totam dolor consequuntur magni. Repudiandae ut dolor officia, perspiciatis tenetur velit vero amet sed explicabo cum id deleniti dolorum nobis quae, odio veniam a fuga earum? Architecto nam nihil praesentium odio esse minima, modi repellat deleniti aspernatur velit explicabo non veritatis error odit rerum quis rem tempore maxime iure temporibus distinctio obcaecati autem eveniet! Cum dignissimos sapiente recusandae, optio reiciendis dolores, sequi laboriosam eligendi, sint harum voluptatem quia! Quia ratione mollitia unde! Aperiam, sapiente doloribus similique sint ex fugiat obcaecati modi voluptatum officia, odio minus, molestias non nobis. Explicabo corrupti, reprehenderit, omnis veniam illum animi dolorem pariatur ea facilis, magnam quo quam vitae cum assumenda rerum. Nihil, harum?</p>
           {/* <h3 className="pt-4 font-semibold text-lg">Our Vision</h3>
           <p>
             Our vision is to run our business as a leading money transfer
@@ -112,4 +76,4 @@ const CompanyProfile = () => {
   );
 };
 
-export default CompanyProfile;
+export default WhyChoose;
