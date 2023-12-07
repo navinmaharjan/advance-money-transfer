@@ -45,12 +45,12 @@ export default {
           "100%": { transform: 'scale(1.2)' },
         },
         menuTransform: {
-          "0%": { left: '-200px' },
+          "0%": { left: '-320px' },
           "100%": { left: '0px' },
         },
         menuTransform2: {
           "0%": { left: '0px' },
-          "100%": { left: '-200px' },
+          "100%": { left: '-320px' },
         },
         dropdownAnimation: {
           "0%": { opacity: 0 },

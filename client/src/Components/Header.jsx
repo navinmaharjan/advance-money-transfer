@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 const Header = () => {
   const [aboutUs, setAboutUs] = useState(false);
+  const [aboutCompany, setAboutCompany] = useState(false);
   const [activeLink, setActiveLink] = useState(0);
   const location = useLocation();
   const [nav, setNav] = useState(true);
@@ -34,6 +35,13 @@ const Header = () => {
 
   const handleNav = () => {
     setNav(!nav);
+
+  };
+
+  const handleMobileNav = () => {
+    setAboutCompany(!aboutCompany);
+    // setNav(!nav);
+   
   };
 
   const determineAnimationClass = () => {
@@ -69,7 +77,7 @@ const Header = () => {
           <nav className={`${!nav ? `flex justify-center` : `flex-none`}`}>
             {/* {!nav && ( */}
             <div
-              className={`h-screen  fixed left-0 sm:hidden w-[200px] ${determineAnimationClass()} `}
+              className={`h-screen  fixed left-0 sm:hidden w-[320px] ${determineAnimationClass()} `}
             >
               {/* -------- mobile menu only --------- */}
               <ul className="flex flex-col text-white bg-black h-screen  pt-20 pl-8 gap-6 uppercase tracking-widest">
@@ -77,8 +85,56 @@ const Header = () => {
                 <Link to="/" onClick={handleNav}>
                   <li> Home </li>
                 </Link>
-                <Link to="/about-us" onClick={handleNav}>
-                  <li> About Us </li>
+                <Link >
+                  <li onClick={handleMobileNav}> About Company </li>
+                    {aboutCompany && (
+                        <div className=" w-[260px]  top-10 left-0 bg-offWhite">
+                             <ul className={`shadow-xl`}>
+                      <Link to="/about-us" onClick={handleNav}>
+                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite" onClick={handleMobileNav}>
+                        About Us
+                        </li>
+                      </Link>
+                      <Link to="/company-profile" onClick={handleNav}>
+                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite" onClick={handleMobileNav}>
+                          Corporate Profile
+                        </li>
+                      </Link>
+                      <Link to="/ourteam" onClick={handleNav}>
+                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite" onClick={handleMobileNav}>
+                          Our Team
+                        </li>
+                      </Link>
+                      <Link to="/managment" onClick={handleNav}>
+                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite" onClick={handleMobileNav}>
+                          Managment
+                        </li>
+                      </Link>
+                      <Link to="/product-services" onClick={handleNav}>
+                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite" onClick={handleMobileNav}>
+                          Our Product & Services
+                        </li>
+                      </Link>
+                      <Link to="/our-network" onClick={handleNav}>
+                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite" onClick={handleMobileNav}>
+                          Our Network
+                        </li>
+                      </Link>
+                      <Link to="/affiliate-company" onClick={handleNav}>
+                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite" onClick={handleMobileNav}>
+                          Affiliate Company
+                        </li>
+                      </Link>
+                      <Link to="/anti-money-laundering" onClick={handleNav}>
+                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite" onClick={handleMobileNav}>
+                          Anti Money Laundering
+                        </li>
+                      </Link>
+                    </ul>
+                        </div>
+                    )}
+                    
+         
                 </Link>
                 <Link to="/network" onClick={handleNav}>
                   <li> Network </li>
