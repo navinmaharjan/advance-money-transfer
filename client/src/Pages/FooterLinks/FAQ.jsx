@@ -4,7 +4,7 @@ const CompanyProfile = () => {
   22;
   return (
     <>
-      <div className="relative w-full h-20 sm:h-60">
+      <div className="relative w-full h-20 sm:h-40">
         {/* <div className="absolute w-full h-60 bg-black opacity-50 z-10"></div> */}
         <img
           src={Banner}
@@ -18,9 +18,9 @@ const CompanyProfile = () => {
         </div>
       </div>
       <div className="bg-offWhite">
-        <div className="w-1/2 container mx-auto text-xl text-slate-700  py-4 sm:py-16">
+        <div className="sm:w-1/2 container mx-auto text-base text-slate-700  py-4 sm:py-16 px-4 sm:px-0">
           <div className="pb-4">
-            <h3 className="text-xl font-semibold">
+            <h3 className="text-lg font-semibold">
               {" "}
               <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;What
               is this Service?
@@ -33,7 +33,7 @@ const CompanyProfile = () => {
             </p>
           </div>
           <div className="pb-4">
-            <h3 className="text-xl font-semibold">
+            <h3 className="text-lg font-semibold">
               <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;How
               long does it take to reach my money?
             </h3>
@@ -45,7 +45,7 @@ const CompanyProfile = () => {
             </p>
           </div>
           <div className="pb-4">
-            <h3 className="text-xl font-semibold">
+            <h3 className="text-lg font-semibold">
               <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;Does
               my beneficiaries are informed?
             </h3>
@@ -59,7 +59,7 @@ const CompanyProfile = () => {
             </p>
           </div>
           <div className="pb-4">
-            <h3 className="text-xl font-semibold">
+            <h3 className="text-lg font-semibold">
               <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;Why
               choose this service?
             </h3>
@@ -70,7 +70,7 @@ const CompanyProfile = () => {
             </p>
           </div>
           <div className="pb-4">
-            <h3 className="text-xl font-semibold">
+            <h3 className="text-lg font-semibold">
               <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;Is my
               money safe?
             </h3>
@@ -85,7 +85,7 @@ const CompanyProfile = () => {
           </div>
 
           <div className="pb-4">
-            <h3 className="text-xl font-semibold">
+            <h3 className="text-lg font-semibold">
               <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;What
               are the payment modes offered by Advance Money Transfer?
             </h3>

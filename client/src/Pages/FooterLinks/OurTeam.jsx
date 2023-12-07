@@ -18,7 +18,7 @@ const CompanyProfile = () => {
         </div>
       </div>
       <div className="bg-offWhite">
-        <div className="w-1/2 container mx-auto text-base text-slate-700  py-4 sm:py-16">
+        <div className="sm:w-1/2 container mx-auto text-base text-slate-700  py-4 sm:py-16 px-4 sm:px-0">
           <p>
             Our company has latest technologies and equipment for remittance
             services. We currently have 11 skilled staffs in head office

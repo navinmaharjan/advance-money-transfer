@@ -17,7 +17,7 @@ const CompanyProfile = () => {22
         </div>
       </div>
       <div className="bg-offWhite">
-        <div className="w-1/2 container mx-auto text-base text-slate-700  py-4 sm:py-16">
+        <div className="sm:w-1/2 container mx-auto text-base text-slate-700  py-4 sm:py-16 px-4 sm:px-0">
           <p className="pb-2">
             <span className="text-lg font-semibold">
               Advance Money Transfer Pvt. Ltd.

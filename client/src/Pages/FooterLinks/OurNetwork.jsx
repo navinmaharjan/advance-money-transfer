@@ -18,7 +18,7 @@ const CompanyProfile = () => {
         </div>
       </div>
       <div className="bg-offWhite">
-        <div className="w-1/2 container mx-auto text-base text-slate-700  py-4 sm:py-24">
+        <div className="sm:w-1/2 container mx-auto text-base text-slate-700  py-4 sm:py-24 px-4 sm:px-0">
           <p>
           We have strategic confederation with leading remittance companies in the world, such as  Hong Kong, and Israel. We have established international network offices in Hong Kong, Korea and UK. In addition, we have authorized agents scattered around the world- in the USA, Japan, Malaysia, Germany, China, Australia etc.
           </p>

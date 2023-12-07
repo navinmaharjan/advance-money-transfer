@@ -44,14 +44,6 @@ export default {
           "0%": { transform: 'scale(1)' },
           "100%": { transform: 'scale(1.2)' },
         },
-        menuTransform: {
-          "0%": { left: '-320px' },
-          "100%": { left: '0px' },
-        },
-        menuTransform2: {
-          "0%": { left: '0px' },
-          "100%": { left: '-320px' },
-        },
         dropdownAnimation: {
           "0%": { opacity: 0 },
           "100%": { opacity: 10 },
@@ -66,8 +58,6 @@ export default {
         quickLinkAnimation: "quickLinks 5s linear infinite",
         usefulLinkAnimation: "usefulLinks 5s linear infinite",
         bannerScaleAnimation: "bannerScale 10s linear infinite",
-        menuTransformAnimation: "menuTransform 0.3s linear forwards",
-        menuTransformAnimation2: "menuTransform2 0.3s linear forwards",
         dropdown: "dropdownAnimation 0.3s linear forwards",
         dropdown2: "dropdownAnimation2 0.3s linear forwards"
       },

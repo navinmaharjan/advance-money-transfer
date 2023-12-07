@@ -18,7 +18,7 @@ const CompanyProfile = () => {
         </div>
       </div>
       <div className="bg-offWhite">
-        <div className="w-1/2 container mx-auto text-base text-slate-700  py-4 sm:py-20">
+        <div className="sm:w-1/2 container mx-auto text-base text-slate-700  py-4 sm:py-20 px-4 sm:px-0">
           <p>
             The AMT is leaded by chairman <span className="font-semibold">Mr Krishna Prasad Gnawali</span>, a young and
             successful professional. He is the M D of Union International Tours

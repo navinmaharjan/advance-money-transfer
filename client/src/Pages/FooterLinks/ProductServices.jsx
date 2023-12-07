@@ -18,7 +18,7 @@ const CompanyProfile = () => {
         </div>
       </div>
       <div className="bg-offWhite">
-        <div className="w-1/2 container mx-auto text-base text-slate-700  py-4 sm:py-20">
+        <div className="sm:w-1/2 container mx-auto text-base text-slate-700  py-4 sm:py-20 px-4 sm:px-0">
           <p>
             AMT Remit is an online money transfer product developed by the
             company to facilitate money transfer to Nepal with the uses of

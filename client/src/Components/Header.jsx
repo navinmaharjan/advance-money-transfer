@@ -7,7 +7,7 @@ const Header = () => {
   const [aboutCompany, setAboutCompany] = useState(false);
   const [activeLink, setActiveLink] = useState(0);
   const location = useLocation();
-  const [nav, setNav] = useState(true);
+  const [nav, setNav] = useState(false);
   // const [dropdown, setDropdown] = useState(false)
   useEffect(() => {
     const determineActiveLink = () => {
@@ -35,24 +35,20 @@ const Header = () => {
 
   const handleNav = () => {
     setNav(!nav);
-
+    if (!nav) {
+      document.body.classList.add('overflow-hidden');
+  } else {
+      document.body.classList.remove('overflow-hidden');
+  }
   };
 
   const handleMobileNav = () => {
     setAboutCompany(!aboutCompany);
-    // setNav(!nav);
-   
   };
-
-  const determineAnimationClass = () => {
-    return nav
-      ? "animate-menuTransformAnimation2"
-      : "animate-menuTransformAnimation";
-  };
-
   const dropdownAnimation = () => {
-    return nav ? "animate-dropdown" : "animate-dropdown2";
+    return nav ? "animate-dropdown2" : "animate-dropdown";
   };
+  
   return (
     <>
       <div className={`sticky top-0 left-0 z-30 bg-white shadow-md`}>
@@ -74,67 +70,88 @@ const Header = () => {
           </Link>
 
           {/* ---------Nav Area-------- */}
-          <nav className={`${!nav ? `flex justify-center` : `flex-none`}`}>
+          <nav className={`${nav ? `flex justify-center` : `flex-none`}`}>
             {/* {!nav && ( */}
             <div
-              className={`h-screen  fixed left-0 sm:hidden w-[320px] ${determineAnimationClass()} `}
+              className={`fixed sm:hidden w-[280px] transition-all duration-300 ${!nav ? `-left-[280px]` : `left-0`}`}
             >
               {/* -------- mobile menu only --------- */}
               <ul className="flex flex-col text-white bg-black h-screen  pt-20 pl-8 gap-6 uppercase tracking-widest">
-                {/* <i className="fa-solid fa-xmark text-xl text-brand" onClick={handleClose}></i> */}
                 <Link to="/" onClick={handleNav}>
                   <li> Home </li>
                 </Link>
-                <Link >
+                <Link>
                   <li onClick={handleMobileNav}> About Company </li>
-                    {aboutCompany && (
-                        <div className=" w-[260px]  top-10 left-0 bg-offWhite">
-                             <ul className={`shadow-xl`}>
-                      <Link to="/about-us" onClick={handleNav}>
-                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite" onClick={handleMobileNav}>
-                        About Us
-                        </li>
-                      </Link>
-                      <Link to="/company-profile" onClick={handleNav}>
-                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite" onClick={handleMobileNav}>
-                          Corporate Profile
-                        </li>
-                      </Link>
-                      <Link to="/ourteam" onClick={handleNav}>
-                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite" onClick={handleMobileNav}>
-                          Our Team
-                        </li>
-                      </Link>
-                      <Link to="/managment" onClick={handleNav}>
-                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite" onClick={handleMobileNav}>
-                          Managment
-                        </li>
-                      </Link>
-                      <Link to="/product-services" onClick={handleNav}>
-                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite" onClick={handleMobileNav}>
-                          Our Product & Services
-                        </li>
-                      </Link>
-                      <Link to="/our-network" onClick={handleNav}>
-                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite" onClick={handleMobileNav}>
-                          Our Network
-                        </li>
-                      </Link>
-                      <Link to="/affiliate-company" onClick={handleNav}>
-                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite" onClick={handleMobileNav}>
-                          Affiliate Company
-                        </li>
-                      </Link>
-                      <Link to="/anti-money-laundering" onClick={handleNav}>
-                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite" onClick={handleMobileNav}>
-                          Anti Money Laundering
-                        </li>
-                      </Link>
-                    </ul>
-                        </div>
-                    )}
-                    
-         
+                  {aboutCompany && (
+                    <div className=" w-[220px] top-10 left-0 bg-offWhite">
+                      <ul className={`shadow-xl`}>
+                        <Link to="/about-us" onClick={handleNav}>
+                          <li
+                            className="py-2 px-4 text-slate-700 hover:bg-offWhite"
+                            onClick={handleMobileNav}
+                          >
+                            About Us
+                          </li>
+                        </Link>
+                        <Link to="/company-profile" onClick={handleNav}>
+                          <li
+                            className="py-2 px-4 text-slate-700 hover:bg-offWhite"
+                            onClick={handleMobileNav}
+                          >
+                            Corporate Profile
+                          </li>
+                        </Link>
+                        <Link to="/ourteam" onClick={handleNav}>
+                          <li
+                            className="py-2 px-4 text-slate-700 hover:bg-offWhite"
+                            onClick={handleMobileNav}
+                          >
+                            Our Team
+                          </li>
+                        </Link>
+                        <Link to="/managment" onClick={handleNav}>
+                          <li
+                            className="py-2 px-4 text-slate-700 hover:bg-offWhite"
+                            onClick={handleMobileNav}
+                          >
+                            Managment
+                          </li>
+                        </Link>
+                        <Link to="/product-services" onClick={handleNav}>
+                          <li
+                            className="py-2 px-4 text-slate-700 hover:bg-offWhite"
+                            onClick={handleMobileNav}
+                          >
+                            Our Product & Services
+                          </li>
+                        </Link>
+                        <Link to="/our-network" onClick={handleNav}>
+                          <li
+                            className="py-2 px-4 text-slate-700 hover:bg-offWhite"
+                            onClick={handleMobileNav}
+                          >
+                            Our Network
+                          </li>
+                        </Link>
+                        <Link to="/affiliate-company" onClick={handleNav}>
+                          <li
+                            className="py-2 px-4 text-slate-700 hover:bg-offWhite"
+                            onClick={handleMobileNav}
+                          >
+                            Affiliate Company
+                          </li>
+                        </Link>
+                        <Link to="/anti-money-laundering" onClick={handleNav}>
+                          <li
+                            className="py-2 px-4 text-slate-700 hover:bg-offWhite"
+                            onClick={handleMobileNav}
+                          >
+                            Anti Money Laundering
+                          </li>
+                        </Link>
+                      </ul>
+                    </div>
+                  )}
                 </Link>
                 <Link to="/network" onClick={handleNav}>
                   <li> Network </li>
@@ -172,7 +189,7 @@ const Header = () => {
                 onMouseEnter={() => setAboutUs(true)}
                 onMouseLeave={() => setAboutUs(false)}
               >
-                 About Company
+                About Company
                 {aboutUs && (
                   <div
                     className={`bg-white absolute top-[52px] left-0 w-[200px] ${dropdownAnimation()}`}
@@ -180,7 +197,7 @@ const Header = () => {
                     <ul className={`shadow-xl`}>
                       <Link to="/about-us">
                         <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
-                        About Us
+                          About Us
                         </li>
                       </Link>
                       <Link to="/company-profile">
@@ -266,9 +283,9 @@ const Header = () => {
               className="sm:hidden px-4 flex gap-2  m-4 drop-shadow-xl"
             >
               {nav ? (
-                <i className="fa-solid fa-bars text-xl text-brand"></i>
-              ) : (
                 <i className="fa-solid fa-xmark text-xl text-brand"></i>
+              ) : (
+                <i className="fa-solid fa-bars text-xl text-brand"></i>
               )}
             </div>
           </nav>
