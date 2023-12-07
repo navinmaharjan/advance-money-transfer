@@ -4,7 +4,7 @@ const CompanyProfile = () => {
   22;
   return (
     <>
-      <div className="relative w-full h-20 sm:h-60">
+      <div className="relative w-full h-20 sm:h-40">
         {/* <div className="absolute w-full h-60 bg-black opacity-50 z-10"></div> */}
         <img
           src={Banner}
@@ -12,13 +12,13 @@ const CompanyProfile = () => {
           className="absolute w-full h-full object-cover"
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
-          <h3 className="text-2xl sm:text-4xl text-white font-semibold tracking-wide">
+          <h3 className="text-2xl sm:text-2xl text-white font-semibold tracking-wide">
             Our Team
           </h3>
         </div>
       </div>
       <div className="bg-offWhite">
-        <div className="w-1/2 container mx-auto text-xl text-slate-700  py-4 sm:py-16">
+        <div className="w-1/2 container mx-auto text-base text-slate-700  py-4 sm:py-16">
           <p>
             Our company has latest technologies and equipment for remittance
             services. We currently have 11 skilled staffs in head office
@@ -38,7 +38,7 @@ const CompanyProfile = () => {
             faxing to concerned areas.
           </p>
 
-          <h3 className="pt-4 font-semibold text-2xl">Our Vision</h3>
+          <h3 className="pt-4 font-semibold text-lg">Our Vision</h3>
           <p>
             Our vision is to run our business as a leading money transfer
             company. Our vision encompasses the following{" "}
@@ -59,7 +59,7 @@ const CompanyProfile = () => {
             improving all money transferring processes and services.
           </p>
 
-          <h3 className="pt-4 font-semibold text-2xl">Our Commitment</h3>
+          <h3 className="pt-4 font-semibold text-lg">Our Commitment</h3>
           <p>
             We are confident that Advance Money Transfer Pvt Ltd will creatively
             and effectively confront the challenges undoubtedly come in coming
@@ -74,7 +74,7 @@ const CompanyProfile = () => {
             within one year. We are fully committed on these objectives.
           </p>
 
-          <h3 className="pt-4 font-semibold text-2xl">Our Mission</h3>
+          <h3 className="pt-4 font-semibold text-lg">Our Mission</h3>
           <p>
             We will provide all our valued customers a very much quick, secure,
             reliable and convenient money transfer services. We promote our

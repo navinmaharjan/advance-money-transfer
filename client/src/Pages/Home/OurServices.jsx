@@ -58,7 +58,7 @@ const OurServices = () => {
               to="/services"
               className="bg-white sm:w-1/3 border p-4 sm:p-8 rounded-lg sm:h-72 flex flex-col shadow-md cursor-pointer"
             >
-              <i className="fa-brands fa-accessible-icon text-4xl sm:text-5xl text-brand  pb-4 text-center"></i>
+              <i className="fa-solid fa-wallet text-4xl sm:text-5xl text-brand  pb-4 text-center"></i>
               <h1 className="text-xl sm:text-xl text-brand text-center">
                 Wallet
               </h1>

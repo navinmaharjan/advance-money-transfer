@@ -15,13 +15,13 @@ const TeamData = [
         'id': 3,
         'teamMemberImage': '/TeamMembers/gm.jpeg',
         'designation': 'General Manager',
-        'name': 'Krishna Prasad Gyawali'
+        'name': 'Krishna Prasad Gnawali'
     },
     {
         'id': 4,
         'teamMemberImage': '/TeamMembers/finance.jpeg',
         'designation': 'Finance Head',
-        'name': 'Damodar Gyawali'
+        'name': 'Damodar Gnawali'
     },
     {
         'id': 5,

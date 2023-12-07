@@ -4,7 +4,7 @@ const CompanyProfile = () => {
   22;
   return (
     <>
-      <div className="relative w-full h-20 sm:h-60">
+      <div className="relative w-full h-20 sm:h-40">
         {/* <div className="absolute w-full h-60 bg-black opacity-50 z-10"></div> */}
         <img
           src={Banner}
@@ -12,13 +12,13 @@ const CompanyProfile = () => {
           className="absolute w-full h-full object-cover"
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
-          <h3 className="text-2xl sm:text-4xl text-white font-semibold tracking-wide">
+          <h3 className="text-2xl sm:text-2xl text-white font-semibold tracking-wide">
             Affiliate Company
           </h3>
         </div>
       </div>
       <div className="bg-offWhite">
-        <div className="w-1/2 container mx-auto text-xl text-slate-700  py-4 sm:py-48">
+        <div className="w-1/2 container mx-auto text-base text-slate-700  py-4 sm:py-20">
           <p>
             <span className="font-semibold">
               Union International Tours & Travels P Ltd{" "}

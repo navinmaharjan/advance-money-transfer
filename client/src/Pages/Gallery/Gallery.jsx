@@ -5,7 +5,7 @@ import GalleryData from "../../Data/GalleryData";
 const Gallery = () => {
   return (
     <>
-      <div className="relative w-full h-20 sm:h-60">
+      <div className="relative w-full h-20 sm:h-40">
         {/* <div className="absolute w-full h-60 bg-black opacity-50 z-10"></div> */}
         <img
           src={Banner}
@@ -13,7 +13,7 @@ const Gallery = () => {
           className="absolute w-full h-full object-cover"
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
-          <h3 className="text-2xl sm:text-4xl text-white font-semibold tracking-wide">
+          <h3 className="text-2xl sm:text-2xl text-white font-semibold tracking-wide">
             Gallery
           </h3>
         </div>
@@ -26,7 +26,7 @@ const Gallery = () => {
         >
           {GalleryData.map((item) => (
             <div >
-              <div className="relative w-[360px] sm:w-[23rem] h-80 overflow-hidden" key={item.id} >
+              <div className="relative w-[360px] sm:w-[21rem] h-72 overflow-hidden" key={item.id} >
                 <ModalImage
                   small={item.galleryImage}
                   large={item.galleryImage}

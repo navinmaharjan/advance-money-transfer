@@ -2,7 +2,7 @@ import Banner from "../../assets/bannerImages/bannerImage-3.jpg";
 const ContactUs = () => {
   return (
     <>
-      <div className="relative w-full h-20 sm:h-60">
+      <div className="relative w-full h-20 sm:h-40">
         {/* <div className="absolute w-full h-60 bg-black opacity-50 z-10"></div> */}
         <img
           src={Banner}
@@ -10,7 +10,7 @@ const ContactUs = () => {
           className="absolute w-full h-full object-cover"
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
-          <h3 className="text-2xl sm:text-4xl text-white font-semibold tracking-wide">
+          <h3 className="text-2xl sm:text-2xl text-white font-semibold tracking-wide">
             Contact Us
           </h3>
         </div>
@@ -25,7 +25,7 @@ const ContactUs = () => {
               data-aos-duration="2500"
               data-aos-once="true"
             >
-              <div className="w-full text-2xl sm:text-4xl font-light pb-4 text-center">
+              <div className="w-full text-xl sm:text-4xl font-light pb-4 text-center">
                 <h3>
                   Get in touch with <span className="text-brand">Us</span>
                 </h3>

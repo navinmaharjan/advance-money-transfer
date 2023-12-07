@@ -116,7 +116,7 @@ const Header = () => {
                 onMouseEnter={() => setAboutUs(true)}
                 onMouseLeave={() => setAboutUs(false)}
               >
-                About Company
+                 About Company
                 {aboutUs && (
                   <div
                     className={`bg-white absolute top-[52px] left-0 w-[200px] ${dropdownAnimation()}`}
@@ -124,7 +124,7 @@ const Header = () => {
                     <ul className={`shadow-xl`}>
                       <Link to="/about-us">
                         <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
-                          About Us
+                        About Us
                         </li>
                       </Link>
                       <Link to="/company-profile">
