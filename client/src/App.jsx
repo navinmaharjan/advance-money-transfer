@@ -19,6 +19,7 @@ import AnitMoneyLaundering from "./Pages/FooterLinks/AnitMoneyLaundering";
 import FAQ from "./Pages/FooterLinks/FAQ";
 import MissionVision from "./Pages/FooterLinks/MissionVision";
 import WhyChoose from "./Pages/FooterLinks/WhyChoose";
+import GoToTopButton from "./Components/GoToTop";
 
 const App = () => {
  
@@ -44,6 +45,7 @@ const App = () => {
         <Route path="/anti-money-laundering" element={<AnitMoneyLaundering/>} />
         <Route path="/FAQs" element={<FAQ/>} />
       </Routes>
+      <GoToTopButton />
       <Footer />
       <ScrollToTop />
     </BrowserRouter>
