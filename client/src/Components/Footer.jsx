@@ -90,10 +90,10 @@ const Footer = () => {
               </li>
             </Link>
 
-            <Link to="/managment">
+            <Link to="/vision-mission-commitment">
               <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
                 <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
-                Vision Mission & Commitment
+                Mission Vision & Commitment
               </li>
             </Link>
 

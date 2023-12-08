@@ -24,6 +24,8 @@ const Header = () => {
         return 4;
       } else if (path === "/contact-us") {
         return 5;
+      } else if (path === "/notice") {
+        return 6;
       }
     };
     setActiveLink(determineActiveLink());
@@ -107,7 +109,7 @@ const Header = () => {
                             className="py-2 px-4 text-slate-700 hover:bg-offWhite"
                             onClick={handleMobileNav}
                           >
-                            Vision Commitment & Mission
+                            Mission Vision & Commitment
                           </li>
                         </Link>
                         <Link to="/why-choose-us" onClick={handleNav}>
@@ -198,7 +200,7 @@ const Header = () => {
                       </Link>
                       <Link to="/vision-mission-commitment">
                         <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
-                          Vision Mission & Commitment
+                        Mission Vision & Commitment
                         </li>
                       </Link>
                       <Link to="/why-choose-us">
@@ -206,21 +208,6 @@ const Header = () => {
                           Why Choose Us
                         </li>
                       </Link>
-                      {/* <Link to="/managment">
-                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
-                          Managment
-                        </li>
-                      </Link> */}
-                      {/* <Link to="/product-services">
-                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
-                          Our Product & Services
-                        </li>
-                      </Link> */}
-                      {/* <Link to="/our-network">
-                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
-                          Our Network
-                        </li>
-                      </Link> */}
                       <Link to="/affiliate-company">
                         <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
                           Affiliate Company
@@ -270,6 +257,15 @@ const Header = () => {
                   onClick={() => handleActiveLink(5)}
                 >
                   Contact Us
+                </li>
+              </Link>
+              <Link to="/notice">
+                <li
+                  className={`hover:text-brand transition-colors duration-300 text-base sm:text-sm py-4
+                    ${activeLink === 6 ? "text-brand" : "text-slate-700"}`}
+                  onClick={() => handleActiveLink(5)}
+                >
+                  Notice
                 </li>
               </Link>
             </ul>

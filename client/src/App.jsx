@@ -20,6 +20,7 @@ import FAQ from "./Pages/FooterLinks/FAQ";
 import MissionVision from "./Pages/FooterLinks/MissionVision";
 import WhyChoose from "./Pages/FooterLinks/WhyChoose";
 import GoToTopButton from "./Components/GoToTop";
+import Notice from "./Pages/Notice/Notice";
 
 const App = () => {
  
@@ -33,6 +34,7 @@ const App = () => {
         <Route path="/network" element={<Network/>} />
         <Route path="/services" element={<Services/>} />
         <Route path="/gallery" element={<Gallery/>} />
+        <Route path="/notice" element={<Notice/>} />
         <Route path="/contact-us" element={<ContactUs/>} />
         <Route path="/company-profile" element={<CompanyProfile/>} />
         <Route path="/managment" element={<Managment/>} />

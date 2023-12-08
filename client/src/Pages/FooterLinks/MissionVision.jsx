@@ -14,7 +14,7 @@ const MissionVision = () => {
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
           <h3 className="text-xl sm:text-2xl text-white font-semibold tracking-wide">
-            Vision, Commitment & Mission
+            Mission Vision & Commitment
           </h3>
         </div>
       </div>
@@ -22,6 +22,17 @@ const MissionVision = () => {
         <div className="sm:w-1/2 container mx-auto text-base text-slate-700  py-8 px-4 sm:px-0"  data-aos="zoom-in"
         data-aos-duration="2500"
         data-aos-once="true">
+           <h3 className="pt-4 font-semibold text-lg">Our Mission</h3>
+          <p>
+            We will provide all our valued customers a very much quick, secure,
+            reliable and convenient money transfer services. We promote our
+            services in such a way that every individual customer will feel and
+            enjoy the best services. We will be as near as their person
+            arranging the service centers near to your person (beneficiary). We
+            will deliver quality services with minimum service charges comparing
+            to other remittance companies. Our qualified staffs will assist all
+            customers to make them sure of using our services.
+          </p>
           <h3 className="pt-4 font-semibold text-lg">Our Vision</h3>
           <p>
             Our vision is to run our business as a leading money transfer
@@ -58,17 +69,7 @@ const MissionVision = () => {
             within one year. We are fully committed on these objectives.
           </p>
 
-          <h3 className="pt-4 font-semibold text-lg">Our Mission</h3>
-          <p>
-            We will provide all our valued customers a very much quick, secure,
-            reliable and convenient money transfer services. We promote our
-            services in such a way that every individual customer will feel and
-            enjoy the best services. We will be as near as their person
-            arranging the service centers near to your person (beneficiary). We
-            will deliver quality services with minimum service charges comparing
-            to other remittance companies. Our qualified staffs will assist all
-            customers to make them sure of using our services.
-          </p>
+         
         </div>
       </div>
     </>
