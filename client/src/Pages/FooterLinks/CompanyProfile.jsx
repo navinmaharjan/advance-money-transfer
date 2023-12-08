@@ -1,6 +1,7 @@
 import Banner from "../../assets/bannerImages/bannerImage-3.jpg";
 
-const CompanyProfile = () => {22
+const CompanyProfile = () => {
+  22;
   return (
     <>
       <div className="relative w-full h-20 sm:h-40">
@@ -51,21 +52,23 @@ const CompanyProfile = () => {22
             clients covering the entire regions in Nepal.
           </p>
 
-          <h1 className="text-lg font-semibold mt-6">AMT Group </h1>
+          <div>
+            <h1 className="text-lg font-semibold mt-6">AMT Group </h1>
 
-          <p className="pb-2">
-            Nepal's leading service sector company, the group is amongst Nepal's
-            leading corporation. It is anchored by highly qualitative and
-            professionals.
-          </p>
+            <p className="pb-2">
+              Nepal's leading service sector company, the group is amongst
+              Nepal's leading corporation. It is anchored by highly qualitative
+              and professionals.
+            </p>
 
-          <p>
-            Over the years AMT Group has emerged as a major company with a
-            dominant presence in remittance, banking, real estate, aviation,
-            hospitality, travel agency and media etc. Advance Money Transfer Pvt
-            Ltd is a wholly owned venture of AMT Group with crystal clear vision
-            and formidable presence in remittance business.
-          </p>
+            <p>
+              Over the years AMT Group has emerged as a major company with a
+              dominant presence in remittance, banking, real estate, aviation,
+              hospitality, travel agency and media etc. Advance Money Transfer
+              Pvt Ltd is a wholly owned venture of AMT Group with crystal clear
+              vision and formidable presence in remittance business.
+            </p>
+          </div>
         </div>
       </div>
     </>

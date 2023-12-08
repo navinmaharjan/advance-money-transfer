@@ -16,7 +16,7 @@ const Footer = () => {
 
           <div className="w-3/4 text-center">
             <h3 className=" font-extralight tracking-wide">
-              Your safe, easy and reliable money transfer partner
+            Relief ... Once You Remit ... Satisfaction Once Your Recieve
             </h3>
           </div>
           <div className="flex gap-4 justify-center pb-4 sm:pb-0">
@@ -52,7 +52,7 @@ const Footer = () => {
                     <i className="fa-solid fa-phone text-brand"></i>
                   </div>
                   <div>
-                    <p>+977-01-5355288</p>
+                    <a href="tel:">+977-01-5355288</a>
                   </div>
                 </div>
 
@@ -61,7 +61,8 @@ const Footer = () => {
                     <i className="fa-solid fa-envelope text-brand"></i>
                   </div>
                   <div>
-                    <p>cs@amt.remit.com</p>
+                    <a href="mailto:">cs@amt.remit.com</a>
+                   
                   </div>
                 </div>
               </div>
@@ -75,7 +76,7 @@ const Footer = () => {
             <div className="absolute bg-white p-1 top-0 animate-quickLinkAnimation hidden sm:block "></div>
           </div>
           <ul className="pt-4 flex flex-col gap-2 px-8 sm:px-0">
-            <Link to="/company-profile">
+            <Link to="/about-us">
               <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
                 <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
                 Corporate Profile
@@ -92,32 +93,17 @@ const Footer = () => {
             <Link to="/managment">
               <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
                 <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
-                Managment
+                Vision Mission & Commitment
               </li>
             </Link>
 
-            <Link to="/product-services">
+            <Link to="/why-choose-us">
               <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
                 <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
-                Our Product and Services
+                Why Choose Us
               </li>
             </Link>
 
-            <Link to="/our-network">
-              <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
-                <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
-                Our Network
-              </li>
-            </Link>
-          </ul>
-        </div>
-
-        <div className="font-roboto">
-          <h3 className="text-xl font-medium px-8 sm:px-0">Useful Links</h3>
-          <div className="relative bg-brand p-1 hidden sm:block">
-            <div className="absolute bg-white p-1 top-0 animate-usefulLinkAnimation hidden sm:block"></div>
-          </div>
-          <ul className="pt-4 flex flex-col gap-2 px-8 sm:px-0">
             <Link to="/affiliate-company">
               <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
                 <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
@@ -131,6 +117,16 @@ const Footer = () => {
                 Anti Money Laundering
               </li>
             </Link>
+          </ul>
+        </div>
+
+        <div className="font-roboto">
+          <h3 className="text-xl font-medium px-8 sm:px-0">Useful Links</h3>
+          <div className="relative bg-brand p-1 hidden sm:block">
+            <div className="absolute bg-white p-1 top-0 animate-usefulLinkAnimation hidden sm:block"></div>
+          </div>
+          <ul className="pt-4 flex flex-col gap-2 px-8 sm:px-0">
+           
             <Link to="/FAQs">
               <li className="text-slate-700 hover:text-brand transition-colors duration-300 cursor-pointer tracking-wide">
                 <i className="fa-solid fa-angle-right text-brand"></i> &nbsp;
@@ -158,7 +154,8 @@ const Footer = () => {
       <div className="bg-offWhite text-center px-4 sm:px-0">
         <p className=" text-xs text-slate-900 py-2">
           © 2008 - 2023 Advance Money Transfer. All rights reserved | Powered by
-          <span className="text-brand"> Radiant Info Tech</span>
+          <a href="https://radiantnepal.com/" target="_blank" className="text-brand">Radiant Info Tech</a>
+          
         </p>
       </div>
     </div>

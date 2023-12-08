@@ -24,7 +24,7 @@ const CompanyProfile = () => {
             <TeamMember />
           </div>
 
-          <div className=" container mx-auto text-base text-slate-700  py-4 sm:py-8 px-4 sm:px-0">
+          <div className=" container mx-auto text-base text-slate-700  py-4 sm:py-8 sm:px-0">
             <p>
               The AMT is leaded by chairman{" "}
               <span className="font-semibold">Saraswati Gautam Gyawali</span>, a

@@ -59,7 +59,7 @@ const Banner = () => {
             <img
               src={BannerImage1}
               alt="home banner"
-              className="absolute w-full h-full object-cover animate-bannerScaleAnimation"
+              className="absolute w-full h-full object-cover sm:animate-bannerScaleAnimation"
             />
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
               <h1
@@ -71,7 +71,7 @@ const Banner = () => {
               </h1>
               <div className="flex justify-center">
                 <p
-                  className="text-white sm:text-xl font-light tracking-wider bg-brand py-3 px-5 rounded-lg"
+                  className="text-white sm:text-xl font-light tracking-wider  py-3 px-5 rounded-lg"
                   data-aos="fade-up"
                   data-aos-duration="2500"
                 >
@@ -87,14 +87,14 @@ const Banner = () => {
             <img
               src={BannerImage2}
               alt="home banner"
-              className="absolute w-full h-full object-cover animate-bannerScaleAnimation"
+              className="absolute w-full h-full object-cover sm:animate-bannerScaleAnimation"
             />
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
               <h1 className="uppercase text-5xl sm:text-6xl text-white font-bold tracking-wider shadow-lg">
                 ADVANCE <span className="text-brand">MONEY</span> TRANSFER
               </h1>
               <div className="flex justify-center">
-                <p className="text-white sm:text-xl font-light tracking-wider bg-brand py-3 px-10 sm:px-20  rounded-lg">
+                <p className="text-white sm:text-xl font-light tracking-wider  py-3 px-10 sm:px-20  rounded-lg">
                   Fast Effective Reliable
                 </p>
               </div>
@@ -107,14 +107,14 @@ const Banner = () => {
             <img
               src={BannerImage6}
               alt="home banner"
-              className="absolute w-full h-full object-cover animate-bannerScaleAnimation"
+              className="absolute w-full h-full object-cover sm:animate-bannerScaleAnimation"
             />
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
               <h1 className="uppercase text-5xl sm:text-6xl text-white font-bold tracking-wider shadow-lg">
                 ADVANCE <span className="text-brand">MONEY</span> TRANSFER
               </h1>
               <div className="flex justify-center">
-                <p className="text-white sm:text-xl font-light tracking-wider bg-brand py-3 px-5 rounded-lg">
+                <p className="text-white sm:text-xl font-light tracking-wider  py-3 px-5 rounded-lg">
                   Relief ... Once You Remit ... Satisfaction Once Your Recieve
                 </p>
               </div>
@@ -127,14 +127,14 @@ const Banner = () => {
             <img
               src={BannerImage5}
               alt="home banner"
-              className="absolute w-full h-full object-cover animate-bannerScaleAnimation"
+              className="absolute w-full h-full object-cover sm:animate-bannerScaleAnimation"
             />
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
               <h1 className="uppercase text-5xl sm:text-6xl text-white font-bold tracking-wider shadow-lg">
                 ADVANCE <span className="text-brand">MONEY</span> TRANSFER
               </h1>
               <div className="flex justify-center">
-                <p className="text-white sm:text-xl font-light tracking-wider bg-brand py-3 px-10 sm:px-20 rounded-lg">
+                <p className="text-white sm:text-xl font-light tracking-wider  py-3 px-10 sm:px-20 rounded-lg">
                   Fast Effective Reliable
                 </p>
               </div>

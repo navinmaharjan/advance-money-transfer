@@ -17,7 +17,7 @@ const AboutUsHome = () => {
 
           {/* -------- paragraph --------- */}
           <div className="text-center flex flex-row justify-center">
-            <p className="text-roboto text-slate-900 sm:text-base w-3/5 tracking-normal font-extralight">
+            <p className="text-roboto text-slate-900 sm:text-base sm:w-3/5 tracking-normal font-extralight px-4 sm:px-0">
               {" "}
               Established in April 2005 Advance Money Transfer [AMT] has
               pioneered Nepalese Remittance industry near over two decades.

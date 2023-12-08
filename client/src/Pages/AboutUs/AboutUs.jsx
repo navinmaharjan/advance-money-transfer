@@ -93,7 +93,7 @@ const AboutUs = () => {
                 clients covering the entire regions in Nepal.
               </p>
 
-              <h1 className="text-lg font-semibold mt-6 mx-60">AMT Group </h1>
+              <h1 className="text-lg font-semibold mt-6 sm:mx-60">AMT Group </h1>
 
               <p className="pb-2 sm:mx-60">
                 Nepal's leading service sector company, the group is amongst
@@ -226,7 +226,7 @@ const AboutUs = () => {
               data-aos-duration="2500"
               data-aos-once="true"
             >
-              <h3 className="text-2xl sm:text-2xl font-medium font-roboto tracking-wide pb-2 text-center sm:text-left">
+              <h3 className="text-2xl sm:text-2xl font-medium font-roboto tracking-wide pb-2 text-center sm:text-left mx-10 sm:mx-0">
                 Best ways to <span className="text-brand">send money</span> from
                 us
               </h3>

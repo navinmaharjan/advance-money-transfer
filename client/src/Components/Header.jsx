@@ -90,17 +90,10 @@ const Header = () => {
                             className="py-2 px-4 text-slate-700 hover:bg-offWhite"
                             onClick={handleMobileNav}
                           >
-                            About Us
-                          </li>
-                        </Link>
-                        <Link to="/company-profile" onClick={handleNav}>
-                          <li
-                            className="py-2 px-4 text-slate-700 hover:bg-offWhite"
-                            onClick={handleMobileNav}
-                          >
                             Corporate Profile
                           </li>
                         </Link>
+                      
                         <Link to="/ourteam" onClick={handleNav}>
                           <li
                             className="py-2 px-4 text-slate-700 hover:bg-offWhite"
@@ -109,30 +102,23 @@ const Header = () => {
                             Our Team
                           </li>
                         </Link>
-                        <Link to="/managment" onClick={handleNav}>
+                        <Link to="/vision-mission-commitment" onClick={handleNav}>
                           <li
                             className="py-2 px-4 text-slate-700 hover:bg-offWhite"
                             onClick={handleMobileNav}
                           >
-                            Managment
+                            Vision Commitment & Mission
                           </li>
                         </Link>
-                        <Link to="/product-services" onClick={handleNav}>
+                        <Link to="/why-choose-us" onClick={handleNav}>
                           <li
                             className="py-2 px-4 text-slate-700 hover:bg-offWhite"
                             onClick={handleMobileNav}
                           >
-                            Our Product & Services
+                            Why Choose Us
                           </li>
                         </Link>
-                        <Link to="/our-network" onClick={handleNav}>
-                          <li
-                            className="py-2 px-4 text-slate-700 hover:bg-offWhite"
-                            onClick={handleMobileNav}
-                          >
-                            Our Network
-                          </li>
-                        </Link>
+                       
                         <Link to="/affiliate-company" onClick={handleNav}>
                           <li
                             className="py-2 px-4 text-slate-700 hover:bg-offWhite"
@@ -153,7 +139,7 @@ const Header = () => {
                     </div>
                   )}
                 </Link>
-                <Link to="/network" onClick={handleNav}>
+                <Link to="/our-network" onClick={handleNav}>
                   <li> Network </li>
                 </Link>
                 <Link to="/services" onClick={handleNav}>

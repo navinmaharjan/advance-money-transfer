@@ -13,7 +13,7 @@ const MissionVision = () => {
           className="absolute w-full h-full object-cover"
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
-          <h3 className="text-2xl sm:text-2xl text-white font-semibold tracking-wide">
+          <h3 className="text-xl sm:text-2xl text-white font-semibold tracking-wide">
             Vision, Commitment & Mission
           </h3>
         </div>
