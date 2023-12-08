@@ -8,7 +8,7 @@ const TeamData = [
     {
         'id': 2,
         'teamMemberImage': '/TeamMembers/director.jpeg',
-        'designation': 'Director(Former Chairman)',
+        'designation': 'Former Chairman',
         'name': 'Krishna Prasad Gyawali'
     },
     {
@@ -19,9 +19,9 @@ const TeamData = [
     },
     {
         'id': 4,
-        'teamMemberImage': '/TeamMembers/gm.jpeg',
-        'designation': 'Consulate',
-        'name': 'Name To Be Added'
+        'teamMemberImage': '/TeamMembers/consultant.jpeg',
+        'designation': 'Consultant',
+        'name': 'Praveen Acharya'
     },
     {
         'id': 5,

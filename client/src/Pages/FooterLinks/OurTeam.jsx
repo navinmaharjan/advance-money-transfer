@@ -39,6 +39,16 @@ const CompanyProfile = () => {
               experience in the management sector supporting chairman as key
               person in the company.
             </p>
+
+            <p className="pt-4">
+              With 22 years of experience in banking, particularly in the field
+              of remittance, <span className="font-semibold">Praveen Acharya</span> has served for 21 years in A Class
+              Commercial Banks in Nepal, including roles at Himalayan Bank
+              (Himal Remit) and Sunrise Bank (Sunrise Remit). This extensive
+              background demonstrates a profound understanding of financial
+              operations, regulatory frameworks, and the intricacies of managing
+              remittance services within the banking industry.
+            </p>
           </div>
           <p className="pb-8">
             Our company has latest technologies and equipment for remittance
