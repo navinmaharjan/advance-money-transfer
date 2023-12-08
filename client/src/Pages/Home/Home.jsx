@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import ExistingCoverage from "./ExistingCoverage";
 import OurBusinessPartners from "./OurBusinessPartners";
 import OurServices from "./OurServices";
+import Testimonial from "./Testimonial";
 import TodaysExchangeRate from "./TodaysExchangeRate";
 import TrackPayment from "./TrackPayment";
 
@@ -16,6 +17,7 @@ const Home = () => {
       <OurBusinessPartners />
       <TodaysExchangeRate />
       <TrackPayment />
+      <Testimonial />
     </>
   );
 };
