@@ -47,13 +47,17 @@ const OurBusinessPartners = () => {
               spaceBetween: 20,
             },
             768: {
-              slidesPerView: 4,
+              slidesPerView: 2,
               spaceBetween: 40,
             },
             1024: {
+              slidesPerView: 4,
+              spaceBetween: 20,
+            },
+            1280: {
               slidesPerView: 5,
               spaceBetween: 50,
-            },
+            }
           }}
         >
           <SwiperSlide className="h-60 sm:h-60 flex justify-center relative w-full ">

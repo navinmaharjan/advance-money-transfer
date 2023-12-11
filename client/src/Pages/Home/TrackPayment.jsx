@@ -5,8 +5,8 @@ const TrackPayment = () => {
     <>
       <div className="bg-white">
         <div className="container mx-auto  py-4 sm:py-16">
-          <div className="flex gap-5 sm:gap-10 px-4 sm:px-0 flex-col sm:flex-row">
-            <div className="w-full sm:w-1/2 bg-offWhite p-5 shadow-xl overflow-y-scroll h-[350px]">
+          <div className="flex gap-5 sm:gap-10 px-4 sm:px-0 flex-col xl:flex-row">
+            <div className="w-full xl:w-1/2 bg-offWhite p-5 shadow-xl overflow-y-scroll h-[350px]">
               <h3 className="text-xl sm:text-2xl font-light">
                 Service <span className="text-brand">Charges</span>
               </h3>
@@ -23,6 +23,18 @@ const TrackPayment = () => {
                   </div>
                 </div>
 
+                <div className="flex bg-white">
+                  <div className="w-1/3 p-2 sm:text-base">
+                    <p>Israel</p>
+                  </div>
+                  <div className="w-1/3 p-2 sm:text-base">
+                    <p>0</p>
+                  </div>
+                  <div className="w-1/3 p-2 sm:text-base">
+                    <p>0</p>
+                  </div>
+                </div>
+                
                 <div className="flex bg-offWhite">
                   <div className="w-1/3 p-2 sm:text-base">
                     <p>United States of America</p>
@@ -97,7 +109,7 @@ const TrackPayment = () => {
               </div>
             </div>
 
-            <div className="sm:w-1/2 bg-offWhite p-5 shadow-xl ">
+            <div className="xl:w-1/2 bg-offWhite p-5 shadow-xl ">
               <h3 className="text-2xl font-light">
                 Track Your <span className="text-brand">Payment</span>
               </h3>
@@ -111,10 +123,10 @@ const TrackPayment = () => {
                   />
                 </div>
                 <div className="w-full flex gap-2 items-center">
-                  <p className="w-1/4"> RAD No: </p>
+                  <p className="w-1/4"> Control No: </p>
                   <input
                     type="text"
-                    placeholder="RAD No."
+                    placeholder="Control No."
                     className="w-3/4 p-2"
                   />
                 </div>
@@ -134,9 +146,9 @@ const TrackPayment = () => {
                     className="w-3/4 p-2"
                   />
                 </div>
-                <div className="mt-6">
+                <div className="mt-2">
                   <button
-                    to="/about-us"
+                    to=""
                     className="text-brand border border-brand py-2 px-6 font-light rounded-lg tracking-wide hover:bg-brand hover:text-white transition-all duration-300 cursor-pointer"
                   >
                     Track

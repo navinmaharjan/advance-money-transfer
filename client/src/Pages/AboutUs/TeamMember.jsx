@@ -38,7 +38,7 @@ const TeamMember = () => {
       
       {/* Director GM and Consulate Section */}
       <div
-        className="container mx-auto  flex flex-wrap gap-4 sm:gap-10 justify-center sm:pt-4"
+        className="container mx-auto  flex  gap-4 sm:gap-6 justify-center sm:pt-4"
         data-aos="zoom-in"
         data-aos-duration="2500"
         data-aos-once="true"
@@ -46,7 +46,7 @@ const TeamMember = () => {
         {TeamData.slice(1,4).map((item) => (
           <div className="flex flex-col justify-center items-center px-4 sm:px-0">
             <div
-              className="relative w-40 h-40 sm:w-48 sm:h-48 rounded-full overflow-hidden drop-shadow-xl"
+              className="relative w-40 h-40 sm:w-40 sm:h-40 rounded-full overflow-hidden drop-shadow-xl"
               key={item.id}
             >
               <img
@@ -74,7 +74,7 @@ const TeamMember = () => {
         {TeamData.slice(4,5).map((item) => (
           <div className="flex flex-col justify-center items-center px-4 sm:px-0">
             <div
-              className="relative w-40 h-40 sm:w-40 sm:h-40 rounded-full overflow-hidden drop-shadow-xl"
+              className="relative w-40 h-40 sm:w-32 sm:h-32 rounded-full overflow-hidden drop-shadow-xl"
               key={item.id}
             >
               <img
@@ -99,7 +99,7 @@ const TeamMember = () => {
         {TeamData.slice(5,6).map((item) => (
           <div className="flex flex-col justify-center items-center px-4 sm:px-0">
             <div
-              className="relative w-40 h-40 sm:w-32 sm:h-32 rounded-full overflow-hidden drop-shadow-xl"
+              className="relative w-40 h-40 sm:w-28 sm:h-28 rounded-full overflow-hidden drop-shadow-xl"
               key={item.id}
             >
               <img

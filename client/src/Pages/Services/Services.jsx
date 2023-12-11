@@ -27,11 +27,11 @@ const Services = () => {
             data-aos-once="true"
           >
             <div className="sm:w-1/2">
-              <h1 className="text-2xl sm:text-xl sm:pb-4">
+              <h1 className="text-2xl sm:text-2xl sm:pb-4">
                 Immediate <span className="text-brand">Cash</span>
               </h1>
-              <p className="sm:mr-20 text-base text-slate-600">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, omnis quo. Iure doloremque sed animi neque molestias accusantium, consequuntur eaque ipsa natus esse temporibus ratione qui voluptatibus possimus pariatur sequi voluptas explicabo nisi quasi sapiente. Quis, hic facilis? Exercitationem et aliquid quisquam illo laborum, voluptate quos dolores, dicta at sunt odit fugiat. Obcaecati voluptates soluta sint? Consequatur omnis dolores, libero ipsa illum quas iusto natus veniam. Numquam, quaerat quam odit beatae cum labore nulla maiores asperiores, nam, eius dolores officia quo unde ratione possimus id repellat voluptatem nihil sequi culpa iure tenetur obcaecati! Rerum porro adipisci hic dicta qui temporibus.
+              <p className="xl:mr-20 text-base text-slate-600">
+              When it comes to accessing your funds quickly and conveniently, our immediate cash withdrawal service is designed to meet your urgent financial needs. Whether you're facing unexpected expenses or require instant access to your remittance, our streamlined process ensures that you can receive your cash without any delay. With just a few simple steps, you'll be able to withdraw your funds instantly, providing you with the financial flexibility you require.
               </p>
             </div>
             <div className="w-full sm:w-1/2">
@@ -60,9 +60,9 @@ const Services = () => {
               </div>
             </div>
             <div className="sm:w-1/2 order-1 sm:order-2">
-              <h1 className="text-2xl sm:text-2xl sm:pb-4">Deposits</h1>
-              <p className="sm:mr-20 text-base text-slate-600">
-              Arrange to deposits -total and/or portion of the "send money" as instructed by the "sender" in bank account. Arrange to deposits -total and/or portion of the "send money" as instructed by the "sender" in bank account. Arrange to deposits -total and/or portion of the "send money" as instructed by the "sender" in bank account. Arrange to deposits -total and/or portion of the "send money" as instructed by the "sender" in bank account.Arrange to deposits -total and/or portion of the "send money" as instructed by the "sender" in bank account. Arrange to deposits -total and/or portion of the "send money" as instructed by the "sender" in bank account. Arrange to deposits -total and/or portion of the "send money" as instructed by the "sender" in bank account. Arrange to deposits -total and/or portion of the "send money" as instructed by the "sender" in bank account.
+              <h1 className="text-2xl sm:text-2xl sm:pb-4">Instant <span className="text-brand">Deposits</span></h1>
+              <p className="xl:mr-20 text-base text-slate-600">
+              With our state-of-the-art technology, we've revolutionized the deposit process, offering you the incredible convenience of instant deposits. Say goodbye to waiting for funds to clear or worrying about delays. With just a few taps, your money is instantly available in your account, ready for you to use. Whether you're receiving payments or making deposits, our advanced system ensures that you have immediate access to your funds, empowering you to manage your finances with speed and efficiency.
               </p>
             </div>
           </div>
@@ -74,10 +74,10 @@ const Services = () => {
           >
             <div className="w-full sm:w-1/2">
               <h1 className="text-2xl sm:text-2xl sm:pb-4">
-                Disable <span className="text-brand">Customers</span>
+                Differently Able <span className="text-brand">Customers</span>
               </h1>
-              <p className="sm:mr-20 text-base text-slate-600">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, aliquid, blanditiis obcaecati eos odio rem, a magnam assumenda minima quasi voluptatem placeat dolores tempora harum voluptatum voluptate facere veritatis quae tenetur! Vitae dolore recusandae quas, suscipit adipisci nostrum quod incidunt? Exercitationem praesentium maiores qui soluta molestiae. Excepturi, voluptas recusandae! Blanditiis exercitationem, sit doloremque architecto deleniti alias hic in soluta minus maiores fugit. Voluptatum sapiente quos tenetur minima, ipsa enim voluptates fugiat facilis ab dolorum eum explicabo distinctio porro dicta numquam, atque assumenda, praesentium eos! Consequatur harum cumque, dolores quibusdam fugit blanditiis quos numquam suscipit rem doloremque tempore nesciunt velit. Earum.
+              <p className="xl:mr-20 text-base text-slate-600">
+              We got the extra mile to ensure that our disabled customers receive the utmost convenience and support. Our specialized payment delivery service brings financial transactions right to their doorstep. We understand that mobility can be a challenge for some individuals, so we prioritize tailoring our services to their unique needs. With our dedicated team of professionals, we guarantee a seamless and secure payment experience, providing peace of mind to our valued customers. Trust us to deliver exceptional service and bring financial accessibility directly to their home.
               </p>
             </div>
             <div className="w-full sm:w-1/2">
@@ -96,7 +96,6 @@ const Services = () => {
             data-aos-duration="2500"
             data-aos-once="true"
           >
-           
             <div className="w-full sm:w-1/2">
               <div className="relative w-full h-96 overflow-hidden rounded-lg">
                 <img
@@ -110,8 +109,22 @@ const Services = () => {
               <h1 className="text-2xl sm:text-2xl sm:pb-4">
                 <span>Wallet</span>
               </h1>
-              <p className="sm:mr-20 text-base text-slate-600">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos assumenda excepturi fuga minus earum delectus vero unde quas et veniam reprehenderit, iusto eaque, repellendus quos tenetur incidunt esse odio quae quibusdam nisi sed enim dolorum? Libero ex dicta, ab at quae corporis aspernatur dolores pariatur asperiores vero a aut distinctio, officia quas, reprehenderit natus. Nihil animi, repellat reprehenderit distinctio accusamus id quas laudantium ad explicabo soluta tempore, dolore molestiae. Amet assumenda corporis vero? Vel fugit, aperiam necessitatibus, consequatur ullam pariatur veritatis incidunt fugiat sapiente quis quod repellat quia ratione facere. Perferendis et commodi porro, id animi maiores debitis fugit similique soluta tenetur voluptatibus, aspernatur voluptates illum dignissimos alias molestiae quia. Culpa eum ad minus quas illo! Quos, necessitatibus vel!
+              <p className="xl:mr-20 text-base text-slate-600">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                eos assumenda excepturi fuga minus earum delectus vero unde quas
+                et veniam reprehenderit, iusto eaque, repellendus quos tenetur
+                incidunt esse odio quae quibusdam nisi sed enim dolorum? Libero
+                ex dicta, ab at quae corporis aspernatur dolores pariatur
+                asperiores vero a aut distinctio, officia quas, reprehenderit
+                natus. Nihil animi, repellat reprehenderit distinctio accusamus
+                id quas laudantium ad explicabo soluta tempore, dolore
+                molestiae. Amet assumenda corporis vero? Vel fugit, aperiam
+                necessitatibus, consequatur ullam pariatur veritatis incidunt
+                fugiat sapiente quis quod repellat quia ratione facere.
+                Perferendis et commodi porro, id animi maiores debitis fugit
+                similique soluta tenetur voluptatibus, aspernatur voluptates
+                illum dignissimos alias molestiae quia. Culpa eum ad minus quas
+                illo! Quos, necessitatibus vel!
               </p>
             </div>
           </div>

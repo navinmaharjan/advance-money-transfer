@@ -23,8 +23,7 @@ import GoToTopButton from "./Components/GoToTop";
 import Notice from "./Pages/Notice/Notice";
 
 const App = () => {
- 
-
+  
   return (
     <BrowserRouter>
       <Header />

@@ -18,7 +18,7 @@ const CompanyProfile = () => {
         </div>
       </div>
       <div className="bg-offWhite">
-        <div className="sm:w-1/2 container mx-auto text-base text-slate-700  py-4 sm:py-20 px-4 sm:px-0">
+        <div className="xl:w-1/2 container mx-auto text-base text-slate-700  py-4 sm:py-20 px-4 sm:px-0">
           <p>
             Money laundering is the illegal attempt to hide the true source of
             money. It generally involves money that has been obtained through

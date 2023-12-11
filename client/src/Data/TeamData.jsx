@@ -26,13 +26,13 @@ const TeamData = [
     {
         'id': 5,
         'teamMemberImage': '/TeamMembers/finance.jpeg',
-        'designation': 'Finance Deparment',
+        'designation': 'Finance Department',
         'name': 'Damodar Gnawali'
     },
     {
         'id': 6,
         'teamMemberImage': '/TeamMembers/compliance.jpeg',
-        'designation': 'Compliance Deparment',
+        'designation': 'Compliance Department',
         'name': 'Arpana Gajurel'
     }
 ]

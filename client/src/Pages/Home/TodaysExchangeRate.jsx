@@ -19,10 +19,10 @@ const TodaysExchangeRate = () => {
             <span className="text-brand">Exchange Rate For Remittance</span>
           </h1>
           <div className="flex gap-8 flex-col sm:flex-row px-4 sm:px-0">
-            <div className="w-full flex flex-col shadow-xl sm:mx-60 mx-0">
+            <div className="w-full flex flex-col shadow-xl xl:mx-60 mx-0">
               <div className="bg-brand p-2 flex justify-between text-lg sm:text-lg">
                 <p className="text-white">Average Rate of Remittance</p>
-                <p className="text-white">{exchangeRate[0]?.date} - 10 AM</p>
+                <p className="text-white">{exchangeRate[0]?.date}</p>
               </div>
               <div className="bg-white text-slate-700 font-medium  p-2 flex justify-between items-center text-base sm:text-lg">
                 <p className="sm:w-1/2">Currency</p>
@@ -335,7 +335,7 @@ const TodaysExchangeRate = () => {
            
           </div>
 
-          <p className="py-4 sm:text-sm px-4 sm:px-0 sm:mx-60">
+          <p className="py-4 sm:text-sm px-4 sm:px-0 xl:mx-60">
             <span className="font-medium">Note</span>{" "}
             <i>
               Rates published as per NRB Forex Directives Rates are applicable

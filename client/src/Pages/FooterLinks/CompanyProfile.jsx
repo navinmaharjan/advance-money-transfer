@@ -13,7 +13,7 @@ const CompanyProfile = () => {
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
           <h3 className="text-2xl sm:text-2xl text-white font-semibold tracking-wide">
-            Corporate Profile
+            Introduction
           </h3>
         </div>
       </div>

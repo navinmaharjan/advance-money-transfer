@@ -14,9 +14,16 @@ const Header = () => {
       const path = location.pathname;
       if (path === "/") {
         return 0;
-      } else if (path === "/about-us") {
+      } else if (
+        path === "/about-us" ||
+        path === "/ourteam" ||
+        path === "/vision-mission-commitment" ||
+        path === "/why-choose-us" ||
+        path === "/affiliate-company" ||
+        path === "/anti-money-laundering"
+      ) {
         return 1;
-      } else if (path === "/network") {
+      } else if (path === "/our-network") {
         return 2;
       } else if (path === "/services") {
         return 3;
@@ -38,10 +45,10 @@ const Header = () => {
   const handleNav = () => {
     setNav(!nav);
     if (!nav) {
-      document.body.classList.add('overflow-hidden');
-  } else {
-      document.body.classList.remove('overflow-hidden');
-  }
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
   };
 
   const handleMobileNav = () => {
@@ -50,7 +57,7 @@ const Header = () => {
   const dropdownAnimation = () => {
     return nav ? "animate-dropdown2" : "animate-dropdown";
   };
-  
+
   return (
     <>
       <div className={`sticky top-0 left-0 z-30 bg-white shadow-md`}>
@@ -75,7 +82,9 @@ const Header = () => {
           <nav className={`${nav ? `flex justify-center` : `flex-none`}`}>
             {/* {!nav && ( */}
             <div
-              className={`fixed sm:hidden w-[280px] transition-all duration-300 ${!nav ? `-left-[280px]` : `left-0`}`}
+              className={`fixed lg:hidden w-[280px] transition-all duration-300 ${
+                !nav ? `-left-[280px]` : `left-0`
+              }`}
             >
               {/* -------- mobile menu only --------- */}
               <ul className="flex flex-col text-white bg-black h-screen  pt-20 pl-8 gap-6 uppercase tracking-widest">
@@ -92,10 +101,10 @@ const Header = () => {
                             className="py-2 px-4 text-slate-700 hover:bg-offWhite"
                             onClick={handleMobileNav}
                           >
-                            Corporate Profile
+                            Introduction
                           </li>
                         </Link>
-                      
+
                         <Link to="/ourteam" onClick={handleNav}>
                           <li
                             className="py-2 px-4 text-slate-700 hover:bg-offWhite"
@@ -104,7 +113,10 @@ const Header = () => {
                             Our Team
                           </li>
                         </Link>
-                        <Link to="/vision-mission-commitment" onClick={handleNav}>
+                        <Link
+                          to="/vision-mission-commitment"
+                          onClick={handleNav}
+                        >
                           <li
                             className="py-2 px-4 text-slate-700 hover:bg-offWhite"
                             onClick={handleMobileNav}
@@ -120,7 +132,7 @@ const Header = () => {
                             Why Choose Us
                           </li>
                         </Link>
-                       
+
                         <Link to="/affiliate-company" onClick={handleNav}>
                           <li
                             className="py-2 px-4 text-slate-700 hover:bg-offWhite"
@@ -153,12 +165,15 @@ const Header = () => {
                 <Link to="/contact-us" onClick={handleNav}>
                   <li> Contact Us </li>
                 </Link>
+                <Link to="/notice" onClick={handleNav}>
+                  <li> Notice </li>
+                </Link>
               </ul>
             </div>
             {/* )} */}
 
             <ul
-              className={`gap-6 tracking-wider cursor-pointer sm:flex flex-col sm:flex-row  mr-6 sm:mr-0 hidden`}
+              className={`gap-6 tracking-wider cursor-pointer sm:flex flex-col sm:flex-row  mr-6 sm:mr-0 hidden md:hidden lg:flex`}
             >
               <Link to="/">
                 <li
@@ -185,14 +200,9 @@ const Header = () => {
                     <ul className={`shadow-xl`}>
                       <Link to="/about-us">
                         <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
-                          Corporate Profile
+                          Introduction
                         </li>
                       </Link>
-                      {/* <Link to="/company-profile">
-                        <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
-                          Corporate Profile
-                        </li>
-                      </Link> */}
                       <Link to="/ourteam">
                         <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
                           Our Team
@@ -200,7 +210,7 @@ const Header = () => {
                       </Link>
                       <Link to="/vision-mission-commitment">
                         <li className="py-2 px-4 text-slate-700 hover:bg-offWhite">
-                        Mission Vision & Commitment
+                          Mission Vision & Commitment
                         </li>
                       </Link>
                       <Link to="/why-choose-us">
@@ -272,7 +282,7 @@ const Header = () => {
 
             <div
               onClick={handleNav}
-              className="sm:hidden px-4 flex gap-2  m-4 drop-shadow-xl"
+              className="sm:hidden px-4 flex gap-2  m-4 drop-shadow-xl md:block lg:hidden"
             >
               {nav ? (
                 <i className="fa-solid fa-xmark text-xl text-brand"></i>

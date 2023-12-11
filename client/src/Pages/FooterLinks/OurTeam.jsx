@@ -19,7 +19,7 @@ const CompanyProfile = () => {
         </div>
       </div>
       <div className="bg-offWhite">
-        <div className="sm:w-1/2 container mx-auto text-base text-slate-700  py-4 px-4 sm:px-0">
+        <div className="xl:w-1/2 container mx-auto text-base text-slate-700  py-4 px-4 sm:px-0">
           <div>
             <TeamMember />
           </div>
@@ -27,18 +27,22 @@ const CompanyProfile = () => {
           <div className=" container mx-auto text-base text-slate-700  py-4 sm:py-8 sm:px-0">
             <p>
               The AMT is leaded by chairman{" "}
-              <span className="font-semibold">Saraswati Gautam Gyawali</span>, a
-              young and successful professional. She is the MD of Union
+              <span className="font-semibold">Saraswati Gautam Gyawali</span>, since October 18 2023.    </p>
+              
+              <p className="pt-4"> <span className="font-semibold">Krishna Prasad Gyawali</span> is the former chairman who is 
+              young and successful professional. He is  the MD of Union
               International Tours and Travel Pvt Ltd, Union Real Estate Pvt.
-              Ltd. She is also a director of Kumari Bank Limited, Agantuk
+              Ltd and  also a director of Kumari Bank Limited, Agantuk
               Resort, Manang Air Pvt. Ltd, Thamel Hotel and Sweet (Ramada
-              Incore). Mrs. Gyawali's envision brings a very successful track
-              record in all her ventures. Her management style is innovative to
-              run the organization with best corporate culture. General Manager
-              Saraswati Gautam Gyawali holding MBA with several years of
+              Incore). Mr. Gyawali's envision brings a very successful track
+              record in all of his ventures. His management style is innovative to
+              run the organization with best corporate culture. </p>
+              
+              <p className="pt-4">General Manager
+              <span className="font-semibold"> Krishna Prasad Gnawali </span>holding MBA with several years of
               experience in the management sector supporting chairman as key
-              person in the company.
-            </p>
+              person in the company.</p>
+         
 
             <p className="pt-4">
               With 22 years of experience in banking, particularly in the field

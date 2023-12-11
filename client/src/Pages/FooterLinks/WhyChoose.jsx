@@ -1,6 +1,5 @@
 import Banner from "../../assets/bannerImages/bannerImage-3.jpg";
 
-
 const WhyChoose = () => {
   22;
   return (
@@ -14,15 +13,53 @@ const WhyChoose = () => {
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
           <h3 className="text-2xl sm:text-2xl text-white font-semibold tracking-wide">
-          Why Choose Us
+            Why Choose Us
           </h3>
         </div>
       </div>
       <div className="bg-offWhite">
-        <div className="sm:w-1/2 container mx-auto text-base text-slate-700  py-8 px-4 sm:px-0"  data-aos="zoom-in"
-        data-aos-duration="2500"
-        data-aos-once="true">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolorem nostrum laborum commodi nisi cupiditate adipisci iure quisquam! Nostrum fugiat est quisquam mollitia, maiores, accusamus quidem nulla culpa pariatur ab cum omnis enim non ad quo. Maiores cupiditate provident inventore, quisquam, harum hic asperiores quae quam minus suscipit esse architecto eligendi, qui rem sunt? Reiciendis, cum illum quam dolores commodi dolor omnis cupiditate nesciunt neque asperiores. Libero, fuga hic aliquam ducimus similique repellendus odio maxime cupiditate obcaecati fugit architecto sunt laborum quos nihil odit? Saepe consequatur excepturi cum obcaecati. Aperiam quod natus nisi, quaerat eveniet sapiente harum, consequuntur recusandae similique deleniti esse fugit, in illum ipsum error minima? Laborum aut aliquam ipsum ad commodi. Iusto molestiae similique atque veritatis, nulla aperiam, explicabo voluptate dicta asperiores maxime consectetur natus, ullam amet cumque facere delectus. Expedita esse fuga ipsam culpa, recusandae minus veritatis rem dolorum porro, velit tempora et ullam magni doloribus, corrupti debitis nobis dicta libero iure? Quaerat harum ab pariatur qui voluptatibus dolore ad ducimus asperiores impedit. Asperiores doloremque rem qui tenetur ad doloribus harum earum tempora nihil tempore, at repellendus porro, repudiandae sequi facere sunt officia nisi amet eveniet ullam error totam dolor consequuntur magni. Repudiandae ut dolor officia, perspiciatis tenetur velit vero amet sed explicabo cum id deleniti dolorum nobis quae, odio veniam a fuga earum? Architecto nam nihil praesentium odio esse minima, modi repellat deleniti aspernatur velit explicabo non veritatis error odit rerum quis rem tempore maxime iure temporibus distinctio obcaecati autem eveniet! Cum dignissimos sapiente recusandae, optio reiciendis dolores, sequi laboriosam eligendi, sint harum voluptatem quia! Quia ratione mollitia unde! Aperiam, sapiente doloribus similique sint ex fugiat obcaecati modi voluptatum officia, odio minus, molestias non nobis. Explicabo corrupti, reprehenderit, omnis veniam illum animi dolorem pariatur ea facilis, magnam quo quam vitae cum assumenda rerum. Nihil, harum?</p>
+        <div
+          className="xl:w-1/2 container mx-auto text-base text-slate-700  py-16 px-4 sm:px-0"
+          data-aos="zoom-in"
+          data-aos-duration="2500"
+          data-aos-once="true"
+        >
+          <p>
+            1. <span className="font-semibold">Fast and Reliable:</span> At our remittance company, we pride ourselves
+            on providing fast and reliable money transfer services. Your loved
+            ones can receive funds quickly, ensuring that they have the support
+            they need when they need it most.
+          </p>
+
+          <p className="pt-4">
+            2. <span className="font-semibold">Secure and Trustworthy:</span>  We prioritize the security of your
+            transactions. Our platform uses the latest encryption technology to
+            safeguard your personal and financial information, giving you peace
+            of mind every time you send money.
+          </p>
+
+          <p className="pt-4">
+            3. <span className="font-semibold">Excellent Customer Support:</span> Our dedicated customer support team is
+            always ready to assist you with any questions or concerns you may
+            have. We strive to provide exceptional service and ensure that your
+            experience with us is smooth and hassle-free.
+          </p>
+
+          <p className="pt-4" >
+            4. <span className="font-semibold"> Regulatory Compliance:</span>  We strictly adhere to all AML and CFT
+            regulations set forth by the relevant authorities. Our robust
+            compliance program ensures that all transactions are thoroughly
+            screened and monitored to prevent any illicit activities.
+          </p>
+
+          <p className="pt-4">
+            5. <span className="font-semibold">Risk Assessment:</span> Our team continuously evaluates and updates our
+            risk assessment protocols to identify and mitigate potential money
+            laundering or terrorist financing risks. This proactive approach
+            helps us stay ahead of evolving threats and protect our customers'
+            interests.
+          </p>
+
           {/* <h3 className="pt-4 font-semibold text-lg">Our Vision</h3>
           <p>
             Our vision is to run our business as a leading money transfer

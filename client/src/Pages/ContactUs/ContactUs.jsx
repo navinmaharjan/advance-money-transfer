@@ -18,9 +18,9 @@ const ContactUs = () => {
 
       <div className="bg-offWhite">
         <div className="container mx-auto w-full py-4 sm:py-16">
-          <div className="flex items-center gap-4 flex-col sm:flex-row px-4 sm:px-0">
+          <div className="flex items-center gap-4 flex-col xl:flex-row px-4 sm:px-0">
             <div
-              className=" w-full sm:w-3/5"
+              className=" w-full xl:w-3/5"
               data-aos="zoom-in-left"
               data-aos-duration="2500"
               data-aos-once="true"
@@ -31,7 +31,7 @@ const ContactUs = () => {
                 </h3>
               </div>
               <div className="flex justify-center">
-                <div className="w-full flex flex-col gap-4 bg-white p-4 sm:p-8 xl:border xl:drop-shadow-2xl xl:w-3/5 xl:p-8 md:w-4/5 md:bg-white md:drop-shadow-xl md:p-8">
+                <div className="w-full flex flex-col gap-4 bg-white p-4 xl:p-8 xl:border xl:drop-shadow-2xl xl:w-3/5 md:w-full md:bg-white md:drop-shadow-xl md:p-4">
                   <div>
                     <p>Name</p>
                     <input
@@ -72,7 +72,7 @@ const ContactUs = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full sm:w-2/5 drop-shadow-2xl" data-aos="zoom-in-right"
+            <div className="w-full xl:w-2/5 drop-shadow-2xl" data-aos="zoom-in-right"
             data-aos-duration="2500"
             data-aos-once="true">
               <div className="flex flex-col">

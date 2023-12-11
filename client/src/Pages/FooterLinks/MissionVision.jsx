@@ -19,7 +19,7 @@ const MissionVision = () => {
         </div>
       </div>
       <div className="bg-offWhite">
-        <div className="sm:w-1/2 container mx-auto text-base text-slate-700  py-8 px-4 sm:px-0"  data-aos="zoom-in"
+        <div className="xl:w-1/2 container mx-auto text-base text-slate-700  py-8 px-4 sm:px-0"  data-aos="zoom-in"
         data-aos-duration="2500"
         data-aos-once="true">
            <h3 className="pt-4 font-semibold text-lg">Our Mission</h3>

@@ -13,7 +13,7 @@ const AboutUs = () => {
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
           <h3 className="text-2xl sm:text-2xl text-white font-semibold tracking-wide">
-            Corporate Profile
+            Introduction
           </h3>
         </div>
       </div>
@@ -59,7 +59,7 @@ const AboutUs = () => {
           <div>
             {/* ----- From Corporate Profile ------- */}
             <div className=" container mx-auto text-base text-slate-700  py-4 sm:py-8 px-4 sm:px-0 font-light">
-              <p className="pb-2 sm:mx-60">
+              <p className="pb-2 xl:mx-60">
                 <span className="text-lg font-semibold">
                   Advance Money Transfer Pvt. Ltd.
                 </span>{" "}
@@ -70,38 +70,38 @@ const AboutUs = () => {
                 Nepal.{" "}
               </p>
 
-              <p className="pb-2 sm:mx-60">
+              <p className="pb-2 xl:mx-60">
                 The company aims to capture the significant share of the huge
                 annual inward remittance by Nepalese migrants around the worlds.
                 AMT aspires to revolutionize the remittance industry by
                 employing state of art IT Technology.
               </p>
 
-              <p className="pb-2 sm:mx-60">
+              <p className="pb-2 xl:mx-60">
                 We have strategic alliances with different companies in aboard
                 to serve the delivery of remittances in Nepal.
               </p>
 
-              <p className="pb-2 sm:mx-60">
+              <p className="pb-2 xl:mx-60">
                 AMT remit is an excellent product successfully providing instant
                 cash payment and account credit services to Nepalese Diaspora
                 remitting money to their family and relatives in Nepal.
               </p>
 
-              <p className="pb-2 sm:mx-60">
+              <p className="pb-2 xl:mx-60">
                 We have been able to extend this unique service to our valued
                 clients covering the entire regions in Nepal.
               </p>
 
-              <h1 className="text-lg font-semibold mt-6 sm:mx-60">AMT Group </h1>
+              <h1 className="text-lg font-semibold mt-6 xl:mx-60">AMT Group </h1>
 
-              <p className="pb-2 sm:mx-60">
+              <p className="pb-2 xl:mx-60">
                 Nepal's leading service sector company, the group is amongst
                 Nepal's leading corporation. It is anchored by highly
                 qualitative and professionals.
               </p>
 
-              <p className="sm:mx-60">
+              <p className="xl:mx-60">
                 Over the years AMT Group has emerged as a major company with a
                 dominant presence in remittance, banking, real estate, aviation,
                 hospitality, travel agency and media etc. Advance Money Transfer
@@ -115,17 +115,17 @@ const AboutUs = () => {
 
       <div className="bg-offWhite">
         <div className="container mx-auto py-4 sm:py-14">
-          <div className="flex gap-8 flex-col sm:flex-row px-4 sm:px-0">
+          <div className="flex gap-8 flex-col xl:flex-row px-4 sm:px-0">
             <div
-              className="sm:w-1/2"
+              className="xl:w-1/2"
               data-aos="zoom-in-right"
               data-aos-duration="2500"
               data-aos-once="true"
             >
-              <h3 className="text-2xl sm:text-2xl font-medium font-roboto tracking-wide pb-2 text-center">
+              <h3 className="text-2xl sm:text-2xl font-medium font-roboto tracking-wide pb-2 text-left">
                 Our <span className="text-brand">Features</span>
               </h3>
-              <div className=" bg-white p-6 flex flex-col gap-6 sm:h-[440px] shadow-md border">
+              <div className=" bg-white p-6 flex flex-col gap-6 sm:h-[480px] shadow-md border">
                 <div className="flex gap-4 items-center">
                   <div>
                     <p className="w-10 h-10 rounded-full bg-brand text-white flex justify-center items-center sm:text-lg">
@@ -221,7 +221,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div
-              className="sm:w-1/2"
+              className="xl:w-1/2"
               data-aos="zoom-in-left"
               data-aos-duration="2500"
               data-aos-once="true"
@@ -230,7 +230,7 @@ const AboutUs = () => {
                 Best ways to <span className="text-brand">send money</span> from
                 us
               </h3>
-              <div className=" bg-white p-6 flex flex-col gap-6 sm:h-[440px] shadow-md border">
+              <div className=" bg-white p-6 flex flex-col gap-6 sm:h-[480px] shadow-md border">
                 <div className="flex gap-4 items-center">
                   <div>
                     <p className="w-10 h-10 bg-brand text-white flex justify-center items-center sm:text-lg">

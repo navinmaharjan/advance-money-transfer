@@ -18,7 +18,7 @@ const CompanyProfile = () => {
         </div>
       </div>
       <div className="bg-offWhite">
-        <div className="sm:w-1/2 container mx-auto text-base text-slate-700  py-4 sm:py-20 px-4 sm:px-0">
+        <div className="xl:w-1/2 container mx-auto text-base text-slate-700  py-4 sm:py-20 px-4 sm:px-0">
           <p>
             <span className="font-semibold">
               Union International Tours & Travels P Ltd{" "}

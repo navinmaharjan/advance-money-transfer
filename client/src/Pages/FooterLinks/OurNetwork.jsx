@@ -22,7 +22,7 @@ const CompanyProfile = () => {
       <Network />
       
       <div className="bg-offWhite">
-        <div className="sm:w-1/2 container mx-auto text-base text-slate-700  py-4 sm:py-24 px-4 sm:px-0">
+        <div className="xl:w-1/2 container mx-auto text-base text-slate-700  py-4 xl:py-20 md:py-8 px-4 sm:px-0">
           <p>
             We have strategic confederation with leading remittance companies in
             the world, such as Hong Kong, and Israel. We have established

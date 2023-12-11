@@ -25,7 +25,7 @@ const Notice = () => {
         >
           {NoticeData.map((item) => (
             <div >
-              <div className="relative w-[360px] sm:w-[21rem] h-72 overflow-hidden" key={item.id} >
+              <div className="relative w-[360px] md:w-[330px] xl:w-[19rem]  h-60 xl:h-72 overflow-hidden" key={item.id} >
                 <ModalImage
                   small={item.noticeImage}
                   large={item.noticeImage}
