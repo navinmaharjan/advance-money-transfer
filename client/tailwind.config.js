@@ -4,7 +4,7 @@ export default {
   theme: {
     container: {
       padding: {
-        sm: '2rem'
+        sm: '1rem'
       }
     },
     screens: {

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="w-full border-t-2 ">
       <div className="container mx-auto flex flex-col justify-between items-start py-2 xl:flex-row xl:py-24">
-        <div className="flex flex-col w-[365px] justify-center items-center gap-2">
+        <div className="flex flex-col sm:w-[365px] justify-center items-center gap-2">
           <div className="relative w-32 h-32">
             <img
               src={Logo}

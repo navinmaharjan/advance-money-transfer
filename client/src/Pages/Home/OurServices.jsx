@@ -17,7 +17,7 @@ const OurServices = () => {
           >
             <Link
               to="/services"
-              className="bg-white md:w-[376px] lg:w-[500px] xl:w-1/3 border p-4 sm:p-8 rounded-lg md:h-60 xl:h-72 flex flex-col shadow-md cursor-pointer"
+              className="bg-white w-full md:w-[376px] lg:w-[500px] xl:w-1/3 border p-4 sm:p-8 rounded-lg md:h-60 xl:h-72 flex flex-col shadow-md cursor-pointer"
             >
               <i className="fa-solid fa-money-bill-transfer text-4xl sm:text-5xl text-brand pb-4 text-center"></i>
               <h1 className="text-xl sm:text-xl text-brand text-center">
@@ -31,7 +31,7 @@ const OurServices = () => {
 
             <Link
               to="/services"
-              className="bg-white md:w-[376px] lg:w-[500px] xl:w-1/3 border p-4 sm:p-8 rounded-lg md:h-60 xl:h-72 flex flex-col shadow-md cursor-pointer"
+              className="bg-white w-full md:w-[376px] lg:w-[500px] xl:w-1/3 border p-4 sm:p-8 rounded-lg md:h-60 xl:h-72 flex flex-col shadow-md cursor-pointer"
             >
               <i className="fa-solid fa-sack-dollar text-4xl sm:text-5xl text-brand pb-4 text-center"></i>
               <h1 className="text-xl sm:text-xl text-brand text-center">Instant Deposits</h1>
@@ -43,7 +43,7 @@ const OurServices = () => {
 
             <Link
               to="/services"
-              className="bg-white md:w-[376px] lg:w-[500px] xl:w-1/3 border p-4 sm:p-8 rounded-lg md:h-60 xl:h-72 flex flex-col shadow-md cursor-pointer"
+              className="bg-white w-full md:w-[376px] lg:w-[500px] xl:w-1/3 border p-4 sm:p-8 rounded-lg md:h-60 xl:h-72 flex flex-col shadow-md cursor-pointer"
             >
               <i className="fa-brands fa-accessible-icon text-4xl sm:text-5xl text-brand  pb-4 text-center"></i>
               <h1 className="text-xl sm:text-xl text-brand text-center">
@@ -56,14 +56,14 @@ const OurServices = () => {
 
             <Link
               to="/services"
-              className="bg-white md:w-[376px] lg:w-[500px] xl:w-1/3 border p-4 sm:p-8 rounded-lg md:h-60 xl:h-72 flex flex-col shadow-md cursor-pointer"
+              className="bg-white w-full md:w-[376px] lg:w-[500px] xl:w-1/3 border p-4 sm:p-8 rounded-lg md:h-60 xl:h-72 flex flex-col shadow-md cursor-pointer"
             >
               <i className="fa-solid fa-wallet text-4xl sm:text-5xl text-brand  pb-4 text-center"></i>
               <h1 className="text-xl sm:text-xl text-brand text-center">
                 Wallet
               </h1>
               <p className="sm:text-base text-center font-light text-slate-700 sm:pt-4">
-                Home payment to elderly, sick and disable receivers.
+                Home payment to elderly, 
               </p>
             </Link>
           </div>
