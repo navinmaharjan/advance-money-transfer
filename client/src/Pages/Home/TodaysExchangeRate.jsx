@@ -15,10 +15,15 @@ const TodaysExchangeRate = () => {
     <>
       <div className="bg-offWhite">
         <div className="container mx-auto py-8">
-          <h1 className="text-2xl sm:text-2xl pb-4 sm:pb-8 font-light w-full text-center pt-4 sm:pt-4">
+          <h1 className="text-2xl sm:text-2xl pb-4 sm:pb-4 font-light w-full text-center pt-4 sm:pt-4">
             Today's{" "}
             <span className="text-brand">Exchange Rate For Remittance</span>
           </h1>
+          <div className="flex justify-center w-full mb-6">
+            <a href="http://fedan.com.np/today-foreign-rate.aspx"  target="_blank" className="bg-brand text-white py-2 px-4 rounded-lg hover:opacity-75">
+             Click Here
+            </a>
+          </div>
           <div className="flex gap-8 flex-col sm:flex-row px-4 sm:px-0">
             <div className="w-full flex flex-col shadow-xl xl:mx-60 mx-0">
               <div className="bg-brand p-2 flex justify-between text-lg sm:text-lg">
@@ -341,11 +346,7 @@ const TodaysExchangeRate = () => {
             </i>
           </p>
 
-          <div className="flex justify-center w-full">
-            <a href="http://fedan.com.np/today-foreign-rate.aspx"  target="_blank" className="bg-brand text-white py-2 px-4 rounded-lg hover:opacity-75">
-             Go To FEDAN Exchange Rate
-            </a>
-          </div>
+        
         </div>
       </div>
     </>
