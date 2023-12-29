@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Flag from "react-flagkit";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const TodaysExchangeRate = () => {
   let [exchangeRate, setExchangeRate] = useState([]);
@@ -330,9 +331,6 @@ const TodaysExchangeRate = () => {
                 </div>
               </div>
             </div>
-            
-            
-           
           </div>
 
           <p className="py-4 sm:text-sm px-4 sm:px-0 xl:mx-60">
@@ -342,6 +340,12 @@ const TodaysExchangeRate = () => {
               to banks and financial institutions and Remittance companies
             </i>
           </p>
+
+          <div className="flex justify-center w-full">
+            <a href="http://fedan.com.np/today-foreign-rate.aspx"  target="_blank" className="bg-brand text-white py-2 px-4 rounded-lg hover:opacity-75">
+             Go To FEDAN Exchange Rate
+            </a>
+          </div>
         </div>
       </div>
     </>

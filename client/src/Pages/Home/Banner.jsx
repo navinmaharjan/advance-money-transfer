@@ -63,7 +63,7 @@ const Banner = () => {
             />
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
               <h1
-                className="uppercase text-5xl sm:text-6xl text-white font-bold tracking-wider shadow-lg"
+                className="uppercase text-5xl sm:text-6xl text-white font-bold tracking-wider"
                 data-aos="fade-up"
                 data-aos-duration="2500"
               >
@@ -90,7 +90,7 @@ const Banner = () => {
               className="absolute w-full h-full object-cover sm:animate-bannerScaleAnimation"
             />
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
-              <h1 className="uppercase text-5xl sm:text-6xl text-white font-bold tracking-wider shadow-lg">
+              <h1 className="uppercase text-5xl sm:text-6xl text-white font-bold tracking-wider">
                 ADVANCE <span className="text-brand">MONEY</span> TRANSFER
               </h1>
               <div className="flex justify-center">
@@ -110,7 +110,7 @@ const Banner = () => {
               className="absolute w-full h-full object-cover sm:animate-bannerScaleAnimation"
             />
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
-              <h1 className="uppercase text-5xl sm:text-6xl text-white font-bold tracking-wider shadow-lg">
+              <h1 className="uppercase text-5xl sm:text-6xl text-white font-bold tracking-wider">
                 ADVANCE <span className="text-brand">MONEY</span> TRANSFER
               </h1>
               <div className="flex justify-center">
@@ -130,7 +130,7 @@ const Banner = () => {
               className="absolute w-full h-full object-cover sm:animate-bannerScaleAnimation"
             />
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
-              <h1 className="uppercase text-5xl sm:text-6xl text-white font-bold tracking-wider shadow-lg">
+              <h1 className="uppercase text-5xl sm:text-6xl text-white font-bold tracking-wider">
                 ADVANCE <span className="text-brand">MONEY</span> TRANSFER
               </h1>
               <div className="flex justify-center">

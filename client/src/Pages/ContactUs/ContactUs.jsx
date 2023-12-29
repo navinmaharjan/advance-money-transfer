@@ -113,7 +113,7 @@ const ContactUs = () => {
                               <i className="fa-solid fa-envelope text-brand"></i>
                             </div>
                             <div>
-                              <p>cs@amt.remit.com</p>
+                              <p>cs@amtremit.com</p>
                             </div>
                           </div>
                         </div>

@@ -3,9 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     container: {
-      // padding: {
-      //   DEFAULT: '2rem'
-      // }
+      padding: {
+        DEFAULT: '2rem'
+      }
     },
     screens: {
       'sm': '640px',

@@ -82,12 +82,12 @@ const Header = () => {
           <nav className={`${nav ? `flex justify-center` : `flex-none`}`}>
             {/* {!nav && ( */}
             <div
-              className={`fixed lg:hidden w-[280px] transition-all duration-300 ${
+              className={`fixed top-0 lg:hidden w-[280px] transition-all duration-300 ${
                 !nav ? `-left-[280px]` : `left-0`
               }`}
             >
               {/* -------- mobile menu only --------- */}
-              <ul className="flex flex-col text-white bg-black h-screen  pt-20 pl-8 gap-6 uppercase tracking-widest">
+              <ul className="flex flex-col text-white bg-black h-screen pt-20 pl-8 gap-6 uppercase tracking-widest">
                 <Link to="/" onClick={handleNav}>
                   <li> Home </li>
                 </Link>

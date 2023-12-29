@@ -38,7 +38,7 @@ const TeamMember = () => {
       
       {/* Director GM and Consulate Section */}
       <div
-        className="container mx-auto  flex  gap-4 sm:gap-6 justify-center sm:pt-4"
+        className="container mx-auto  flex flex-col sm:flex-row sm:flex-wrap  gap-4 sm:gap-6 justify-center sm:pt-4"
         data-aos="zoom-in"
         data-aos-duration="2500"
         data-aos-once="true"
